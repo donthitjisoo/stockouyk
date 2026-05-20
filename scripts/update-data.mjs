@@ -16,9 +16,10 @@ const dailyQuotes = await fetchDailyQuotes();
 const quoteMap = new Map(dailyQuotes.map((quote) => [quote.symbol, quote]));
 const liveQuotes = await fetchLiveQuotes(watchedCodes);
 liveQuotes.forEach((quote, symbol) => quoteMap.set(symbol, { ...quoteMap.get(symbol), ...quote }));
+const historicalPrices = await fetchHistoricalPrices(watchedCodes);
 
 const quotes = [...quoteMap.values()].sort((a, b) => a.symbol.localeCompare(b.symbol));
-const history = buildHistory(quotes, watchedCodes);
+const history = buildHistory(quotes, watchedCodes, historicalPrices);
 
 const marketSnapshot = {
   updatedAt: new Date().toISOString(),
@@ -191,12 +192,45 @@ async function fetchYahooSymbol(symbol, yahooSymbol) {
   };
 }
 
-function buildHistory(quotes, watchedCodes) {
+async function fetchHistoricalPrices(stockCodes) {
+  const entries = await Promise.all(stockCodes.map(fetchYahooHistory));
+  return new Map(entries.filter((entry) => entry.history.length > 0).map((entry) => [entry.symbol, entry.history]));
+}
+
+async function fetchYahooHistory(symbol) {
+  for (const suffix of [".TW", ".TWO"]) {
+    const yahooSymbol = `${symbol}${suffix}`;
+    for (const host of ["query1.finance.yahoo.com", "query2.finance.yahoo.com"]) {
+      const response = await fetch(`https://${host}/v8/finance/chart/${encodeURIComponent(yahooSymbol)}?interval=1d&range=6mo`, {
+        headers: { "user-agent": "Mozilla/5.0 stock-analytics-platform/1.0" }
+      });
+      if (!response.ok) continue;
+      const payload = await response.json();
+      const result = payload?.chart?.result?.[0];
+      const timestamps = result?.timestamp || [];
+      const quote = result?.indicators?.quote?.[0] || {};
+      const history = timestamps
+        .map((timestamp, index) => ({
+          date: new Date(timestamp * 1000).toISOString().slice(0, 10),
+          close: numberOrNull(quote.close?.[index]) || 0,
+          open: numberOrNull(quote.open?.[index]),
+          high: numberOrNull(quote.high?.[index]),
+          low: numberOrNull(quote.low?.[index]),
+          volume: numberOrNull(quote.volume?.[index])
+        }))
+        .filter((point) => point.close > 0);
+      if (history.length > 0) return { symbol, history };
+    }
+  }
+  return { symbol, history: [] };
+}
+
+function buildHistory(quotes, watchedCodes, historicalPrices) {
   const watched = new Set(watchedCodes);
   const history = {};
   quotes.forEach((quote) => {
     if (!watched.has(quote.symbol)) return;
-    history[quote.symbol] = synthesizeHistory(quote);
+    history[quote.symbol] = historicalPrices.get(quote.symbol) || synthesizeHistory(quote);
   });
   return history;
 }
