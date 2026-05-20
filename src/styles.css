@@ -154,7 +154,7 @@ main {
 
 .add-form {
   display: grid;
-  grid-template-columns: minmax(180px, 1fr) repeat(4, minmax(110px, 150px)) auto;
+  grid-template-columns: minmax(180px, 1fr) repeat(5, minmax(110px, 150px)) auto;
   gap: 10px;
   align-items: end;
 }
@@ -256,7 +256,7 @@ select:focus {
 
 table {
   width: 100%;
-  min-width: 1600px;
+  min-width: 1580px;
   border-collapse: collapse;
 }
 

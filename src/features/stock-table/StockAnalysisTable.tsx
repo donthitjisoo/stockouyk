@@ -2,7 +2,7 @@ import { Trash2 } from "lucide-react";
 import { useMemo, useState } from "react";
 import { useVirtualRows } from "../../hooks/useVirtualRows";
 import type { StockAnalysisRow } from "../../types/stock";
-import { classForSignedValue, formatNumber, formatPercent } from "../../utils/formatters";
+import { classForSignedValue, formatDate, formatNumber, formatPercent } from "../../utils/formatters";
 
 interface StockAnalysisTableProps {
   rows: StockAnalysisRow[];
@@ -48,13 +48,12 @@ export function StockAnalysisTable({ rows, onRemove }: StockAnalysisTableProps) 
               <th>潛在報酬</th>
               <th>推薦後報酬</th>
               <th>推薦時差</th>
+              <th>推薦日期</th>
               <th>交易日</th>
               <th>PE</th>
               <th>Forward PE</th>
               <th>EPS_估</th>
               <th>推薦人</th>
-              <th>Hit Rate</th>
-              <th>Alpha</th>
               <th aria-label="操作" />
             </tr>
           </thead>
@@ -70,13 +69,12 @@ export function StockAnalysisTable({ rows, onRemove }: StockAnalysisTableProps) 
                 <td className={classForSignedValue(row.metrics.potentialReturn)}>{formatPercent(row.metrics.potentialReturn)}</td>
                 <td className={classForSignedValue(row.metrics.recommendationReturn)}>{formatPercent(row.metrics.recommendationReturn)}</td>
                 <td className={classForSignedValue(row.metrics.recommendationUpside)}>{formatPercent(row.metrics.recommendationUpside)}</td>
+                <td>{formatDate(row.stock.recommendationDate)}</td>
                 <td className="numeric">{row.metrics.daysToTarget}</td>
                 <td className="numeric">{formatNumber(row.metrics.pe)}</td>
                 <td className="numeric">{formatNumber(row.metrics.forwardPe)}</td>
                 <td className="numeric">{formatNumber(row.metrics.epsEstimate)}</td>
                 <td>{row.stock.analyst}</td>
-                <td className="numeric">{formatPercent(row.analytics?.hitRate)}</td>
-                <td className={classForSignedValue(row.analytics?.recommendationAlpha || 0)}>{formatPercent(row.analytics?.recommendationAlpha)}</td>
                 <td>
                   <button type="button" className="icon-button danger" onClick={() => onRemove(row.stock.symbol)} aria-label={`移除 ${row.stock.symbol}`}>
                     <Trash2 size={16} />

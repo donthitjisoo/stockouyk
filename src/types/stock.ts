@@ -48,6 +48,7 @@ export interface HistoricalPrice {
 }
 
 export interface RecommendationInput {
+  id?: string;
   symbol: string;
   targetPrice: number;
   recommendationPrice: number;

@@ -69,6 +69,13 @@ export function calculateDaysToTarget(
   return boundDays(Math.ceil(simpleDays * volatilityMultiplier));
 }
 
+export function calculateActualDaysToTarget(targetPrice: number, recommendationDate: string, history: HistoricalPrice[]): number | null {
+  if (!recommendationDate || targetPrice <= 0) return null;
+  const sorted = sortHistory(history).filter((point) => point.date >= recommendationDate);
+  const hitIndex = sorted.findIndex((point) => point.close >= targetPrice || (point.high ?? 0) >= targetPrice);
+  return hitIndex >= 0 ? hitIndex + 1 : null;
+}
+
 export function calculateAverageDailyMove(history: HistoricalPrice[]): number {
   if (history.length < 2) return 0;
   const moves: number[] = [];

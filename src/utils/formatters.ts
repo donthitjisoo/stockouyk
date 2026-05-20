@@ -26,6 +26,17 @@ export function formatDateTime(value: string | undefined): string {
   });
 }
 
+export function formatDate(value: string | undefined): string {
+  if (!value) return "-";
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) return value;
+  return date.toLocaleDateString("zh-TW", {
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit"
+  });
+}
+
 export function classForSignedValue(value: number): string {
   if (value > 0) return "positive";
   if (value < 0) return "negative";

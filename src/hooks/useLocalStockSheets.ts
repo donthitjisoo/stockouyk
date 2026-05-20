@@ -88,12 +88,12 @@ export function useLocalStockSheets() {
   };
 }
 
-interface SheetState {
+export interface SheetState {
   activeSheetId: string;
   sheets: StockSheet[];
 }
 
-function loadState(): SheetState {
+export function loadLocalState(): SheetState {
   const saved = localStorage.getItem(STORAGE_KEY);
   if (saved) {
     try {
@@ -123,6 +123,14 @@ function loadState(): SheetState {
   }
 
   return defaultState();
+}
+
+export function saveLocalState(nextState: SheetState): void {
+  localStorage.setItem(STORAGE_KEY, JSON.stringify(nextState));
+}
+
+function loadState(): SheetState {
+  return loadLocalState();
 }
 
 function normalizeState(value: Partial<SheetState>): SheetState {

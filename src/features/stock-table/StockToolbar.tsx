@@ -23,6 +23,7 @@ export function StockToolbar({
   const [query, setQuery] = useState("");
   const [targetPrice, setTargetPrice] = useState("");
   const [recommendationPrice, setRecommendationPrice] = useState("");
+  const [recommendationDate, setRecommendationDate] = useState(new Date().toISOString().slice(0, 10));
   const [rating, setRating] = useState("觀察");
   const [analyst, setAnalyst] = useState("Kevin");
   const quoteIndex = useMemo(() => quotes.map((quote) => `${quote.symbol} ${quote.name}`).slice(0, 3500), [quotes]);
@@ -44,7 +45,7 @@ export function StockToolbar({
       symbol: quote.symbol,
       targetPrice: target,
       recommendationPrice: Number(recommendationPrice) || quote.currentPrice,
-      recommendationDate: new Date().toISOString().slice(0, 10),
+      recommendationDate,
       analyst: analyst.trim() || "未指定",
       rating,
       note: ""
@@ -92,6 +93,10 @@ export function StockToolbar({
         <label>
           推薦價
           <input value={recommendationPrice} onChange={(event) => setRecommendationPrice(event.target.value)} inputMode="decimal" />
+        </label>
+        <label>
+          推薦日期
+          <input type="date" value={recommendationDate} onChange={(event) => setRecommendationDate(event.target.value)} />
         </label>
         <label>
           評等
