@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T16:23:26.356Z",
+  "generatedAt": "2026-05-22T16:39:53.752Z",
   "recommenders": [
     {
       "recommender": "chouyk",
@@ -29,22 +29,22 @@
       "avgReachedDays": 4.75
     },
     {
-      "recommender": "-",
-      "count": 86,
-      "targetReachedCount": 10,
-      "hitRate": 11.627906976744185,
-      "avgInstantReturn": 1.7891166984604698,
-      "avgPotentialReturn": 17.1033229716769,
+      "recommender": "capital securities",
+      "count": 166,
+      "targetReachedCount": 20,
+      "hitRate": 12.048192771084338,
+      "avgInstantReturn": 1.8857625121906108,
+      "avgPotentialReturn": 16.723590794373347,
       "avgReachedDays": 2.2
     },
     {
-      "recommender": "Capital securities",
-      "count": 86,
-      "targetReachedCount": 10,
-      "hitRate": 11.627906976744185,
-      "avgInstantReturn": 1.7891166984604698,
-      "avgPotentialReturn": 17.1033229716769,
-      "avgReachedDays": 2.2
+      "recommender": "donthitjisoo",
+      "count": 6,
+      "targetReachedCount": 0,
+      "hitRate": 0,
+      "avgInstantReturn": -0.884750814740082,
+      "avgPotentialReturn": 27.609246543741666,
+      "avgReachedDays": 0
     }
   ]
 }
