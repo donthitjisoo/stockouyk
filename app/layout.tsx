@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "個人投資管理 Dashboard",
-  description: "Google Sheets backed Taiwan stock recommendation and portfolio manager"
+  description: "CSV backed Taiwan stock recommendation and portfolio manager"
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {

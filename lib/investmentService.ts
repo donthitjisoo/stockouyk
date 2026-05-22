@@ -11,15 +11,15 @@ import {
   getRecommendations,
   updateHolding,
   updateRecommendation
-} from "./googleSheets";
+} from "./csvStore";
 import { getHistoricalPrices, getQuotes } from "./priceProvider";
 import type { DashboardResponse, HoldingRecord, HoldingView, PriceHistoryRecord, RecommendationRecord, RecommendationView } from "./types";
 
 export async function listRecommendationViews(): Promise<RecommendationView[]> {
   const recommendations = await getRecommendations();
   const symbols = recommendations.map((row) => row.symbol);
-  const [quotes, sheetHistory] = await Promise.all([getQuotes(symbols), getPriceHistory(symbols)]);
-  const history = await loadRecommendationHistory(recommendations, sheetHistory);
+  const [quotes, csvHistory] = await Promise.all([getQuotes(symbols), getPriceHistory(symbols)]);
+  const history = await loadRecommendationHistory(recommendations, csvHistory);
 
   return recommendations.map((recommendation) =>
     calculateRecommendationView(recommendation, quotes[recommendation.symbol] || fallbackQuote(recommendation.symbol), history)
@@ -66,15 +66,15 @@ export const recommendationMutations = {
   delete: deleteRecommendation
 };
 
-async function loadRecommendationHistory(recommendations: RecommendationRecord[], sheetHistory: PriceHistoryRecord[]) {
+async function loadRecommendationHistory(recommendations: RecommendationRecord[], csvHistory: PriceHistoryRecord[]) {
   const bySymbol = new Map<string, PriceHistoryRecord[]>();
-  for (const row of sheetHistory) {
+  for (const row of csvHistory) {
     bySymbol.set(row.symbol, [...(bySymbol.get(row.symbol) || []), row]);
   }
 
   const missing = recommendations.filter((row) => !bySymbol.has(row.symbol));
   const fetched = await Promise.all(missing.map((row) => getHistoricalPrices(row.symbol, row.date)));
-  return [...sheetHistory, ...fetched.flat()];
+  return [...csvHistory, ...fetched.flat()];
 }
 
 function fallbackQuote(symbol: string) {

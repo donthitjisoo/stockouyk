@@ -24,8 +24,6 @@ export interface HoldingRecord {
   shares: number;
   avg_cost: number;
   broker: string;
-  account: string;
-  note: string;
 }
 
 export interface PriceHistoryRecord {
@@ -91,10 +89,4 @@ export interface DashboardResponse {
   summary: DashboardSummary;
   holdings: HoldingView[];
   recommendations: RecommendationView[];
-}
-
-export interface SheetConfig {
-  spreadsheetId: string;
-  clientEmail: string;
-  privateKey: string;
 }

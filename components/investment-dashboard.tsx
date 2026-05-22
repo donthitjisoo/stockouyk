@@ -15,7 +15,7 @@ type Tab = "holdings" | "recommendations";
 type HoldingSort = "marketValue" | "unrealizedPnL";
 type RecommendationSort = "realtimePotentialReturnPct" | "recommendationReturnPct";
 
-const emptyHolding = { symbol: "", shares: 0, avg_cost: 0, broker: "", account: "", note: "" };
+const emptyHolding = { symbol: "", shares: 0, avg_cost: 0, broker: "" };
 const emptyRecommendation = {
   date: new Date().toISOString().slice(0, 10),
   symbol: "",
@@ -96,7 +96,7 @@ export function InvestmentDashboard({ initialData }: { initialData: DashboardRes
 
   async function mutate(url: string, method: "POST" | "PUT" | "DELETE", body?: unknown) {
     setLoading(true);
-    setStatus("寫入 Google Sheets 中...");
+    setStatus("寫入 CSV 中...");
     const response = await fetch(url, {
       method,
       headers: body ? { "Content-Type": "application/json" } : undefined,
@@ -118,7 +118,7 @@ export function InvestmentDashboard({ initialData }: { initialData: DashboardRes
           <p className="text-sm font-semibold text-primary">Personal Investment Manager</p>
           <h1 className="mt-1 text-3xl font-bold tracking-normal text-foreground">個人投資管理 Dashboard</h1>
           <p className="mt-2 max-w-2xl text-sm text-muted-foreground">
-            Google Sheets 保存原始推薦與持倉，Next.js API 自動補股價、市場別與績效計算。
+            GitHub CSV 保存原始推薦與持倉，Next.js API 自動補股價、市場別與績效計算。
           </p>
         </div>
         <Button onClick={refresh} disabled={loading}>
@@ -270,7 +270,7 @@ function HoldingsTable({
       <div className="overflow-auto rounded-md border">
         <table className="w-full min-w-[1180px] text-sm">
           <thead className="bg-muted text-left text-xs text-muted-foreground">
-            <tr>{["股票代號", "股票名字", "市場別", "持有股數", "平均成本", "現行股價", "成本", "市值", "未實現損益", "未實現損益率", "券商", "帳戶", "備註", ""].map((label) => <th key={label} className="px-3 py-2">{label}</th>)}</tr>
+            <tr>{["股票代號", "股票名字", "市場別", "持有股數", "平均成本", "現行股價", "成本", "市值", "未實現損益", "未實現損益率", "券商", ""].map((label) => <th key={label} className="px-3 py-2">{label}</th>)}</tr>
           </thead>
           <tbody>
             {rows.map((row) => (
@@ -286,8 +286,6 @@ function HoldingsTable({
                 <Td tone={row.unrealizedPnL >= 0 ? "good" : "bad"}>{formatSignedCurrency(row.unrealizedPnL)}</Td>
                 <Td tone={row.unrealizedPnL >= 0 ? "good" : "bad"}>{formatSignedPercent(row.unrealizedPnLPct)}</Td>
                 <Td>{row.broker}</Td>
-                <Td>{row.account}</Td>
-                <Td>{row.note}</Td>
                 <Td>
                   <RowActions onEdit={() => onEdit(row)} onDelete={() => onDelete(row)} />
                 </Td>
@@ -371,8 +369,6 @@ function HoldingForm({ value, onChange, onSubmit }: { value: typeof emptyHolding
       <Field label="持有股數"><Input type="number" value={value.shares} onChange={(event) => onChange({ ...value, shares: Number(event.target.value) })} /></Field>
       <Field label="平均成本"><Input type="number" value={value.avg_cost} onChange={(event) => onChange({ ...value, avg_cost: Number(event.target.value) })} /></Field>
       <Field label="券商"><Input value={value.broker} onChange={(event) => onChange({ ...value, broker: event.target.value })} /></Field>
-      <Field label="帳戶"><Input value={value.account} onChange={(event) => onChange({ ...value, account: event.target.value })} /></Field>
-      <Field label="備註"><Input value={value.note} onChange={(event) => onChange({ ...value, note: event.target.value })} /></Field>
       <div className="md:col-span-2"><Button className="w-full" onClick={onSubmit}>儲存持倉</Button></div>
     </div>
   );

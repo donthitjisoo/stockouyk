@@ -4,9 +4,7 @@ export const holdingSchema = z.object({
   symbol: z.string().regex(/\d{4,6}/, "股票代號格式錯誤"),
   shares: z.coerce.number().positive("持有股數必須大於 0"),
   avg_cost: z.coerce.number().positive("平均成本必須大於 0"),
-  broker: z.string().default(""),
-  account: z.string().default(""),
-  note: z.string().default("")
+  broker: z.string().default("")
 });
 
 export const recommendationSchema = z.object({

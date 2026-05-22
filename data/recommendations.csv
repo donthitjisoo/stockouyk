@@ -1,0 +1,3 @@
+id,date,symbol,target_price,recommended_price,recommender,note
+rec_001,2026-05-22,2330,1180,950,Tom,AI server supply chain
+rec_002,2026-05-22,3661,520,410,Alice,TPEX semiconductor
