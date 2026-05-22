@@ -1,5 +1,5 @@
-export function currency(value: number) {
-  if (!Number.isFinite(value) || value === 0) return "-";
+export function currency(value: number | null | undefined) {
+  if (value === null || value === undefined || !Number.isFinite(value)) return "-";
   return new Intl.NumberFormat("zh-TW", { maximumFractionDigits: 2 }).format(value);
 }
 

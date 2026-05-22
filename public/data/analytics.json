@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-05-22T13:07:24.950Z",
+  "generatedAt": "2026-05-22T16:20:20.214Z",
   "overall": {
-    "count": 117,
-    "targetReachedCount": 30,
-    "targetRate": 25.64102564102564,
-    "avgReachedDays": 4.7,
-    "avgPotentialReturn": 22.79422845740043,
-    "avgInstantReturn": 0,
-    "winRate": 0,
-    "unreachedCount": 87
+    "count": 201,
+    "targetReachedCount": 38,
+    "targetRate": 18.90547263681592,
+    "avgReachedDays": 4.605263157894737,
+    "avgPotentialReturn": 21.267956520668864,
+    "avgInstantReturn": 2.951293078104635,
+    "winRate": 54.22885572139303,
+    "unreachedCount": 163
   },
   "byWatchlist": {
     "default": {
       "count": 86,
       "targetReachedCount": 10,
       "targetRate": 11.627906976744185,
-      "avgReachedDays": 1.6,
+      "avgReachedDays": 2.2,
       "avgPotentialReturn": 17.1033229716769,
-      "avgInstantReturn": 0,
-      "winRate": 0,
+      "avgInstantReturn": 1.7891166984604698,
+      "winRate": 52.32558139534884,
       "unreachedCount": 76
     },
     "discord": {
       "count": 29,
       "targetReachedCount": 18,
       "targetRate": 62.06896551724138,
-      "avgReachedDays": 6.5,
+      "avgReachedDays": 7.277777777777778,
       "avgPotentialReturn": 45.96854170779361,
-      "avgInstantReturn": 0,
-      "winRate": 0,
+      "avgInstantReturn": 9.844201260821741,
+      "winRate": 65.51724137931035,
       "unreachedCount": 11
     },
     "e7bea4e79b8ae68a95e9a1a7": {
-      "count": 2,
-      "targetReachedCount": 2,
-      "targetRate": 100,
-      "avgReachedDays": 4,
-      "avgPotentialReturn": -68.52437778718951,
-      "avgInstantReturn": 0,
-      "winRate": 0,
-      "unreachedCount": 0
+      "count": 86,
+      "targetReachedCount": 10,
+      "targetRate": 11.627906976744185,
+      "avgReachedDays": 2.2,
+      "avgPotentialReturn": 17.1033229716769,
+      "avgInstantReturn": 1.7891166984604698,
+      "winRate": 52.32558139534884,
+      "unreachedCount": 76
     }
   }
 }

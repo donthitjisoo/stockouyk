@@ -7,6 +7,7 @@ on:
     paths:
       - "data/**/*.csv"
       - "scripts/update-data.mjs"
+      - "scripts/lib/**"
       - "src/**"
       - "package.json"
       - "package-lock.json"

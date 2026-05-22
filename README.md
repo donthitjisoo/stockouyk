@@ -27,16 +27,25 @@ dist/
 - `public/data/analytics.json`
 - `public/data/leaderboard.json`
 - `public/data/history.json`
+- `public/data/portfolio.json`
 
 ## CSV 格式
 
 推薦 CSV 格式固定：
 
 ```csv
-date,symbol,target_price,recommender,target_reached,reached_days
-2026-05-22,2330,1180,Tom,false,
-2026-05-22,3661,520,Alice,true,7
+date,symbol,target_price,recommender,recommendation_rating,target_reached,reached_days
+2026-05-22,2330,1180,Tom,TB,false,
+2026-05-22,3661,520,Alice,B,true,7
 ```
+
+`recommendation_rating` 可用值：
+
+```txt
+S > TB > B > SB > Watch > Avoid
+```
+
+舊 CSV 若沒有 `recommendation_rating` 仍可讀取，系統會預設 `B`。
 
 主推薦來源：
 
@@ -61,7 +70,7 @@ data/watchlists/半導體.csv
 
 1. `npm ci`
 2. `npm run update:data`
-3. 查詢上市/上櫃、Yahoo ticker、股價、EPS、PE、Forward PE
+3. 透過 fallback providers 查詢上市/上櫃、Yahoo ticker、股價、EPS、PE、Forward PE
 4. 計算推薦衍生欄位與 dashboard analytics
 5. 產生 `public/data/*.json`
 6. `npm run build`
@@ -97,8 +106,34 @@ data/watchlists/半導體.csv
 - Export CSV
 - Analytics dashboard
 - Leaderboard
+- Recommendation rating badge / filter / sorting
+- Data status badge：`ok`、`partial_data`、`price_missing`、`fundamentals_missing`、`resolver_failed`、`api_error`
+- Portfolio dashboard、treemap、sector/broker/account allocation、損益排行
 
-前端不做大量金融計算。`analytics.json` 和 `leaderboard.json` 由 GitHub Actions 預先產生，React 只負責 render。
+前端不做大量金融計算。`analytics.json`、`leaderboard.json`、`portfolio.json` 由 GitHub Actions 預先產生，React 只負責 render。
+
+## Fallback providers
+
+資料更新時每檔股票獨立處理，單一股票失敗不會讓整批 build crash。
+
+價格 fallback 順序：
+
+1. Yahoo Finance chart
+2. Yahoo scraper
+3. TWSE API
+4. TPEX API
+5. TWSE 公開資料
+6. WantGoo
+
+EPS / PE fallback 順序：
+
+1. TWSE OpenAPI
+2. TPEX API
+3. Yahoo Finance
+4. TradingView
+5. WantGoo
+
+缺資料時會輸出 dataStatus，不會讓整列空白。
 
 ## 本機開發
 
@@ -186,4 +221,8 @@ MARKET_DATA_API_KEY=
 - `public/data/analytics.json`：Dashboard 指標
 - `public/data/leaderboard.json`：推薦人排行榜
 - `public/data/history.json`：歷史價格
+- `public/data/portfolio.json`：持倉與 allocation analytics
+- `scripts/lib/priceProvider.mjs`：價格 fallback / retry / timeout / cache
+- `scripts/lib/fundamentalsProvider.mjs`：EPS、PE、Forward PE fallback
+- `src/lib/rating.ts`：前端 rating 順序與標準化
 - `src/App.tsx`：靜態 Dashboard UI

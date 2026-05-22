@@ -1,61 +1,78 @@
 import { promises as fs } from "node:fs";
 import path from "node:path";
+import { getFundamentalsBatch } from "./lib/fundamentalsProvider.mjs";
+import { getHistoryBatch, getQuoteBatch } from "./lib/priceProvider.mjs";
+import { isRating, normalizeRating, ratingRank } from "./lib/rating.mjs";
+import { mergeStatuses } from "./lib/providerUtils.mjs";
+import { guessSector, resolveTaiwanTickers } from "./lib/twStockResolver.mjs";
 
 const root = process.cwd();
 const dataDir = path.join(root, "data");
 const watchlistDir = path.join(dataDir, "watchlists");
 const outputDir = path.join(root, "public", "data");
-const CSV_HEADERS = ["date", "symbol", "target_price", "recommender", "target_reached", "reached_days"];
-
-const fallbackTickers = {
-  "2330": ticker("2330", "2330.TW", "TWSE", "上市", "台積電"),
-  "2317": ticker("2317", "2317.TW", "TWSE", "上市", "鴻海"),
-  "2454": ticker("2454", "2454.TW", "TWSE", "上市", "聯發科"),
-  "2327": ticker("2327", "2327.TW", "TWSE", "上市", "國巨"),
-  "2308": ticker("2308", "2308.TW", "TWSE", "上市", "台達電"),
-  "2882": ticker("2882", "2882.TW", "TWSE", "上市", "國泰金"),
-  "3661": ticker("3661", "3661.TWO", "TPEX", "上櫃", "世芯-KY"),
-  "3163": ticker("3163", "3163.TWO", "TPEX", "上櫃", "波若威"),
-  "6488": ticker("6488", "6488.TWO", "TPEX", "上櫃", "環球晶")
-};
+const REQUIRED_RECOMMENDATION_HEADERS = ["date", "symbol", "target_price", "recommender", "target_reached", "reached_days"];
+const RECOMMENDATION_HEADERS = ["date", "symbol", "target_price", "recommender", "recommendation_rating", "target_reached", "reached_days"];
 
 await main();
 
 async function main() {
   await fs.mkdir(outputDir, { recursive: true });
   const watchlists = await readWatchlists();
-  const symbols = [...new Set(watchlists.flatMap((watchlist) => watchlist.recommendations.map((row) => row.symbol)))];
-  const tickerMap = await resolveTickers(symbols);
-  const quoteMap = Object.fromEntries(await Promise.all(symbols.map(async (symbol) => [symbol, await fetchQuote(tickerMap[symbol])])));
-  const historyMap = Object.fromEntries(await Promise.all(symbols.map(async (symbol) => [symbol, await fetchHistory(tickerMap[symbol], earliestDate(watchlists, symbol))])));
+  const holdings = await readPortfolio();
+  const recommendationSymbols = watchlists.flatMap((watchlist) => watchlist.recommendations.map((row) => row.symbol));
+  const portfolioSymbols = holdings.map((row) => row.symbol);
+  const symbols = [...new Set([...recommendationSymbols, ...portfolioSymbols])].filter(Boolean);
+  const tickerMap = await resolveTaiwanTickers(symbols);
+  const earliestBySymbol = Object.fromEntries(symbols.map((symbol) => [symbol, earliestDate(watchlists, symbol)]));
+
+  const [quoteMap, fundamentalsMap, historyMap] = await Promise.all([
+    getQuoteBatch(tickerMap),
+    getFundamentalsBatch(tickerMap),
+    getHistoryBatch(tickerMap, earliestBySymbol)
+  ]);
 
   const enrichedWatchlists = watchlists.map((watchlist) => ({
     ...watchlist,
-    stocks: watchlist.recommendations.map((row) => enrichRecommendation(row, tickerMap[row.symbol], quoteMap[row.symbol], historyMap[row.symbol]))
+    stocks: watchlist.recommendations.map((row) =>
+      enrichRecommendation(row, tickerMap[row.symbol], quoteMap[row.symbol], fundamentalsMap[row.symbol], historyMap[row.symbol] || [])
+    )
   }));
 
-  const stocks = enrichedWatchlists.flatMap((watchlist) => watchlist.stocks.map((stock) => ({ ...stock, watchlistId: watchlist.id, watchlistName: watchlist.name })));
-  const analytics = calculateAnalytics(enrichedWatchlists);
-  const leaderboard = calculateLeaderboard(stocks);
+  const stocks = enrichedWatchlists.flatMap((watchlist) =>
+    watchlist.stocks.map((stock) => ({ ...stock, watchlistId: watchlist.id, watchlistName: watchlist.name }))
+  );
+  const enrichedHoldings = holdings.map((holding) =>
+    enrichHolding(holding, tickerMap[holding.symbol], quoteMap[holding.symbol], fundamentalsMap[holding.symbol])
+  );
+
+  const generatedAt = new Date().toISOString();
+  const analytics = calculateAnalytics(enrichedWatchlists, generatedAt);
+  const leaderboard = calculateLeaderboard(stocks, generatedAt);
+  const portfolio = {
+    generatedAt,
+    holdings: enrichedHoldings,
+    analytics: calculatePortfolioAnalytics(enrichedHoldings)
+  };
   const history = {
-    generatedAt: new Date().toISOString(),
-    symbols: historyMap
+    generatedAt,
+    symbols: Object.fromEntries(Object.entries(historyMap).map(([symbol, rows]) => [symbol, rows.slice(-120)]))
   };
 
-  await writeJson("stocks.json", { generatedAt: new Date().toISOString(), watchlists: enrichedWatchlists, stocks });
+  await writeJson("stocks.json", { generatedAt, watchlists: enrichedWatchlists, stocks });
   await writeJson("analytics.json", analytics);
   await writeJson("leaderboard.json", leaderboard);
   await writeJson("history.json", history);
+  await writeJson("portfolio.json", portfolio);
   await writeJson("manifest.json", {
-    generatedAt: new Date().toISOString(),
-    files: ["stocks.json", "analytics.json", "leaderboard.json", "history.json"],
+    generatedAt,
+    files: ["stocks.json", "analytics.json", "leaderboard.json", "history.json", "portfolio.json"],
     source: "data/recommendations.csv"
   });
 }
 
 async function readWatchlists() {
   const watchlists = [];
-  const defaultCsv = await readCsvFile(path.join(dataDir, "recommendations.csv"));
+  const defaultCsv = await readRecommendationCsv(path.join(dataDir, "recommendations.csv"));
   watchlists.push({ id: "default", name: "總表", source: "data/recommendations.csv", recommendations: defaultCsv });
 
   const files = await fs.readdir(watchlistDir).catch(() => []);
@@ -66,177 +83,179 @@ async function readWatchlists() {
       id: slug(name),
       name,
       source: `data/watchlists/${file}`,
-      recommendations: await readCsvFile(filePath)
+      recommendations: await readRecommendationCsv(filePath)
     });
   }
   return watchlists;
 }
 
-async function readCsvFile(filePath) {
-  const content = await fs.readFile(filePath, "utf8");
-  const rows = parseCsv(content);
+async function readRecommendationCsv(filePath) {
+  const rows = await readCsv(filePath);
   if (rows.length === 0) return [];
   const headers = rows[0].map((cell) => cell.trim().toLowerCase());
-  const missing = CSV_HEADERS.filter((header) => !headers.includes(header));
+  const missing = REQUIRED_RECOMMENDATION_HEADERS.filter((header) => !headers.includes(header));
   if (missing.length) throw new Error(`${filePath} 缺少欄位：${missing.join(", ")}`);
   const indexes = Object.fromEntries(headers.map((header, index) => [header, index]));
 
   return rows.slice(1).filter((row) => row.some((cell) => cell.trim())).map((row, index) => {
     const symbol = normalizeSymbol(row[indexes.symbol]);
     const targetPrice = Number(row[indexes.target_price]);
+    const recommenderCell = row[indexes.recommender]?.trim() || "";
+    const ratingCell = indexes.recommendation_rating === undefined ? "" : row[indexes.recommendation_rating]?.trim() || "";
+    const inferredRating = ratingCell || (isRating(recommenderCell) ? recommenderCell : "B");
+    const recommender = isRating(recommenderCell) && !ratingCell ? "" : recommenderCell;
     if (!symbol) throw new Error(`${filePath} 第 ${index + 2} 列股票代號錯誤`);
     if (!Number.isFinite(targetPrice) || targetPrice <= 0) throw new Error(`${filePath} 第 ${index + 2} 列目標價錯誤`);
     return {
-      id: `${symbol}-${row[indexes.date]}-${index}`,
-      date: row[indexes.date]?.trim() || "",
+      id: `${symbol}-${normalizeDate(row[indexes.date])}-${index}`,
+      date: normalizeDate(row[indexes.date]),
       symbol,
       targetPrice,
-      recommender: row[indexes.recommender]?.trim() || "",
+      recommender,
+      recommendationRating: normalizeRating(inferredRating),
+      ratingRank: ratingRank(inferredRating),
       sourceTargetReached: parseBoolean(row[indexes.target_reached]),
       sourceReachedDays: optionalNumber(row[indexes.reached_days])
     };
   });
 }
 
-async function resolveTickers(symbols) {
-  const tickers = { ...fallbackTickers };
-  await Promise.allSettled([loadTwseTickers(tickers), loadTpexTickers(tickers)]);
-  return Object.fromEntries(symbols.map((symbol) => [symbol, tickers[symbol] || ticker(symbol, `${symbol}.TW`, "UNKNOWN", "未知", symbol)]));
+async function readPortfolio() {
+  const filePath = path.join(dataDir, "portfolio.csv");
+  const rows = await readCsv(filePath).catch(() => []);
+  if (rows.length === 0) return [];
+  const headers = rows[0].map((cell) => cell.trim().toLowerCase());
+  const indexes = Object.fromEntries(headers.map((header, index) => [header, index]));
+  return rows.slice(1).filter((row) => row.some((cell) => cell.trim())).map((row, index) => ({
+    id: row[indexes.id]?.trim() || `holding-${index}`,
+    symbol: normalizeSymbol(row[indexes.symbol]),
+    shares: numberValue(row[indexes.shares]),
+    avgCost: numberValue(row[indexes.avg_cost]),
+    broker: row[indexes.broker]?.trim() || "Unknown",
+    account: row[indexes.account]?.trim() || "Default"
+  })).filter((row) => row.symbol && row.shares > 0);
 }
 
-async function loadTwseTickers(target) {
-  const response = await fetch("https://openapi.twse.com.tw/v1/exchangeReport/STOCK_DAY_ALL");
-  if (!response.ok) return;
-  const data = await response.json();
-  for (const row of data) {
-    const symbol = row.Code || row["證券代號"];
-    const name = row.Name || row["證券名稱"];
-    if (symbol) target[symbol] = ticker(symbol, `${symbol}.TW`, "TWSE", "上市", name);
-  }
-}
-
-async function loadTpexTickers(target) {
-  const response = await fetch("https://www.tpex.org.tw/openapi/v1/tpex_mainboard_quotes");
-  if (!response.ok) return;
-  const data = await response.json();
-  for (const row of data) {
-    const symbol = row.SecuritiesCompanyCode || row.Code || row["代號"];
-    const name = row.CompanyName || row.Name || row["名稱"];
-    if (symbol) target[symbol] = ticker(symbol, `${symbol}.TWO`, "TPEX", "上櫃", name);
-  }
-}
-
-async function fetchQuote(resolved) {
-  const [chart, fundamentals] = await Promise.allSettled([fetchYahooChart(resolved.yahooSymbol, "5d"), fetchFundamentals(resolved.yahooSymbol)]);
-  const meta = chart.status === "fulfilled" ? chart.value.meta : {};
-  const price = Number(meta.regularMarketPrice || meta.previousClose || 0);
-  const previousClose = Number(meta.previousClose || 0);
-  return {
-    ...resolved,
-    currentPrice: price,
-    previousClose,
-    change: price && previousClose ? price - previousClose : 0,
-    changePercent: price && previousClose ? ((price - previousClose) / previousClose) * 100 : 0,
-    eps: fundamentals.status === "fulfilled" ? fundamentals.value.eps : null,
-    pe: fundamentals.status === "fulfilled" ? fundamentals.value.pe : null,
-    forwardPe: fundamentals.status === "fulfilled" ? fundamentals.value.forwardPe : null,
-    updatedAt: new Date().toISOString()
-  };
-}
-
-async function fetchHistory(resolved, fromDate) {
-  const chart = await fetchYahooChart(resolved.yahooSymbol, "max", fromDate).catch(() => ({ rows: [] }));
-  return chart.rows.map((row) => ({ ...row, symbol: resolved.symbol }));
-}
-
-async function fetchYahooChart(yahooSymbol, range, fromDate) {
-  const params = fromDate
-    ? `period1=${Math.floor(new Date(`${fromDate}T00:00:00+08:00`).getTime() / 1000)}&period2=${Math.floor(Date.now() / 1000)}`
-    : `range=${range}`;
-  const url = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(yahooSymbol)}?${params}&interval=1d`;
-  const response = await fetch(url);
-  if (!response.ok) throw new Error(`Yahoo chart failed: ${yahooSymbol}`);
-  const payload = await response.json();
-  const result = payload.chart?.result?.[0];
-  const quote = result?.indicators?.quote?.[0];
-  const timestamps = result?.timestamp || [];
-  return {
-    meta: result?.meta || {},
-    rows: timestamps.map((timestamp, index) => ({
-      date: new Date(timestamp * 1000).toISOString().slice(0, 10),
-      open: Number(quote?.open?.[index] || 0),
-      high: Number(quote?.high?.[index] || 0),
-      low: Number(quote?.low?.[index] || 0),
-      close: Number(quote?.close?.[index] || 0),
-      volume: Number(quote?.volume?.[index] || 0)
-    })).filter((row) => row.close || row.high)
-  };
-}
-
-async function fetchFundamentals(yahooSymbol) {
-  const modules = "defaultKeyStatistics,summaryDetail,financialData";
-  const url = `https://query2.finance.yahoo.com/v10/finance/quoteSummary/${encodeURIComponent(yahooSymbol)}?modules=${modules}`;
-  const response = await fetch(url);
-  if (!response.ok) return { eps: null, pe: null, forwardPe: null };
-  const result = (await response.json()).quoteSummary?.result?.[0] || {};
-  return {
-    eps: raw(result.defaultKeyStatistics?.trailingEps) ?? raw(result.financialData?.epsTrailingTwelveMonths),
-    pe: raw(result.summaryDetail?.trailingPE),
-    forwardPe: raw(result.summaryDetail?.forwardPE) ?? raw(result.defaultKeyStatistics?.forwardPE)
-  };
-}
-
-function enrichRecommendation(row, resolved, quote, history) {
-  const recommendedPrice = findCloseOnOrBefore(row.date, history) || quote.currentPrice || 0;
+function enrichRecommendation(row, resolved, quote, fundamentals, history) {
+  const recommendedPrice = findCloseOnOrBefore(row.date, history) ?? quote.currentPrice ?? null;
   const elapsedTradingDays = countTradingDays(row.date, history);
   const wasReached = row.sourceTargetReached;
-  const targetReached = wasReached || quote.currentPrice >= row.targetPrice;
+  const targetReached = wasReached || (quote.currentPrice !== null && quote.currentPrice >= row.targetPrice);
   const reachedDays = wasReached
     ? row.sourceReachedDays ?? firstReachedDays(row.date, row.targetPrice, history)
     : targetReached
       ? elapsedTradingDays
       : null;
+  const dataStatus = mergeStatuses(quote.dataStatus, fundamentals.dataStatus, resolved.dataStatus);
 
   return {
     id: row.id,
     date: row.date,
     symbol: row.symbol,
     name: quote.name || resolved.name || row.symbol,
-    market: quote.market,
-    marketName: quote.marketName,
-    yahooSymbol: quote.yahooSymbol,
-    recommender: row.recommender,
+    market: quote.market || resolved.market,
+    marketName: quote.marketName || resolved.marketName,
+    yahooSymbol: quote.yahooSymbol || resolved.yahooSymbol,
+    sector: quote.sector || resolved.sector || guessSector(row.symbol),
+    recommender: row.recommender || "-",
+    recommendationRating: row.recommendationRating,
+    ratingRank: row.ratingRank,
     targetPrice: row.targetPrice,
     recommendedPrice,
     currentPrice: quote.currentPrice,
-    eps: quote.eps,
-    pe: quote.pe,
-    forwardPe: quote.forwardPe,
-    recommendationGapPct: pct(quote.currentPrice - recommendedPrice, recommendedPrice),
-    distanceToTargetPct: pct(row.targetPrice - quote.currentPrice, quote.currentPrice),
-    potentialReturnPct: pct(row.targetPrice - quote.currentPrice, quote.currentPrice),
-    instantReturnPct: pct(quote.currentPrice - recommendedPrice, recommendedPrice),
-    recommendationUpsidePct: pct(row.targetPrice - recommendedPrice, recommendedPrice),
+    previousClose: quote.previousClose,
+    change: quote.change,
+    changePercent: quote.changePercent,
+    eps: fundamentals.eps,
+    pe: fundamentals.pe,
+    forwardPe: fundamentals.forwardPe,
+    recommendationReturnPct: pct((quote.currentPrice ?? 0) - (recommendedPrice ?? 0), recommendedPrice),
+    remainingUpsidePct: pct(row.targetPrice - (quote.currentPrice ?? 0), quote.currentPrice),
+    recommendationGapPct: pct((quote.currentPrice ?? 0) - (recommendedPrice ?? 0), recommendedPrice),
+    distanceToTargetPct: pct(row.targetPrice - (quote.currentPrice ?? 0), quote.currentPrice),
+    potentialReturnPct: pct(row.targetPrice - (quote.currentPrice ?? 0), quote.currentPrice),
+    instantReturnPct: pct((quote.currentPrice ?? 0) - (recommendedPrice ?? 0), recommendedPrice),
+    recommendationUpsidePct: pct(row.targetPrice - (recommendedPrice ?? 0), recommendedPrice),
     elapsedTradingDays,
     targetReached,
     reachedDays,
     sourceTargetReached: row.sourceTargetReached,
     sourceReachedDays: row.sourceReachedDays,
-    updatedAt: quote.updatedAt
+    dataStatus,
+    priceStatus: quote.dataStatus,
+    fundamentalsStatus: fundamentals.dataStatus,
+    source: quote.source,
+    fundamentalsSource: fundamentals.source,
+    failedProviders: [...(quote.failedProviders || []), ...(fundamentals.failedProviders || [])],
+    updatedAt: quote.updatedAt || new Date().toISOString()
   };
 }
 
-function calculateAnalytics(watchlists) {
+function enrichHolding(holding, resolved, quote, fundamentals) {
+  const currentPrice = quote.currentPrice;
+  const cost = holding.shares * holding.avgCost;
+  const marketValue = currentPrice === null ? 0 : holding.shares * currentPrice;
+  const unrealizedPnL = marketValue - cost;
+  const dataStatus = mergeStatuses(quote.dataStatus, fundamentals.dataStatus, resolved.dataStatus);
+  return {
+    ...holding,
+    name: quote.name || resolved.name || holding.symbol,
+    market: quote.market || resolved.market,
+    marketName: quote.marketName || resolved.marketName,
+    yahooSymbol: quote.yahooSymbol || resolved.yahooSymbol,
+    sector: quote.sector || resolved.sector || guessSector(holding.symbol),
+    currentPrice,
+    previousClose: quote.previousClose,
+    change: quote.change,
+    changePercent: quote.changePercent,
+    eps: fundamentals.eps,
+    pe: fundamentals.pe,
+    forwardPe: fundamentals.forwardPe,
+    cost,
+    marketValue,
+    todayPnL: quote.change === null ? 0 : quote.change * holding.shares,
+    unrealizedPnL,
+    unrealizedPnLPct: pct(unrealizedPnL, cost),
+    weight: 0,
+    dataStatus,
+    failedProviders: [...(quote.failedProviders || []), ...(fundamentals.failedProviders || [])],
+    source: quote.source,
+    updatedAt: quote.updatedAt || new Date().toISOString()
+  };
+}
+
+function calculatePortfolioAnalytics(holdings) {
+  const totalAssets = sum(holdings.map((row) => row.marketValue));
+  const totalCost = sum(holdings.map((row) => row.cost));
+  for (const row of holdings) row.weight = pct(row.marketValue, totalAssets);
+  const winners = holdings.filter((row) => row.unrealizedPnL > 0);
+  const sortedByValue = [...holdings].sort((a, b) => b.marketValue - a.marketValue);
+  const sortedByPnl = [...holdings].sort((a, b) => b.unrealizedPnL - a.unrealizedPnL);
+  return {
+    totalAssets,
+    todayPnL: sum(holdings.map((row) => row.todayPnL)),
+    unrealizedPnL: sum(holdings.map((row) => row.unrealizedPnL)),
+    unrealizedPnLPct: pct(sum(holdings.map((row) => row.unrealizedPnL)), totalCost),
+    winRate: pct(winners.length, holdings.length),
+    holdingsCount: holdings.length,
+    cashRatio: 0,
+    largestHolding: sortedByValue[0] || null,
+    largestWinner: sortedByPnl[0] || null,
+    largestLoser: sortedByPnl.at(-1) || null,
+    sectorAllocation: allocation(holdings, "sector"),
+    brokerAllocation: allocation(holdings, "broker"),
+    accountAllocation: allocation(holdings, "account"),
+    pnlRanking: sortedByPnl.slice(0, 12)
+  };
+}
+
+function calculateAnalytics(watchlists, generatedAt) {
   const byWatchlist = Object.fromEntries(watchlists.map((watchlist) => [watchlist.id, summarize(watchlist.stocks)]));
   const all = watchlists.flatMap((watchlist) => watchlist.stocks);
-  return {
-    generatedAt: new Date().toISOString(),
-    overall: summarize(all),
-    byWatchlist
-  };
+  return { generatedAt, overall: summarize(all), byWatchlist };
 }
 
-function calculateLeaderboard(stocks) {
+function calculateLeaderboard(stocks, generatedAt) {
   const grouped = new Map();
   for (const stock of stocks) {
     if (!grouped.has(stock.recommender)) grouped.set(stock.recommender, []);
@@ -251,7 +270,7 @@ function calculateLeaderboard(stocks) {
     avgPotentialReturn: avg(rows.map((row) => row.potentialReturnPct)),
     avgReachedDays: avg(rows.filter((row) => row.reachedDays !== null).map((row) => row.reachedDays))
   })).sort((a, b) => b.hitRate - a.hitRate || b.avgInstantReturn - a.avgInstantReturn);
-  return { generatedAt: new Date().toISOString(), recommenders };
+  return { generatedAt, recommenders };
 }
 
 function summarize(rows) {
@@ -268,9 +287,21 @@ function summarize(rows) {
   };
 }
 
+function allocation(holdings, key) {
+  const totals = new Map();
+  for (const row of holdings) totals.set(row[key], (totals.get(row[key]) || 0) + row.marketValue);
+  const total = sum([...totals.values()]);
+  return [...totals.entries()].map(([name, value]) => ({ name, value, weight: pct(value, total) })).sort((a, b) => b.value - a.value);
+}
+
+async function readCsv(filePath) {
+  const content = await fs.readFile(filePath, "utf8");
+  return parseCsv(content);
+}
+
 function findCloseOnOrBefore(date, history) {
   const rows = history.filter((row) => row.date <= date).sort((a, b) => b.date.localeCompare(a.date));
-  return rows[0]?.close || null;
+  return rows[0]?.close ?? null;
 }
 
 function countTradingDays(date, history) {
@@ -330,34 +361,42 @@ function optionalNumber(value) {
   return Number.isFinite(number) ? number : null;
 }
 
+function numberValue(value) {
+  const number = Number(String(value ?? "").replaceAll(",", "").trim());
+  return Number.isFinite(number) ? number : 0;
+}
+
 function normalizeSymbol(value) {
   return String(value || "").match(/\d{4,6}/)?.[0] || "";
 }
 
+function normalizeDate(value) {
+  const text = String(value || "").trim().replaceAll("/", "-");
+  const [year, month, day] = text.split("-");
+  if (!year || !month || !day) return text;
+  return `${year.padStart(4, "0")}-${month.padStart(2, "0")}-${day.padStart(2, "0")}`;
+}
+
 function pct(numerator, denominator) {
-  if (!Number.isFinite(numerator) || !Number.isFinite(denominator) || denominator === 0) return 0;
+  if (!Number.isFinite(numerator) || !Number.isFinite(denominator) || denominator === 0 || denominator === null) return 0;
   return (numerator / denominator) * 100;
 }
 
 function avg(values) {
   const numbers = values.filter((value) => Number.isFinite(value));
-  return numbers.length ? numbers.reduce((sum, value) => sum + value, 0) / numbers.length : 0;
+  return numbers.length ? sum(numbers) / numbers.length : 0;
+}
+
+function sum(values) {
+  return values.filter((value) => Number.isFinite(value)).reduce((total, value) => total + value, 0);
 }
 
 async function writeJson(fileName, value) {
   await fs.writeFile(path.join(outputDir, fileName), `${JSON.stringify(value, null, 2)}\n`);
 }
 
-function raw(value) {
-  if (typeof value === "number") return value;
-  if (value && typeof value.raw === "number") return value.raw;
-  return null;
-}
-
-function ticker(symbol, yahooSymbol, market, marketName, name) {
-  return { symbol, yahooSymbol, market, marketName, name };
-}
-
 function slug(value) {
   return encodeURIComponent(value).replaceAll("%", "").toLowerCase() || "watchlist";
 }
+
+export { RECOMMENDATION_HEADERS };
