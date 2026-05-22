@@ -1,23 +1,50 @@
 {
-  "generatedAt": "2026-05-22T12:22:55.428Z",
+  "generatedAt": "2026-05-22T12:28:24.851Z",
   "recommenders": [
     {
       "recommender": "Tom",
-      "count": 3,
-      "targetReachedCount": 3,
+      "count": 2,
+      "targetReachedCount": 2,
       "hitRate": 100,
       "avgInstantReturn": 0,
-      "avgPotentialReturn": -47.67184035476718,
+      "avgPotentialReturn": -47.671840354767184,
       "avgReachedDays": 1
     },
     {
       "recommender": "Alice",
-      "count": 3,
-      "targetReachedCount": 3,
+      "count": 2,
+      "targetReachedCount": 2,
       "hitRate": 100,
       "avgInstantReturn": 0,
-      "avgPotentialReturn": -89.37691521961183,
+      "avgPotentialReturn": -89.37691521961185,
       "avgReachedDays": 7
+    },
+    {
+      "recommender": "TB",
+      "count": 38,
+      "targetReachedCount": 6,
+      "hitRate": 15.789473684210526,
+      "avgInstantReturn": 0,
+      "avgPotentialReturn": 11.401237752119451,
+      "avgReachedDays": 1.6666666666666667
+    },
+    {
+      "recommender": "B",
+      "count": 45,
+      "targetReachedCount": 4,
+      "hitRate": 8.88888888888889,
+      "avgInstantReturn": 0,
+      "avgPotentialReturn": 20.57582107913293,
+      "avgReachedDays": 1.5
+    },
+    {
+      "recommender": "SB",
+      "count": 3,
+      "targetReachedCount": 0,
+      "hitRate": 0,
+      "avgInstantReturn": 0,
+      "avgPotentialReturn": 37.242264140897355,
+      "avgReachedDays": 0
     }
   ]
 }

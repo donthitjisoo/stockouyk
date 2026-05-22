@@ -1,25 +1,25 @@
 {
-  "generatedAt": "2026-05-22T12:22:55.428Z",
+  "generatedAt": "2026-05-22T12:28:24.851Z",
   "overall": {
-    "count": 6,
-    "targetReachedCount": 6,
-    "targetRate": 100,
-    "avgReachedDays": 4,
-    "avgPotentialReturn": -68.52437778718951,
+    "count": 90,
+    "targetReachedCount": 14,
+    "targetRate": 15.555555555555555,
+    "avgReachedDays": 2.2857142857142856,
+    "avgPotentialReturn": 13.297647382393945,
     "avgInstantReturn": 0,
     "winRate": 0,
-    "unreachedCount": 0
+    "unreachedCount": 76
   },
   "byWatchlist": {
     "default": {
-      "count": 2,
-      "targetReachedCount": 2,
-      "targetRate": 100,
-      "avgReachedDays": 4,
-      "avgPotentialReturn": -68.52437778718951,
+      "count": 86,
+      "targetReachedCount": 10,
+      "targetRate": 11.627906976744185,
+      "avgReachedDays": 1.6,
+      "avgPotentialReturn": 17.1033229716769,
       "avgInstantReturn": 0,
       "winRate": 0,
-      "unreachedCount": 0
+      "unreachedCount": 76
     },
     "ai": {
       "count": 2,
