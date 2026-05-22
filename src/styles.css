@@ -295,9 +295,9 @@ input, select {
 }
 
 .rating-s { color: #fff; background: #b00020; border-color: #ff4d4f; }
-.rating-tb { color: #07100b; background: #22b573; border-color: #22b573; }
-.rating-b { color: #07100b; background: #f0b429; border-color: #f0b429; }
-.rating-sb { color: #07100b; background: #ff4d4f; border-color: #ff4d4f; }
+.rating.rating-tb { color: #07100b; background: #22b573; border-color: #22b573; }
+.rating.rating-b { color: #07100b; background: #f0b429; border-color: #f0b429; }
+.rating.rating-sb { color: #07100b; background: #ff4d4f; border-color: #ff4d4f; }
 .rating-watch { color: #d8e1ec; background: #344152; }
 .rating-avoid { color: #d8e1ec; background: #145c42; border-color: #22b573; }
 
@@ -307,6 +307,29 @@ input, select {
 .data-status.ok { color: var(--down); border-color: var(--down); }
 .data-status.partial_data, .data-status.fundamentals_missing, .data-status.price_missing { color: var(--missing); border-color: var(--missing); }
 .data-status.resolver_failed, .data-status.api_error { color: var(--up); border-color: var(--up); }
+
+.sort-toggle, .th-sort {
+  border: 1px solid var(--grid);
+  border-radius: 2px;
+  background: var(--panel-2);
+  color: var(--text);
+  font: inherit;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.sort-toggle {
+  padding: 6px 8px;
+}
+
+.th-sort {
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  text-align: left;
+}
 
 .leaderboard-panel {
   padding: 8px;

@@ -18,6 +18,7 @@ import type {
 
 type MainTab = "recommendations" | "portfolio";
 type SortKey = "date" | "ratingRank" | "potentialReturnPct" | "instantReturnPct" | "distanceToTargetPct" | "reachedDays" | "changePercent";
+type SortDirection = "asc" | "desc";
 type PortfolioSortKey = "marketValue" | "todayPnL" | "unrealizedPnL" | "weight" | "changePercent";
 
 interface LocalWatchlist {
@@ -50,7 +51,8 @@ export function App() {
   const [rating, setRating] = useState("all");
   const [targetState, setTargetState] = useState("all");
   const [dataStatus, setDataStatus] = useState("all");
-  const [sortKey, setSortKey] = useState<SortKey>("ratingRank");
+  const [sortKey, setSortKey] = useState<SortKey>("date");
+  const [sortDirection, setSortDirection] = useState<SortDirection>("desc");
   const [portfolioSort, setPortfolioSort] = useState<PortfolioSortKey>("marketValue");
   const [scrollTop, setScrollTop] = useState(0);
   const [theme, setTheme] = useState(() => localStorage.getItem("theme") || "dark");
@@ -108,8 +110,8 @@ export function App() {
       .filter((row) => targetState === "all" || String(row.targetReached) === targetState)
       .filter((row) => dataStatus === "all" || row.dataStatus === dataStatus)
       .slice()
-      .sort((a, b) => compareRows(a, b, sortKey));
-  }, [activeRows, dataStatus, market, query, rating, recommender, sortKey, targetState]);
+      .sort((a, b) => compareRows(a, b, sortKey, sortDirection));
+  }, [activeRows, dataStatus, market, query, rating, recommender, sortDirection, sortKey, targetState]);
 
   const portfolioRows = useMemo(() => {
     const rows = portfolio?.holdings ?? [];
@@ -147,6 +149,15 @@ export function App() {
     link.download = `${activeWatchlist?.name || "watchlist"}.csv`;
     link.click();
     URL.revokeObjectURL(url);
+  }
+
+  function updateRecommendationSort(key: SortKey) {
+    if (sortKey === key) {
+      setSortDirection((current) => current === "desc" ? "asc" : "desc");
+      return;
+    }
+    setSortKey(key);
+    setSortDirection("desc");
   }
 
   return (
@@ -228,7 +239,13 @@ export function App() {
               <select value={dataStatus} onChange={(event) => setDataStatus(event.target.value)}>
                 <option value="all">資料狀態</option>{Object.entries(statusLabels).map(([key, label]) => <option key={key} value={key}>{label}</option>)}
               </select>
-              <select value={sortKey} onChange={(event) => setSortKey(event.target.value as SortKey)}>
+              <select
+                value={sortKey}
+                onChange={(event) => {
+                  setSortKey(event.target.value as SortKey);
+                  setSortDirection("desc");
+                }}
+              >
                 <option value="date">推薦日期</option>
                 <option value="ratingRank">評等排序</option>
                 <option value="potentialReturnPct">實時潛在報酬</option>
@@ -236,13 +253,22 @@ export function App() {
                 <option value="changePercent">漲跌幅</option>
                 <option value="reachedDays">達標天數</option>
               </select>
+              <button className="sort-toggle" onClick={() => setSortDirection((current) => current === "desc" ? "asc" : "desc")}>
+                {sortDirection === "desc" ? "新→舊 / 大→小" : "舊→新 / 小→大"}
+              </button>
             </div>
 
             <div className="market-table-wrap" onScroll={(event) => setScrollTop(event.currentTarget.scrollTop)}>
               <table className="market-table">
                 <thead>
                   <tr>
-                    <th>股票代號</th><th>股票名稱</th><th>市場別</th><th>推薦日期</th><th>推薦人</th><th>評等</th>
+                    <th>股票代號</th><th>股票名稱</th><th>市場別</th>
+                    <th>
+                      <button className="th-sort" onClick={() => updateRecommendationSort("date")}>
+                        推薦日期 {sortKey === "date" ? (sortDirection === "desc" ? "▼" : "▲") : ""}
+                      </button>
+                    </th>
+                    <th>推薦人</th><th>評等</th>
                     <th>目標價</th><th>推薦價</th><th>現價</th><th>漲跌</th><th>漲跌幅</th><th>推薦後報酬 %</th>
                     <th>實時潛在報酬 %</th><th>EPS</th><th>PE</th><th>Forward PE</th><th>是否達標</th><th>幾日達標</th><th>資料狀態</th>
                   </tr>
@@ -456,10 +482,11 @@ async function fetchJson<T>(url: string): Promise<T> {
   return response.json();
 }
 
-function compareRows(a: StockRow, b: StockRow, key: SortKey) {
-  if (key === "date") return b.date.localeCompare(a.date);
-  if (key === "ratingRank") return a.ratingRank - b.ratingRank || b.potentialReturnPct - a.potentialReturnPct;
-  return Number(b[key] ?? -Infinity) - Number(a[key] ?? -Infinity);
+function compareRows(a: StockRow, b: StockRow, key: SortKey, direction: SortDirection) {
+  const multiplier = direction === "desc" ? 1 : -1;
+  if (key === "date") return b.date.localeCompare(a.date) * multiplier;
+  if (key === "ratingRank") return (a.ratingRank - b.ratingRank || b.potentialReturnPct - a.potentialReturnPct) * multiplier;
+  return (Number(b[key] ?? -Infinity) - Number(a[key] ?? -Infinity)) * multiplier;
 }
 
 function summarizeRows(rows: StockRow[]): AnalyticsSummary {
