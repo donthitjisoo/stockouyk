@@ -1,10 +1,19 @@
 {
-  "generatedAt": "2026-05-22T12:56:44.740Z",
+  "generatedAt": "2026-05-22T13:07:24.950Z",
   "recommenders": [
     {
+      "recommender": "chouyk",
+      "count": 1,
+      "targetReachedCount": 1,
+      "hitRate": 100,
+      "avgInstantReturn": 0,
+      "avgPotentialReturn": 31.57894736842105,
+      "avgReachedDays": 13
+    },
+    {
       "recommender": "Tom",
-      "count": 2,
-      "targetReachedCount": 2,
+      "count": 1,
+      "targetReachedCount": 1,
       "hitRate": 100,
       "avgInstantReturn": 0,
       "avgPotentialReturn": -47.671840354767184,
@@ -12,12 +21,30 @@
     },
     {
       "recommender": "Alice",
-      "count": 2,
-      "targetReachedCount": 2,
+      "count": 1,
+      "targetReachedCount": 1,
       "hitRate": 100,
       "avgInstantReturn": 0,
       "avgPotentialReturn": -89.37691521961185,
       "avgReachedDays": 7
+    },
+    {
+      "recommender": "Gaeulisautumn",
+      "count": 7,
+      "targetReachedCount": 5,
+      "hitRate": 71.42857142857143,
+      "avgInstantReturn": 0,
+      "avgPotentialReturn": 142.59381366953806,
+      "avgReachedDays": 12.2
+    },
+    {
+      "recommender": "Donthitjisoo",
+      "count": 21,
+      "targetReachedCount": 12,
+      "hitRate": 57.14285714285714,
+      "avgInstantReturn": 0,
+      "avgPotentialReturn": 14.445336498610821,
+      "avgReachedDays": 3.5833333333333335
     },
     {
       "recommender": "TB",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T12:56:44.740Z",
+  "generatedAt": "2026-05-22T13:07:24.950Z",
   "watchlists": [
     {
       "id": "default",
@@ -807,7 +807,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.355Z"
+          "updatedAt": "2026-05-22T13:07:24.468Z"
         },
         {
           "id": "3443-2026/5/22-1",
@@ -834,7 +834,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.445Z"
+          "updatedAt": "2026-05-22T13:07:24.467Z"
         },
         {
           "id": "4541-2026/5/21-2",
@@ -861,7 +861,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.358Z"
+          "updatedAt": "2026-05-22T13:07:24.416Z"
         },
         {
           "id": "3088-2026/5/21-3",
@@ -888,7 +888,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.363Z"
+          "updatedAt": "2026-05-22T13:07:24.417Z"
         },
         {
           "id": "2645-2026/5/21-4",
@@ -915,7 +915,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.359Z"
+          "updatedAt": "2026-05-22T13:07:24.464Z"
         },
         {
           "id": "3702-2026/5/20-5",
@@ -942,7 +942,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.362Z"
+          "updatedAt": "2026-05-22T13:07:24.465Z"
         },
         {
           "id": "1476-2026/5/20-6",
@@ -969,7 +969,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.359Z"
+          "updatedAt": "2026-05-22T13:07:24.466Z"
         },
         {
           "id": "2949-2026/5/20-7",
@@ -996,7 +996,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.361Z"
+          "updatedAt": "2026-05-22T13:07:24.466Z"
         },
         {
           "id": "8111-2026/5/20-8",
@@ -1023,7 +1023,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.370Z"
+          "updatedAt": "2026-05-22T13:07:24.489Z"
         },
         {
           "id": "2891-2026/5/20-9",
@@ -1050,7 +1050,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.364Z"
+          "updatedAt": "2026-05-22T13:07:24.490Z"
         },
         {
           "id": "6902-2026/5/19-10",
@@ -1077,7 +1077,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.362Z"
+          "updatedAt": "2026-05-22T13:07:24.595Z"
         },
         {
           "id": "2359-2026/5/19-11",
@@ -1104,7 +1104,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.368Z"
+          "updatedAt": "2026-05-22T13:07:24.663Z"
         },
         {
           "id": "5388-2026/5/19-12",
@@ -1131,7 +1131,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.364Z"
+          "updatedAt": "2026-05-22T13:07:24.495Z"
         },
         {
           "id": "1503-2026/5/18-13",
@@ -1158,7 +1158,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.364Z"
+          "updatedAt": "2026-05-22T13:07:24.497Z"
         },
         {
           "id": "6414-2026/5/18-14",
@@ -1185,7 +1185,7 @@
           "reachedDays": 4,
           "sourceTargetReached": true,
           "sourceReachedDays": 4,
-          "updatedAt": "2026-05-22T12:56:44.368Z"
+          "updatedAt": "2026-05-22T13:07:24.497Z"
         },
         {
           "id": "2890-2026/5/18-15",
@@ -1212,7 +1212,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.369Z"
+          "updatedAt": "2026-05-22T13:07:24.627Z"
         },
         {
           "id": "6177-2026/5/18-16",
@@ -1239,7 +1239,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.367Z"
+          "updatedAt": "2026-05-22T13:07:24.712Z"
         },
         {
           "id": "8462-2026/5/15-17",
@@ -1266,7 +1266,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.370Z"
+          "updatedAt": "2026-05-22T13:07:24.500Z"
         },
         {
           "id": "2034-2026/5/15-18",
@@ -1293,7 +1293,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.370Z"
+          "updatedAt": "2026-05-22T13:07:24.580Z"
         },
         {
           "id": "1326-2026/5/15-19",
@@ -1320,7 +1320,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.407Z"
+          "updatedAt": "2026-05-22T13:07:24.502Z"
         },
         {
           "id": "2480-2026/5/15-20",
@@ -1347,7 +1347,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.371Z"
+          "updatedAt": "2026-05-22T13:07:24.553Z"
         },
         {
           "id": "6664-2026/5/15-21",
@@ -1374,7 +1374,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.372Z"
+          "updatedAt": "2026-05-22T13:07:24.626Z"
         },
         {
           "id": "2327-2026/5/15-22",
@@ -1401,7 +1401,7 @@
           "reachedDays": 0,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.408Z"
+          "updatedAt": "2026-05-22T13:07:24.504Z"
         },
         {
           "id": "2317-2026/5/15-23",
@@ -1428,7 +1428,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.388Z"
+          "updatedAt": "2026-05-22T13:07:24.505Z"
         },
         {
           "id": "2515-2026/5/15-24",
@@ -1455,7 +1455,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.389Z"
+          "updatedAt": "2026-05-22T13:07:24.507Z"
         },
         {
           "id": "2891-2026/5/15-25",
@@ -1482,7 +1482,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.364Z"
+          "updatedAt": "2026-05-22T13:07:24.490Z"
         },
         {
           "id": "5534-2026/5/15-26",
@@ -1509,7 +1509,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.388Z"
+          "updatedAt": "2026-05-22T13:07:24.507Z"
         },
         {
           "id": "7769-2026/5/14-27",
@@ -1536,7 +1536,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.390Z"
+          "updatedAt": "2026-05-22T13:07:24.487Z"
         },
         {
           "id": "6223-2026/5/14-28",
@@ -1563,7 +1563,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.395Z"
+          "updatedAt": "2026-05-22T13:07:24.549Z"
         },
         {
           "id": "2762-2026/5/14-29",
@@ -1590,7 +1590,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.397Z"
+          "updatedAt": "2026-05-22T13:07:24.551Z"
         },
         {
           "id": "4571-2026/5/14-30",
@@ -1617,7 +1617,7 @@
           "reachedDays": 1,
           "sourceTargetReached": true,
           "sourceReachedDays": 1,
-          "updatedAt": "2026-05-22T12:56:44.392Z"
+          "updatedAt": "2026-05-22T13:07:24.550Z"
         },
         {
           "id": "6531-2026/5/13-31",
@@ -1644,7 +1644,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.393Z"
+          "updatedAt": "2026-05-22T13:07:24.550Z"
         },
         {
           "id": "4966-2026/5/13-32",
@@ -1671,7 +1671,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.395Z"
+          "updatedAt": "2026-05-22T13:07:24.652Z"
         },
         {
           "id": "2615-2026/5/13-33",
@@ -1698,7 +1698,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.394Z"
+          "updatedAt": "2026-05-22T13:07:24.641Z"
         },
         {
           "id": "7750-2026/5/13-34",
@@ -1725,7 +1725,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.396Z"
+          "updatedAt": "2026-05-22T13:07:24.551Z"
         },
         {
           "id": "6166-2026/5/13-35",
@@ -1752,7 +1752,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.396Z"
+          "updatedAt": "2026-05-22T13:07:24.651Z"
         },
         {
           "id": "3702-2026/5/13-36",
@@ -1779,7 +1779,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.362Z"
+          "updatedAt": "2026-05-22T13:07:24.465Z"
         },
         {
           "id": "2404-2026/5/13-37",
@@ -1806,7 +1806,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.413Z"
+          "updatedAt": "2026-05-22T13:07:24.543Z"
         },
         {
           "id": "5536-2026/5/13-38",
@@ -1833,7 +1833,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.397Z"
+          "updatedAt": "2026-05-22T13:07:24.545Z"
         },
         {
           "id": "1605-2026/5/12-39",
@@ -1860,7 +1860,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.428Z"
+          "updatedAt": "2026-05-22T13:07:24.651Z"
         },
         {
           "id": "8069-2026/5/12-40",
@@ -1887,7 +1887,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.435Z"
+          "updatedAt": "2026-05-22T13:07:24.545Z"
         },
         {
           "id": "2049-2026/5/12-41",
@@ -1914,7 +1914,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.409Z"
+          "updatedAt": "2026-05-22T13:07:24.545Z"
         },
         {
           "id": "6415-2026/5/12-42",
@@ -1941,7 +1941,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.425Z"
+          "updatedAt": "2026-05-22T13:07:24.546Z"
         },
         {
           "id": "2385-2026/5/12-43",
@@ -1968,7 +1968,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.433Z"
+          "updatedAt": "2026-05-22T13:07:24.546Z"
         },
         {
           "id": "4566-2026/5/12-44",
@@ -1995,7 +1995,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.427Z"
+          "updatedAt": "2026-05-22T13:07:24.547Z"
         },
         {
           "id": "7734-2026/5/12-45",
@@ -2022,7 +2022,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.423Z"
+          "updatedAt": "2026-05-22T13:07:24.548Z"
         },
         {
           "id": "3680-2026/5/12-46",
@@ -2049,7 +2049,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.467Z"
+          "updatedAt": "2026-05-22T13:07:24.548Z"
         },
         {
           "id": "4961-2026/5/12-47",
@@ -2076,7 +2076,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.448Z"
+          "updatedAt": "2026-05-22T13:07:24.548Z"
         },
         {
           "id": "2408-2026/5/12-48",
@@ -2103,7 +2103,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.439Z"
+          "updatedAt": "2026-05-22T13:07:24.652Z"
         },
         {
           "id": "1802-2026/5/12-49",
@@ -2130,7 +2130,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.443Z"
+          "updatedAt": "2026-05-22T13:07:24.549Z"
         },
         {
           "id": "4551-2026/5/11-50",
@@ -2157,7 +2157,7 @@
           "reachedDays": 1,
           "sourceTargetReached": true,
           "sourceReachedDays": 1,
-          "updatedAt": "2026-05-22T12:56:44.410Z"
+          "updatedAt": "2026-05-22T13:07:24.629Z"
         },
         {
           "id": "6829-2026/5/11-51",
@@ -2184,7 +2184,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.418Z"
+          "updatedAt": "2026-05-22T13:07:24.629Z"
         },
         {
           "id": "2344-2026/5/11-52",
@@ -2211,7 +2211,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.478Z"
+          "updatedAt": "2026-05-22T13:07:24.660Z"
         },
         {
           "id": "3596-2026/5/11-53",
@@ -2238,7 +2238,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.435Z"
+          "updatedAt": "2026-05-22T13:07:24.630Z"
         },
         {
           "id": "2049-2026/5/11-54",
@@ -2265,7 +2265,7 @@
           "reachedDays": 1,
           "sourceTargetReached": true,
           "sourceReachedDays": 1,
-          "updatedAt": "2026-05-22T12:56:44.409Z"
+          "updatedAt": "2026-05-22T13:07:24.545Z"
         },
         {
           "id": "2451-2026/5/11-55",
@@ -2292,7 +2292,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.455Z"
+          "updatedAt": "2026-05-22T13:07:24.675Z"
         },
         {
           "id": "8210-2026/5/11-56",
@@ -2319,7 +2319,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.458Z"
+          "updatedAt": "2026-05-22T13:07:24.631Z"
         },
         {
           "id": "1519-2026/5/11-57",
@@ -2346,7 +2346,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.449Z"
+          "updatedAt": "2026-05-22T13:07:24.632Z"
         },
         {
           "id": "5289-2026/5/11-58",
@@ -2373,7 +2373,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.458Z"
+          "updatedAt": "2026-05-22T13:07:24.639Z"
         },
         {
           "id": "2395-2026/5/8-59",
@@ -2400,7 +2400,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.457Z"
+          "updatedAt": "2026-05-22T13:07:24.659Z"
         },
         {
           "id": "6285-2026/5/8-60",
@@ -2427,7 +2427,7 @@
           "reachedDays": 2,
           "sourceTargetReached": true,
           "sourceReachedDays": 2,
-          "updatedAt": "2026-05-22T12:56:44.460Z"
+          "updatedAt": "2026-05-22T13:07:24.638Z"
         },
         {
           "id": "3034-2026/5/8-61",
@@ -2454,7 +2454,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.459Z"
+          "updatedAt": "2026-05-22T13:07:24.639Z"
         },
         {
           "id": "6526-2026/5/8-62",
@@ -2481,7 +2481,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.438Z"
+          "updatedAt": "2026-05-22T13:07:24.651Z"
         },
         {
           "id": "2383-2026/5/8-63",
@@ -2508,7 +2508,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.464Z"
+          "updatedAt": "2026-05-22T13:07:24.640Z"
         },
         {
           "id": "2303-2026/5/8-64",
@@ -2535,7 +2535,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.479Z"
+          "updatedAt": "2026-05-22T13:07:24.653Z"
         },
         {
           "id": "2606-2026/5/7-65",
@@ -2562,7 +2562,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.466Z"
+          "updatedAt": "2026-05-22T13:07:24.717Z"
         },
         {
           "id": "3260-2026/5/7-66",
@@ -2589,7 +2589,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.462Z"
+          "updatedAt": "2026-05-22T13:07:24.697Z"
         },
         {
           "id": "5388-2026/5/7-67",
@@ -2616,7 +2616,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.364Z"
+          "updatedAt": "2026-05-22T13:07:24.495Z"
         },
         {
           "id": "8299-2026/5/7-68",
@@ -2643,7 +2643,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.483Z"
+          "updatedAt": "2026-05-22T13:07:24.654Z"
         },
         {
           "id": "3661-2026/5/7-69",
@@ -2670,7 +2670,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.357Z"
+          "updatedAt": "2026-05-22T13:07:24.654Z"
         },
         {
           "id": "2884-2026/5/7-70",
@@ -2697,7 +2697,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.357Z"
+          "updatedAt": "2026-05-22T13:07:24.654Z"
         },
         {
           "id": "3162-2026/5/6-71",
@@ -2724,7 +2724,7 @@
           "reachedDays": 1,
           "sourceTargetReached": true,
           "sourceReachedDays": 1,
-          "updatedAt": "2026-05-22T12:56:44.401Z"
+          "updatedAt": "2026-05-22T13:07:24.655Z"
         },
         {
           "id": "4540-2026/5/6-72",
@@ -2751,7 +2751,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.401Z"
+          "updatedAt": "2026-05-22T13:07:24.691Z"
         },
         {
           "id": "4991-2026/5/6-73",
@@ -2778,7 +2778,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.402Z"
+          "updatedAt": "2026-05-22T13:07:24.657Z"
         },
         {
           "id": "3044-2026/5/6-74",
@@ -2805,7 +2805,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.402Z"
+          "updatedAt": "2026-05-22T13:07:24.656Z"
         },
         {
           "id": "5347-2026/5/6-75",
@@ -2832,7 +2832,7 @@
           "reachedDays": 1,
           "sourceTargetReached": true,
           "sourceReachedDays": 1,
-          "updatedAt": "2026-05-22T12:56:44.411Z"
+          "updatedAt": "2026-05-22T13:07:24.657Z"
         },
         {
           "id": "3264-2026/5/5-76",
@@ -2859,7 +2859,7 @@
           "reachedDays": 1,
           "sourceTargetReached": true,
           "sourceReachedDays": 1,
-          "updatedAt": "2026-05-22T12:56:44.403Z"
+          "updatedAt": "2026-05-22T13:07:24.666Z"
         },
         {
           "id": "2449-2026/5/5-77",
@@ -2886,7 +2886,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.404Z"
+          "updatedAt": "2026-05-22T13:07:24.663Z"
         },
         {
           "id": "2360-2026/5/5-78",
@@ -2913,7 +2913,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.434Z"
+          "updatedAt": "2026-05-22T13:07:24.686Z"
         },
         {
           "id": "2454-2026/5/5-79",
@@ -2940,7 +2940,7 @@
           "reachedDays": 4,
           "sourceTargetReached": true,
           "sourceReachedDays": 4,
-          "updatedAt": "2026-05-22T12:56:44.412Z"
+          "updatedAt": "2026-05-22T13:07:24.679Z"
         },
         {
           "id": "4979-2026/5/5-80",
@@ -2967,7 +2967,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.403Z"
+          "updatedAt": "2026-05-22T13:07:24.664Z"
         },
         {
           "id": "2345-2026/5/5-81",
@@ -2994,7 +2994,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.452Z"
+          "updatedAt": "2026-05-22T13:07:24.674Z"
         },
         {
           "id": "3105-2026/5/4-82",
@@ -3021,7 +3021,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.486Z"
+          "updatedAt": "2026-05-22T13:07:24.671Z"
         },
         {
           "id": "2480-2026/5/4-83",
@@ -3048,7 +3048,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.371Z"
+          "updatedAt": "2026-05-22T13:07:24.553Z"
         },
         {
           "id": "8996-2026/5/4-84",
@@ -3075,7 +3075,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.516Z"
+          "updatedAt": "2026-05-22T13:07:24.668Z"
         },
         {
           "id": "2439-2026/5/4-85",
@@ -3102,14 +3102,1067 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.494Z"
+          "updatedAt": "2026-05-22T13:07:24.693Z"
         }
       ]
     },
     {
-      "id": "ai",
-      "name": "AI",
-      "source": "data/watchlists/AI.csv",
+      "id": "discord",
+      "name": "Discord",
+      "source": "data/watchlists/Discord.csv",
+      "recommendations": [
+        {
+          "id": "6209-2026/5/22-0",
+          "date": "2026/5/22",
+          "symbol": "6209",
+          "targetPrice": 120,
+          "recommender": "Donthitjisoo",
+          "sourceTargetReached": false,
+          "sourceReachedDays": null
+        },
+        {
+          "id": "6290-2026/5/15-1",
+          "date": "2026/5/15",
+          "symbol": "6290",
+          "targetPrice": 300,
+          "recommender": "Donthitjisoo",
+          "sourceTargetReached": false,
+          "sourceReachedDays": null
+        },
+        {
+          "id": "6862-2026/5/15-2",
+          "date": "2026/5/15",
+          "symbol": "6862",
+          "targetPrice": 210,
+          "recommender": "Donthitjisoo",
+          "sourceTargetReached": false,
+          "sourceReachedDays": null
+        },
+        {
+          "id": "3665-2026/5/15-3",
+          "date": "2026/5/15",
+          "symbol": "3665",
+          "targetPrice": 3000,
+          "recommender": "Donthitjisoo",
+          "sourceTargetReached": false,
+          "sourceReachedDays": null
+        },
+        {
+          "id": "3008-2026/5/15-4",
+          "date": "2026/5/15",
+          "symbol": "3008",
+          "targetPrice": 7000,
+          "recommender": "Donthitjisoo",
+          "sourceTargetReached": false,
+          "sourceReachedDays": null
+        },
+        {
+          "id": "5328-2026/5/14-5",
+          "date": "2026/5/14",
+          "symbol": "5328",
+          "targetPrice": 35,
+          "recommender": "Donthitjisoo",
+          "sourceTargetReached": false,
+          "sourceReachedDays": null
+        },
+        {
+          "id": "3090-2026/5/14-6",
+          "date": "2026/5/14",
+          "symbol": "3090",
+          "targetPrice": 160,
+          "recommender": "Donthitjisoo",
+          "sourceTargetReached": false,
+          "sourceReachedDays": null
+        },
+        {
+          "id": "2472-2026/5/12-7",
+          "date": "2026/5/12",
+          "symbol": "2472",
+          "targetPrice": 300,
+          "recommender": "Donthitjisoo",
+          "sourceTargetReached": false,
+          "sourceReachedDays": null
+        },
+        {
+          "id": "5269-2026/5/12-8",
+          "date": "2026/5/12",
+          "symbol": "5269",
+          "targetPrice": 1800,
+          "recommender": "Donthitjisoo",
+          "sourceTargetReached": false,
+          "sourceReachedDays": null
+        },
+        {
+          "id": "7769-2026/5/12-9",
+          "date": "2026/5/12",
+          "symbol": "7769",
+          "targetPrice": 8000,
+          "recommender": "Donthitjisoo",
+          "sourceTargetReached": false,
+          "sourceReachedDays": null
+        },
+        {
+          "id": "8299-2026/5/9-10",
+          "date": "2026/5/9",
+          "symbol": "8299",
+          "targetPrice": 3000,
+          "recommender": "Gaeulisautumn",
+          "sourceTargetReached": false,
+          "sourceReachedDays": null
+        },
+        {
+          "id": "5289-2026/5/9-11",
+          "date": "2026/5/9",
+          "symbol": "5289",
+          "targetPrice": 2000,
+          "recommender": "Gaeulisautumn",
+          "sourceTargetReached": false,
+          "sourceReachedDays": null
+        },
+        {
+          "id": "3376-2026/5/9-12",
+          "date": "2026/5/9",
+          "symbol": "3376",
+          "targetPrice": 240,
+          "recommender": "Donthitjisoo",
+          "sourceTargetReached": false,
+          "sourceReachedDays": null
+        },
+        {
+          "id": "2454-2026/5/9-13",
+          "date": "2026/5/9",
+          "symbol": "2454",
+          "targetPrice": 5000,
+          "recommender": "Donthitjisoo",
+          "sourceTargetReached": true,
+          "sourceReachedDays": 3
+        },
+        {
+          "id": "2395-2026/5/6-14",
+          "date": "2026/5/6",
+          "symbol": "2395",
+          "targetPrice": 520,
+          "recommender": "Donthitjisoo",
+          "sourceTargetReached": true,
+          "sourceReachedDays": 1
+        },
+        {
+          "id": "3443-2026/5/6-15",
+          "date": "2026/5/6",
+          "symbol": "3443",
+          "targetPrice": 6666,
+          "recommender": "Donthitjisoo",
+          "sourceTargetReached": true,
+          "sourceReachedDays": 6
+        },
+        {
+          "id": "3443-2026/4/27-16",
+          "date": "2026/4/27",
+          "symbol": "3443",
+          "targetPrice": 4600,
+          "recommender": "Donthitjisoo",
+          "sourceTargetReached": true,
+          "sourceReachedDays": 5
+        },
+        {
+          "id": "4967-2026/4/27-17",
+          "date": "2026/4/27",
+          "symbol": "4967",
+          "targetPrice": 1888,
+          "recommender": "Gaeulisautumn",
+          "sourceTargetReached": true,
+          "sourceReachedDays": 13
+        },
+        {
+          "id": "2330-2026/4/27-18",
+          "date": "2026/4/27",
+          "symbol": "2330",
+          "targetPrice": 2450,
+          "recommender": "Donthitjisoo",
+          "sourceTargetReached": true,
+          "sourceReachedDays": 13
+        },
+        {
+          "id": "8271-2026/4/27-19",
+          "date": "2026/4/27",
+          "symbol": "8271",
+          "targetPrice": 1000,
+          "recommender": "Gaeulisautumn",
+          "sourceTargetReached": true,
+          "sourceReachedDays": 13
+        },
+        {
+          "id": "5904-2026/4/27-20",
+          "date": "2026/4/27",
+          "symbol": "5904",
+          "targetPrice": 630,
+          "recommender": "Gaeulisautumn",
+          "sourceTargetReached": true,
+          "sourceReachedDays": 13
+        },
+        {
+          "id": "6187-2026/4/27-21",
+          "date": "2026/4/27",
+          "symbol": "6187",
+          "targetPrice": 1500,
+          "recommender": "chouyk",
+          "sourceTargetReached": true,
+          "sourceReachedDays": 13
+        },
+        {
+          "id": "6789-2026/4/25-22",
+          "date": "2026/4/25",
+          "symbol": "6789",
+          "targetPrice": 800,
+          "recommender": "Gaeulisautumn",
+          "sourceTargetReached": true,
+          "sourceReachedDays": 13
+        },
+        {
+          "id": "6449-2026/4/25-23",
+          "date": "2026/4/25",
+          "symbol": "6449",
+          "targetPrice": 185,
+          "recommender": "Gaeulisautumn",
+          "sourceTargetReached": true,
+          "sourceReachedDays": 9
+        },
+        {
+          "id": "4958-2026/4/24-24",
+          "date": "2026/4/24",
+          "symbol": "4958",
+          "targetPrice": 420,
+          "recommender": "Donthitjisoo",
+          "sourceTargetReached": true,
+          "sourceReachedDays": 4
+        },
+        {
+          "id": "2330-2026/4/23-25",
+          "date": "2026/4/23",
+          "symbol": "2330",
+          "targetPrice": 2330,
+          "recommender": "Donthitjisoo",
+          "sourceTargetReached": true,
+          "sourceReachedDays": 2
+        },
+        {
+          "id": "2308-2026/4/23-26",
+          "date": "2026/4/23",
+          "symbol": "2308",
+          "targetPrice": 2310,
+          "recommender": "Donthitjisoo",
+          "sourceTargetReached": true,
+          "sourceReachedDays": 3
+        },
+        {
+          "id": "5340-2026/4/23-27",
+          "date": "2026/4/23",
+          "symbol": "5340",
+          "targetPrice": 118,
+          "recommender": "Donthitjisoo",
+          "sourceTargetReached": true,
+          "sourceReachedDays": 3
+        },
+        {
+          "id": "4979-2026/4/23-28",
+          "date": "2026/4/23",
+          "symbol": "4979",
+          "targetPrice": 700,
+          "recommender": "Donthitjisoo",
+          "sourceTargetReached": true,
+          "sourceReachedDays": 3
+        }
+      ],
+      "stocks": [
+        {
+          "id": "6209-2026/5/22-0",
+          "date": "2026/5/22",
+          "symbol": "6209",
+          "name": "今國光",
+          "market": "TWSE",
+          "marketName": "上市",
+          "yahooSymbol": "6209.TW",
+          "recommender": "Donthitjisoo",
+          "targetPrice": 120,
+          "recommendedPrice": 85.8,
+          "currentPrice": 85.8,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": 39.86013986013987,
+          "potentialReturnPct": 39.86013986013987,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": 39.86013986013987,
+          "elapsedTradingDays": 0,
+          "targetReached": false,
+          "reachedDays": null,
+          "sourceTargetReached": false,
+          "sourceReachedDays": null,
+          "updatedAt": "2026-05-22T13:07:24.682Z"
+        },
+        {
+          "id": "6290-2026/5/15-1",
+          "date": "2026/5/15",
+          "symbol": "6290",
+          "name": "良維",
+          "market": "TPEX",
+          "marketName": "上櫃",
+          "yahooSymbol": "6290.TWO",
+          "recommender": "Donthitjisoo",
+          "targetPrice": 300,
+          "recommendedPrice": 278,
+          "currentPrice": 278,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": 7.913669064748201,
+          "potentialReturnPct": 7.913669064748201,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": 7.913669064748201,
+          "elapsedTradingDays": 0,
+          "targetReached": false,
+          "reachedDays": null,
+          "sourceTargetReached": false,
+          "sourceReachedDays": null,
+          "updatedAt": "2026-05-22T13:07:24.682Z"
+        },
+        {
+          "id": "6862-2026/5/15-2",
+          "date": "2026/5/15",
+          "symbol": "6862",
+          "name": "三集瑞-KY",
+          "market": "TWSE",
+          "marketName": "上市",
+          "yahooSymbol": "6862.TW",
+          "recommender": "Donthitjisoo",
+          "targetPrice": 210,
+          "recommendedPrice": 189,
+          "currentPrice": 189,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": 11.11111111111111,
+          "potentialReturnPct": 11.11111111111111,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": 11.11111111111111,
+          "elapsedTradingDays": 0,
+          "targetReached": false,
+          "reachedDays": null,
+          "sourceTargetReached": false,
+          "sourceReachedDays": null,
+          "updatedAt": "2026-05-22T13:07:24.665Z"
+        },
+        {
+          "id": "3665-2026/5/15-3",
+          "date": "2026/5/15",
+          "symbol": "3665",
+          "name": "貿聯-KY",
+          "market": "TWSE",
+          "marketName": "上市",
+          "yahooSymbol": "3665.TW",
+          "recommender": "Donthitjisoo",
+          "targetPrice": 3000,
+          "recommendedPrice": 2225,
+          "currentPrice": 2225,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": 34.831460674157306,
+          "potentialReturnPct": 34.831460674157306,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": 34.831460674157306,
+          "elapsedTradingDays": 0,
+          "targetReached": false,
+          "reachedDays": null,
+          "sourceTargetReached": false,
+          "sourceReachedDays": null,
+          "updatedAt": "2026-05-22T13:07:24.677Z"
+        },
+        {
+          "id": "3008-2026/5/15-4",
+          "date": "2026/5/15",
+          "symbol": "3008",
+          "name": "大立光",
+          "market": "TWSE",
+          "marketName": "上市",
+          "yahooSymbol": "3008.TW",
+          "recommender": "Donthitjisoo",
+          "targetPrice": 7000,
+          "recommendedPrice": 3540,
+          "currentPrice": 3540,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": 97.74011299435028,
+          "potentialReturnPct": 97.74011299435028,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": 97.74011299435028,
+          "elapsedTradingDays": 0,
+          "targetReached": false,
+          "reachedDays": null,
+          "sourceTargetReached": false,
+          "sourceReachedDays": null,
+          "updatedAt": "2026-05-22T13:07:24.703Z"
+        },
+        {
+          "id": "5328-2026/5/14-5",
+          "date": "2026/5/14",
+          "symbol": "5328",
+          "name": "華容",
+          "market": "TPEX",
+          "marketName": "上櫃",
+          "yahooSymbol": "5328.TWO",
+          "recommender": "Donthitjisoo",
+          "targetPrice": 35,
+          "recommendedPrice": 35.5,
+          "currentPrice": 35.5,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": -1.4084507042253522,
+          "potentialReturnPct": -1.4084507042253522,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": -1.4084507042253522,
+          "elapsedTradingDays": 0,
+          "targetReached": true,
+          "reachedDays": 0,
+          "sourceTargetReached": false,
+          "sourceReachedDays": null,
+          "updatedAt": "2026-05-22T13:07:24.745Z"
+        },
+        {
+          "id": "3090-2026/5/14-6",
+          "date": "2026/5/14",
+          "symbol": "3090",
+          "name": "日電貿",
+          "market": "TWSE",
+          "marketName": "上市",
+          "yahooSymbol": "3090.TW",
+          "recommender": "Donthitjisoo",
+          "targetPrice": 160,
+          "recommendedPrice": 215,
+          "currentPrice": 215,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": -25.581395348837212,
+          "potentialReturnPct": -25.581395348837212,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": -25.581395348837212,
+          "elapsedTradingDays": 0,
+          "targetReached": true,
+          "reachedDays": 0,
+          "sourceTargetReached": false,
+          "sourceReachedDays": null,
+          "updatedAt": "2026-05-22T13:07:24.695Z"
+        },
+        {
+          "id": "2472-2026/5/12-7",
+          "date": "2026/5/12",
+          "symbol": "2472",
+          "name": "立隆電",
+          "market": "TWSE",
+          "marketName": "上市",
+          "yahooSymbol": "2472.TW",
+          "recommender": "Donthitjisoo",
+          "targetPrice": 300,
+          "recommendedPrice": 260,
+          "currentPrice": 260,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": 15.384615384615385,
+          "potentialReturnPct": 15.384615384615385,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": 15.384615384615385,
+          "elapsedTradingDays": 0,
+          "targetReached": false,
+          "reachedDays": null,
+          "sourceTargetReached": false,
+          "sourceReachedDays": null,
+          "updatedAt": "2026-05-22T13:07:24.690Z"
+        },
+        {
+          "id": "5269-2026/5/12-8",
+          "date": "2026/5/12",
+          "symbol": "5269",
+          "name": "祥碩",
+          "market": "TWSE",
+          "marketName": "上市",
+          "yahooSymbol": "5269.TW",
+          "recommender": "Donthitjisoo",
+          "targetPrice": 1800,
+          "recommendedPrice": 1480,
+          "currentPrice": 1480,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": 21.62162162162162,
+          "potentialReturnPct": 21.62162162162162,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": 21.62162162162162,
+          "elapsedTradingDays": 0,
+          "targetReached": false,
+          "reachedDays": null,
+          "sourceTargetReached": false,
+          "sourceReachedDays": null,
+          "updatedAt": "2026-05-22T13:07:24.686Z"
+        },
+        {
+          "id": "7769-2026/5/12-9",
+          "date": "2026/5/12",
+          "symbol": "7769",
+          "name": "鴻勁",
+          "market": "TWSE",
+          "marketName": "上市",
+          "yahooSymbol": "7769.TW",
+          "recommender": "Donthitjisoo",
+          "targetPrice": 8000,
+          "recommendedPrice": 7730,
+          "currentPrice": 7730,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": 3.4928848641655885,
+          "potentialReturnPct": 3.4928848641655885,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": 3.4928848641655885,
+          "elapsedTradingDays": 0,
+          "targetReached": false,
+          "reachedDays": null,
+          "sourceTargetReached": false,
+          "sourceReachedDays": null,
+          "updatedAt": "2026-05-22T13:07:24.487Z"
+        },
+        {
+          "id": "8299-2026/5/9-10",
+          "date": "2026/5/9",
+          "symbol": "8299",
+          "name": "群聯",
+          "market": "TPEX",
+          "marketName": "上櫃",
+          "yahooSymbol": "8299.TWO",
+          "recommender": "Gaeulisautumn",
+          "targetPrice": 3000,
+          "recommendedPrice": 2430,
+          "currentPrice": 2430,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": 23.456790123456788,
+          "potentialReturnPct": 23.456790123456788,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": 23.456790123456788,
+          "elapsedTradingDays": 0,
+          "targetReached": false,
+          "reachedDays": null,
+          "sourceTargetReached": false,
+          "sourceReachedDays": null,
+          "updatedAt": "2026-05-22T13:07:24.654Z"
+        },
+        {
+          "id": "5289-2026/5/9-11",
+          "date": "2026/5/9",
+          "symbol": "5289",
+          "name": "宜鼎",
+          "market": "TPEX",
+          "marketName": "上櫃",
+          "yahooSymbol": "5289.TWO",
+          "recommender": "Gaeulisautumn",
+          "targetPrice": 2000,
+          "recommendedPrice": 1725,
+          "currentPrice": 1725,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": 15.942028985507244,
+          "potentialReturnPct": 15.942028985507244,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": 15.942028985507244,
+          "elapsedTradingDays": 0,
+          "targetReached": false,
+          "reachedDays": null,
+          "sourceTargetReached": false,
+          "sourceReachedDays": null,
+          "updatedAt": "2026-05-22T13:07:24.639Z"
+        },
+        {
+          "id": "3376-2026/5/9-12",
+          "date": "2026/5/9",
+          "symbol": "3376",
+          "name": "新日興",
+          "market": "TWSE",
+          "marketName": "上市",
+          "yahooSymbol": "3376.TW",
+          "recommender": "Donthitjisoo",
+          "targetPrice": 240,
+          "recommendedPrice": 210,
+          "currentPrice": 210,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": 14.285714285714285,
+          "potentialReturnPct": 14.285714285714285,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": 14.285714285714285,
+          "elapsedTradingDays": 0,
+          "targetReached": false,
+          "reachedDays": null,
+          "sourceTargetReached": false,
+          "sourceReachedDays": null,
+          "updatedAt": "2026-05-22T13:07:24.695Z"
+        },
+        {
+          "id": "2454-2026/5/9-13",
+          "date": "2026/5/9",
+          "symbol": "2454",
+          "name": "聯發科",
+          "market": "TWSE",
+          "marketName": "上市",
+          "yahooSymbol": "2454.TW",
+          "recommender": "Donthitjisoo",
+          "targetPrice": 5000,
+          "recommendedPrice": 3860,
+          "currentPrice": 3860,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": 29.533678756476682,
+          "potentialReturnPct": 29.533678756476682,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": 29.533678756476682,
+          "elapsedTradingDays": 0,
+          "targetReached": true,
+          "reachedDays": 3,
+          "sourceTargetReached": true,
+          "sourceReachedDays": 3,
+          "updatedAt": "2026-05-22T13:07:24.679Z"
+        },
+        {
+          "id": "2395-2026/5/6-14",
+          "date": "2026/5/6",
+          "symbol": "2395",
+          "name": "研華",
+          "market": "TWSE",
+          "marketName": "上市",
+          "yahooSymbol": "2395.TW",
+          "recommender": "Donthitjisoo",
+          "targetPrice": 520,
+          "recommendedPrice": 469,
+          "currentPrice": 469,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": 10.874200426439232,
+          "potentialReturnPct": 10.874200426439232,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": 10.874200426439232,
+          "elapsedTradingDays": 0,
+          "targetReached": true,
+          "reachedDays": 1,
+          "sourceTargetReached": true,
+          "sourceReachedDays": 1,
+          "updatedAt": "2026-05-22T13:07:24.659Z"
+        },
+        {
+          "id": "3443-2026/5/6-15",
+          "date": "2026/5/6",
+          "symbol": "3443",
+          "name": "創意",
+          "market": "TWSE",
+          "marketName": "上市",
+          "yahooSymbol": "3443.TW",
+          "recommender": "Donthitjisoo",
+          "targetPrice": 6666,
+          "recommendedPrice": 5140,
+          "currentPrice": 5140,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": 29.688715953307394,
+          "potentialReturnPct": 29.688715953307394,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": 29.688715953307394,
+          "elapsedTradingDays": 0,
+          "targetReached": true,
+          "reachedDays": 6,
+          "sourceTargetReached": true,
+          "sourceReachedDays": 6,
+          "updatedAt": "2026-05-22T13:07:24.467Z"
+        },
+        {
+          "id": "3443-2026/4/27-16",
+          "date": "2026/4/27",
+          "symbol": "3443",
+          "name": "創意",
+          "market": "TWSE",
+          "marketName": "上市",
+          "yahooSymbol": "3443.TW",
+          "recommender": "Donthitjisoo",
+          "targetPrice": 4600,
+          "recommendedPrice": 5140,
+          "currentPrice": 5140,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": -10.505836575875486,
+          "potentialReturnPct": -10.505836575875486,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": -10.505836575875486,
+          "elapsedTradingDays": 0,
+          "targetReached": true,
+          "reachedDays": 5,
+          "sourceTargetReached": true,
+          "sourceReachedDays": 5,
+          "updatedAt": "2026-05-22T13:07:24.467Z"
+        },
+        {
+          "id": "4967-2026/4/27-17",
+          "date": "2026/4/27",
+          "symbol": "4967",
+          "name": "十銓",
+          "market": "TWSE",
+          "marketName": "上市",
+          "yahooSymbol": "4967.TW",
+          "recommender": "Gaeulisautumn",
+          "targetPrice": 1888,
+          "recommendedPrice": 270.5,
+          "currentPrice": 270.5,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": 597.9667282809612,
+          "potentialReturnPct": 597.9667282809612,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": 597.9667282809612,
+          "elapsedTradingDays": 0,
+          "targetReached": true,
+          "reachedDays": 13,
+          "sourceTargetReached": true,
+          "sourceReachedDays": 13,
+          "updatedAt": "2026-05-22T13:07:24.812Z"
+        },
+        {
+          "id": "2330-2026/4/27-18",
+          "date": "2026/4/27",
+          "symbol": "2330",
+          "name": "台積電",
+          "market": "TWSE",
+          "marketName": "上市",
+          "yahooSymbol": "2330.TW",
+          "recommender": "Donthitjisoo",
+          "targetPrice": 2450,
+          "recommendedPrice": 2255,
+          "currentPrice": 2255,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": 8.647450110864744,
+          "potentialReturnPct": 8.647450110864744,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": 8.647450110864744,
+          "elapsedTradingDays": 0,
+          "targetReached": true,
+          "reachedDays": 13,
+          "sourceTargetReached": true,
+          "sourceReachedDays": 13,
+          "updatedAt": "2026-05-22T13:07:24.701Z"
+        },
+        {
+          "id": "8271-2026/4/27-19",
+          "date": "2026/4/27",
+          "symbol": "8271",
+          "name": "宇瞻",
+          "market": "TWSE",
+          "marketName": "上市",
+          "yahooSymbol": "8271.TW",
+          "recommender": "Gaeulisautumn",
+          "targetPrice": 1000,
+          "recommendedPrice": 224.5,
+          "currentPrice": 224.5,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": 345.43429844097994,
+          "potentialReturnPct": 345.43429844097994,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": 345.43429844097994,
+          "elapsedTradingDays": 0,
+          "targetReached": true,
+          "reachedDays": 13,
+          "sourceTargetReached": true,
+          "sourceReachedDays": 13,
+          "updatedAt": "2026-05-22T13:07:24.704Z"
+        },
+        {
+          "id": "5904-2026/4/27-20",
+          "date": "2026/4/27",
+          "symbol": "5904",
+          "name": "寶雅",
+          "market": "TPEX",
+          "marketName": "上櫃",
+          "yahooSymbol": "5904.TWO",
+          "recommender": "Gaeulisautumn",
+          "targetPrice": 630,
+          "recommendedPrice": 568,
+          "currentPrice": 568,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": 10.915492957746478,
+          "potentialReturnPct": 10.915492957746478,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": 10.915492957746478,
+          "elapsedTradingDays": 0,
+          "targetReached": true,
+          "reachedDays": 13,
+          "sourceTargetReached": true,
+          "sourceReachedDays": 13,
+          "updatedAt": "2026-05-22T13:07:24.710Z"
+        },
+        {
+          "id": "6187-2026/4/27-21",
+          "date": "2026/4/27",
+          "symbol": "6187",
+          "name": "萬潤",
+          "market": "TPEX",
+          "marketName": "上櫃",
+          "yahooSymbol": "6187.TWO",
+          "recommender": "chouyk",
+          "targetPrice": 1500,
+          "recommendedPrice": 1140,
+          "currentPrice": 1140,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": 31.57894736842105,
+          "potentialReturnPct": 31.57894736842105,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": 31.57894736842105,
+          "elapsedTradingDays": 0,
+          "targetReached": true,
+          "reachedDays": 13,
+          "sourceTargetReached": true,
+          "sourceReachedDays": 13,
+          "updatedAt": "2026-05-22T13:07:24.717Z"
+        },
+        {
+          "id": "6789-2026/4/25-22",
+          "date": "2026/4/25",
+          "symbol": "6789",
+          "name": "采鈺",
+          "market": "TWSE",
+          "marketName": "上市",
+          "yahooSymbol": "6789.TW",
+          "recommender": "Gaeulisautumn",
+          "targetPrice": 800,
+          "recommendedPrice": 556,
+          "currentPrice": 556,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": 43.884892086330936,
+          "potentialReturnPct": 43.884892086330936,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": 43.884892086330936,
+          "elapsedTradingDays": 0,
+          "targetReached": true,
+          "reachedDays": 13,
+          "sourceTargetReached": true,
+          "sourceReachedDays": 13,
+          "updatedAt": "2026-05-22T13:07:24.699Z"
+        },
+        {
+          "id": "6449-2026/4/25-23",
+          "date": "2026/4/25",
+          "symbol": "6449",
+          "name": "鈺邦",
+          "market": "TWSE",
+          "marketName": "上市",
+          "yahooSymbol": "6449.TW",
+          "recommender": "Gaeulisautumn",
+          "targetPrice": 185,
+          "recommendedPrice": 305.5,
+          "currentPrice": 305.5,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": -39.44353518821604,
+          "potentialReturnPct": -39.44353518821604,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": -39.44353518821604,
+          "elapsedTradingDays": 0,
+          "targetReached": true,
+          "reachedDays": 9,
+          "sourceTargetReached": true,
+          "sourceReachedDays": 9,
+          "updatedAt": "2026-05-22T13:07:24.714Z"
+        },
+        {
+          "id": "4958-2026/4/24-24",
+          "date": "2026/4/24",
+          "symbol": "4958",
+          "name": "臻鼎-KY",
+          "market": "TWSE",
+          "marketName": "上市",
+          "yahooSymbol": "4958.TW",
+          "recommender": "Donthitjisoo",
+          "targetPrice": 420,
+          "recommendedPrice": 516,
+          "currentPrice": 516,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": -18.6046511627907,
+          "potentialReturnPct": -18.6046511627907,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": -18.6046511627907,
+          "elapsedTradingDays": 0,
+          "targetReached": true,
+          "reachedDays": 4,
+          "sourceTargetReached": true,
+          "sourceReachedDays": 4,
+          "updatedAt": "2026-05-22T13:07:24.718Z"
+        },
+        {
+          "id": "2330-2026/4/23-25",
+          "date": "2026/4/23",
+          "symbol": "2330",
+          "name": "台積電",
+          "market": "TWSE",
+          "marketName": "上市",
+          "yahooSymbol": "2330.TW",
+          "recommender": "Donthitjisoo",
+          "targetPrice": 2330,
+          "recommendedPrice": 2255,
+          "currentPrice": 2255,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": 3.325942350332594,
+          "potentialReturnPct": 3.325942350332594,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": 3.325942350332594,
+          "elapsedTradingDays": 0,
+          "targetReached": true,
+          "reachedDays": 2,
+          "sourceTargetReached": true,
+          "sourceReachedDays": 2,
+          "updatedAt": "2026-05-22T13:07:24.701Z"
+        },
+        {
+          "id": "2308-2026/4/23-26",
+          "date": "2026/4/23",
+          "symbol": "2308",
+          "name": "台達電",
+          "market": "TWSE",
+          "marketName": "上市",
+          "yahooSymbol": "2308.TW",
+          "recommender": "Donthitjisoo",
+          "targetPrice": 2310,
+          "recommendedPrice": 2095,
+          "currentPrice": 2095,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": 10.26252983293556,
+          "potentialReturnPct": 10.26252983293556,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": 10.26252983293556,
+          "elapsedTradingDays": 0,
+          "targetReached": true,
+          "reachedDays": 3,
+          "sourceTargetReached": true,
+          "sourceReachedDays": 3,
+          "updatedAt": "2026-05-22T13:07:24.754Z"
+        },
+        {
+          "id": "5340-2026/4/23-27",
+          "date": "2026/4/23",
+          "symbol": "5340",
+          "name": "建榮",
+          "market": "TPEX",
+          "marketName": "上櫃",
+          "yahooSymbol": "5340.TWO",
+          "recommender": "Donthitjisoo",
+          "targetPrice": 118,
+          "recommendedPrice": 107.5,
+          "currentPrice": 107.5,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": 9.767441860465116,
+          "potentialReturnPct": 9.767441860465116,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": 9.767441860465116,
+          "elapsedTradingDays": 0,
+          "targetReached": true,
+          "reachedDays": 3,
+          "sourceTargetReached": true,
+          "sourceReachedDays": 3,
+          "updatedAt": "2026-05-22T13:07:24.733Z"
+        },
+        {
+          "id": "4979-2026/4/23-28",
+          "date": "2026/4/23",
+          "symbol": "4979",
+          "name": "華星光",
+          "market": "TPEX",
+          "marketName": "上櫃",
+          "yahooSymbol": "4979.TWO",
+          "recommender": "Donthitjisoo",
+          "targetPrice": 700,
+          "recommendedPrice": 630,
+          "currentPrice": 630,
+          "eps": null,
+          "pe": null,
+          "forwardPe": null,
+          "recommendationGapPct": 0,
+          "distanceToTargetPct": 11.11111111111111,
+          "potentialReturnPct": 11.11111111111111,
+          "instantReturnPct": 0,
+          "recommendationUpsidePct": 11.11111111111111,
+          "elapsedTradingDays": 0,
+          "targetReached": true,
+          "reachedDays": 3,
+          "sourceTargetReached": true,
+          "sourceReachedDays": 3,
+          "updatedAt": "2026-05-22T13:07:24.664Z"
+        }
+      ]
+    },
+    {
+      "id": "e7bea4e79b8ae68a95e9a1a7",
+      "name": "群益投顧",
+      "source": "data/watchlists/群益投顧.csv",
       "recommendations": [
         {
           "id": "2330-2026-05-22-0",
@@ -3156,7 +4209,7 @@
           "reachedDays": 1,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.509Z"
+          "updatedAt": "2026-05-22T13:07:24.701Z"
         },
         {
           "id": "3661-2026-05-22-1",
@@ -3183,88 +4236,7 @@
           "reachedDays": 7,
           "sourceTargetReached": true,
           "sourceReachedDays": 7,
-          "updatedAt": "2026-05-22T12:56:44.357Z"
-        }
-      ]
-    },
-    {
-      "id": "e58d8ae5b08ee9ab94",
-      "name": "半導體",
-      "source": "data/watchlists/半導體.csv",
-      "recommendations": [
-        {
-          "id": "2330-2026-05-22-0",
-          "date": "2026-05-22",
-          "symbol": "2330",
-          "targetPrice": 1180,
-          "recommender": "Tom",
-          "sourceTargetReached": false,
-          "sourceReachedDays": null
-        },
-        {
-          "id": "3661-2026-05-22-1",
-          "date": "2026-05-22",
-          "symbol": "3661",
-          "targetPrice": 520,
-          "recommender": "Alice",
-          "sourceTargetReached": true,
-          "sourceReachedDays": 7
-        }
-      ],
-      "stocks": [
-        {
-          "id": "2330-2026-05-22-0",
-          "date": "2026-05-22",
-          "symbol": "2330",
-          "name": "台積電",
-          "market": "TWSE",
-          "marketName": "上市",
-          "yahooSymbol": "2330.TW",
-          "recommender": "Tom",
-          "targetPrice": 1180,
-          "recommendedPrice": 2255,
-          "currentPrice": 2255,
-          "eps": null,
-          "pe": null,
-          "forwardPe": null,
-          "recommendationGapPct": 0,
-          "distanceToTargetPct": -47.671840354767184,
-          "potentialReturnPct": -47.671840354767184,
-          "instantReturnPct": 0,
-          "recommendationUpsidePct": -47.671840354767184,
-          "elapsedTradingDays": 1,
-          "targetReached": true,
-          "reachedDays": 1,
-          "sourceTargetReached": false,
-          "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:56:44.509Z"
-        },
-        {
-          "id": "3661-2026-05-22-1",
-          "date": "2026-05-22",
-          "symbol": "3661",
-          "name": "世芯-KY",
-          "market": "TWSE",
-          "marketName": "上市",
-          "yahooSymbol": "3661.TW",
-          "recommender": "Alice",
-          "targetPrice": 520,
-          "recommendedPrice": 4895,
-          "currentPrice": 4895,
-          "eps": null,
-          "pe": null,
-          "forwardPe": null,
-          "recommendationGapPct": 0,
-          "distanceToTargetPct": -89.37691521961185,
-          "potentialReturnPct": -89.37691521961185,
-          "instantReturnPct": 0,
-          "recommendationUpsidePct": -89.37691521961185,
-          "elapsedTradingDays": 1,
-          "targetReached": true,
-          "reachedDays": 7,
-          "sourceTargetReached": true,
-          "sourceReachedDays": 7,
-          "updatedAt": "2026-05-22T12:56:44.357Z"
+          "updatedAt": "2026-05-22T13:07:24.654Z"
         }
       ]
     }
@@ -3295,7 +4267,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.355Z",
+      "updatedAt": "2026-05-22T13:07:24.468Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3324,7 +4296,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.445Z",
+      "updatedAt": "2026-05-22T13:07:24.467Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3353,7 +4325,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.358Z",
+      "updatedAt": "2026-05-22T13:07:24.416Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3382,7 +4354,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.363Z",
+      "updatedAt": "2026-05-22T13:07:24.417Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3411,7 +4383,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.359Z",
+      "updatedAt": "2026-05-22T13:07:24.464Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3440,7 +4412,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.362Z",
+      "updatedAt": "2026-05-22T13:07:24.465Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3469,7 +4441,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.359Z",
+      "updatedAt": "2026-05-22T13:07:24.466Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3498,7 +4470,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.361Z",
+      "updatedAt": "2026-05-22T13:07:24.466Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3527,7 +4499,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.370Z",
+      "updatedAt": "2026-05-22T13:07:24.489Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3556,7 +4528,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.364Z",
+      "updatedAt": "2026-05-22T13:07:24.490Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3585,7 +4557,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.362Z",
+      "updatedAt": "2026-05-22T13:07:24.595Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3614,7 +4586,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.368Z",
+      "updatedAt": "2026-05-22T13:07:24.663Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3643,7 +4615,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.364Z",
+      "updatedAt": "2026-05-22T13:07:24.495Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3672,7 +4644,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.364Z",
+      "updatedAt": "2026-05-22T13:07:24.497Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3701,7 +4673,7 @@
       "reachedDays": 4,
       "sourceTargetReached": true,
       "sourceReachedDays": 4,
-      "updatedAt": "2026-05-22T12:56:44.368Z",
+      "updatedAt": "2026-05-22T13:07:24.497Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3730,7 +4702,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.369Z",
+      "updatedAt": "2026-05-22T13:07:24.627Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3759,7 +4731,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.367Z",
+      "updatedAt": "2026-05-22T13:07:24.712Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3788,7 +4760,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.370Z",
+      "updatedAt": "2026-05-22T13:07:24.500Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3817,7 +4789,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.370Z",
+      "updatedAt": "2026-05-22T13:07:24.580Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3846,7 +4818,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.407Z",
+      "updatedAt": "2026-05-22T13:07:24.502Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3875,7 +4847,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.371Z",
+      "updatedAt": "2026-05-22T13:07:24.553Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3904,7 +4876,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.372Z",
+      "updatedAt": "2026-05-22T13:07:24.626Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3933,7 +4905,7 @@
       "reachedDays": 0,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.408Z",
+      "updatedAt": "2026-05-22T13:07:24.504Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3962,7 +4934,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.388Z",
+      "updatedAt": "2026-05-22T13:07:24.505Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3991,7 +4963,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.389Z",
+      "updatedAt": "2026-05-22T13:07:24.507Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4020,7 +4992,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.364Z",
+      "updatedAt": "2026-05-22T13:07:24.490Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4049,7 +5021,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.388Z",
+      "updatedAt": "2026-05-22T13:07:24.507Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4078,7 +5050,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.390Z",
+      "updatedAt": "2026-05-22T13:07:24.487Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4107,7 +5079,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.395Z",
+      "updatedAt": "2026-05-22T13:07:24.549Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4136,7 +5108,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.397Z",
+      "updatedAt": "2026-05-22T13:07:24.551Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4165,7 +5137,7 @@
       "reachedDays": 1,
       "sourceTargetReached": true,
       "sourceReachedDays": 1,
-      "updatedAt": "2026-05-22T12:56:44.392Z",
+      "updatedAt": "2026-05-22T13:07:24.550Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4194,7 +5166,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.393Z",
+      "updatedAt": "2026-05-22T13:07:24.550Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4223,7 +5195,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.395Z",
+      "updatedAt": "2026-05-22T13:07:24.652Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4252,7 +5224,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.394Z",
+      "updatedAt": "2026-05-22T13:07:24.641Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4281,7 +5253,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.396Z",
+      "updatedAt": "2026-05-22T13:07:24.551Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4310,7 +5282,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.396Z",
+      "updatedAt": "2026-05-22T13:07:24.651Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4339,7 +5311,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.362Z",
+      "updatedAt": "2026-05-22T13:07:24.465Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4368,7 +5340,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.413Z",
+      "updatedAt": "2026-05-22T13:07:24.543Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4397,7 +5369,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.397Z",
+      "updatedAt": "2026-05-22T13:07:24.545Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4426,7 +5398,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.428Z",
+      "updatedAt": "2026-05-22T13:07:24.651Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4455,7 +5427,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.435Z",
+      "updatedAt": "2026-05-22T13:07:24.545Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4484,7 +5456,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.409Z",
+      "updatedAt": "2026-05-22T13:07:24.545Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4513,7 +5485,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.425Z",
+      "updatedAt": "2026-05-22T13:07:24.546Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4542,7 +5514,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.433Z",
+      "updatedAt": "2026-05-22T13:07:24.546Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4571,7 +5543,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.427Z",
+      "updatedAt": "2026-05-22T13:07:24.547Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4600,7 +5572,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.423Z",
+      "updatedAt": "2026-05-22T13:07:24.548Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4629,7 +5601,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.467Z",
+      "updatedAt": "2026-05-22T13:07:24.548Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4658,7 +5630,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.448Z",
+      "updatedAt": "2026-05-22T13:07:24.548Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4687,7 +5659,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.439Z",
+      "updatedAt": "2026-05-22T13:07:24.652Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4716,7 +5688,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.443Z",
+      "updatedAt": "2026-05-22T13:07:24.549Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4745,7 +5717,7 @@
       "reachedDays": 1,
       "sourceTargetReached": true,
       "sourceReachedDays": 1,
-      "updatedAt": "2026-05-22T12:56:44.410Z",
+      "updatedAt": "2026-05-22T13:07:24.629Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4774,7 +5746,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.418Z",
+      "updatedAt": "2026-05-22T13:07:24.629Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4803,7 +5775,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.478Z",
+      "updatedAt": "2026-05-22T13:07:24.660Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4832,7 +5804,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.435Z",
+      "updatedAt": "2026-05-22T13:07:24.630Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4861,7 +5833,7 @@
       "reachedDays": 1,
       "sourceTargetReached": true,
       "sourceReachedDays": 1,
-      "updatedAt": "2026-05-22T12:56:44.409Z",
+      "updatedAt": "2026-05-22T13:07:24.545Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4890,7 +5862,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.455Z",
+      "updatedAt": "2026-05-22T13:07:24.675Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4919,7 +5891,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.458Z",
+      "updatedAt": "2026-05-22T13:07:24.631Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4948,7 +5920,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.449Z",
+      "updatedAt": "2026-05-22T13:07:24.632Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4977,7 +5949,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.458Z",
+      "updatedAt": "2026-05-22T13:07:24.639Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5006,7 +5978,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.457Z",
+      "updatedAt": "2026-05-22T13:07:24.659Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5035,7 +6007,7 @@
       "reachedDays": 2,
       "sourceTargetReached": true,
       "sourceReachedDays": 2,
-      "updatedAt": "2026-05-22T12:56:44.460Z",
+      "updatedAt": "2026-05-22T13:07:24.638Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5064,7 +6036,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.459Z",
+      "updatedAt": "2026-05-22T13:07:24.639Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5093,7 +6065,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.438Z",
+      "updatedAt": "2026-05-22T13:07:24.651Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5122,7 +6094,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.464Z",
+      "updatedAt": "2026-05-22T13:07:24.640Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5151,7 +6123,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.479Z",
+      "updatedAt": "2026-05-22T13:07:24.653Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5180,7 +6152,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.466Z",
+      "updatedAt": "2026-05-22T13:07:24.717Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5209,7 +6181,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.462Z",
+      "updatedAt": "2026-05-22T13:07:24.697Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5238,7 +6210,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.364Z",
+      "updatedAt": "2026-05-22T13:07:24.495Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5267,7 +6239,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.483Z",
+      "updatedAt": "2026-05-22T13:07:24.654Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5296,7 +6268,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.357Z",
+      "updatedAt": "2026-05-22T13:07:24.654Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5325,7 +6297,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.357Z",
+      "updatedAt": "2026-05-22T13:07:24.654Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5354,7 +6326,7 @@
       "reachedDays": 1,
       "sourceTargetReached": true,
       "sourceReachedDays": 1,
-      "updatedAt": "2026-05-22T12:56:44.401Z",
+      "updatedAt": "2026-05-22T13:07:24.655Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5383,7 +6355,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.401Z",
+      "updatedAt": "2026-05-22T13:07:24.691Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5412,7 +6384,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.402Z",
+      "updatedAt": "2026-05-22T13:07:24.657Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5441,7 +6413,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.402Z",
+      "updatedAt": "2026-05-22T13:07:24.656Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5470,7 +6442,7 @@
       "reachedDays": 1,
       "sourceTargetReached": true,
       "sourceReachedDays": 1,
-      "updatedAt": "2026-05-22T12:56:44.411Z",
+      "updatedAt": "2026-05-22T13:07:24.657Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5499,7 +6471,7 @@
       "reachedDays": 1,
       "sourceTargetReached": true,
       "sourceReachedDays": 1,
-      "updatedAt": "2026-05-22T12:56:44.403Z",
+      "updatedAt": "2026-05-22T13:07:24.666Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5528,7 +6500,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.404Z",
+      "updatedAt": "2026-05-22T13:07:24.663Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5557,7 +6529,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.434Z",
+      "updatedAt": "2026-05-22T13:07:24.686Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5586,7 +6558,7 @@
       "reachedDays": 4,
       "sourceTargetReached": true,
       "sourceReachedDays": 4,
-      "updatedAt": "2026-05-22T12:56:44.412Z",
+      "updatedAt": "2026-05-22T13:07:24.679Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5615,7 +6587,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.403Z",
+      "updatedAt": "2026-05-22T13:07:24.664Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5644,7 +6616,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.452Z",
+      "updatedAt": "2026-05-22T13:07:24.674Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5673,7 +6645,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.486Z",
+      "updatedAt": "2026-05-22T13:07:24.671Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5702,7 +6674,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.371Z",
+      "updatedAt": "2026-05-22T13:07:24.553Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5731,7 +6703,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.516Z",
+      "updatedAt": "2026-05-22T13:07:24.668Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5760,11 +6732,852 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.494Z",
+      "updatedAt": "2026-05-22T13:07:24.693Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
     {
+      "id": "6209-2026/5/22-0",
+      "date": "2026/5/22",
+      "symbol": "6209",
+      "name": "今國光",
+      "market": "TWSE",
+      "marketName": "上市",
+      "yahooSymbol": "6209.TW",
+      "recommender": "Donthitjisoo",
+      "targetPrice": 120,
+      "recommendedPrice": 85.8,
+      "currentPrice": 85.8,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": 39.86013986013987,
+      "potentialReturnPct": 39.86013986013987,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": 39.86013986013987,
+      "elapsedTradingDays": 0,
+      "targetReached": false,
+      "reachedDays": null,
+      "sourceTargetReached": false,
+      "sourceReachedDays": null,
+      "updatedAt": "2026-05-22T13:07:24.682Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "6290-2026/5/15-1",
+      "date": "2026/5/15",
+      "symbol": "6290",
+      "name": "良維",
+      "market": "TPEX",
+      "marketName": "上櫃",
+      "yahooSymbol": "6290.TWO",
+      "recommender": "Donthitjisoo",
+      "targetPrice": 300,
+      "recommendedPrice": 278,
+      "currentPrice": 278,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": 7.913669064748201,
+      "potentialReturnPct": 7.913669064748201,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": 7.913669064748201,
+      "elapsedTradingDays": 0,
+      "targetReached": false,
+      "reachedDays": null,
+      "sourceTargetReached": false,
+      "sourceReachedDays": null,
+      "updatedAt": "2026-05-22T13:07:24.682Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "6862-2026/5/15-2",
+      "date": "2026/5/15",
+      "symbol": "6862",
+      "name": "三集瑞-KY",
+      "market": "TWSE",
+      "marketName": "上市",
+      "yahooSymbol": "6862.TW",
+      "recommender": "Donthitjisoo",
+      "targetPrice": 210,
+      "recommendedPrice": 189,
+      "currentPrice": 189,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": 11.11111111111111,
+      "potentialReturnPct": 11.11111111111111,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": 11.11111111111111,
+      "elapsedTradingDays": 0,
+      "targetReached": false,
+      "reachedDays": null,
+      "sourceTargetReached": false,
+      "sourceReachedDays": null,
+      "updatedAt": "2026-05-22T13:07:24.665Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "3665-2026/5/15-3",
+      "date": "2026/5/15",
+      "symbol": "3665",
+      "name": "貿聯-KY",
+      "market": "TWSE",
+      "marketName": "上市",
+      "yahooSymbol": "3665.TW",
+      "recommender": "Donthitjisoo",
+      "targetPrice": 3000,
+      "recommendedPrice": 2225,
+      "currentPrice": 2225,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": 34.831460674157306,
+      "potentialReturnPct": 34.831460674157306,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": 34.831460674157306,
+      "elapsedTradingDays": 0,
+      "targetReached": false,
+      "reachedDays": null,
+      "sourceTargetReached": false,
+      "sourceReachedDays": null,
+      "updatedAt": "2026-05-22T13:07:24.677Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "3008-2026/5/15-4",
+      "date": "2026/5/15",
+      "symbol": "3008",
+      "name": "大立光",
+      "market": "TWSE",
+      "marketName": "上市",
+      "yahooSymbol": "3008.TW",
+      "recommender": "Donthitjisoo",
+      "targetPrice": 7000,
+      "recommendedPrice": 3540,
+      "currentPrice": 3540,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": 97.74011299435028,
+      "potentialReturnPct": 97.74011299435028,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": 97.74011299435028,
+      "elapsedTradingDays": 0,
+      "targetReached": false,
+      "reachedDays": null,
+      "sourceTargetReached": false,
+      "sourceReachedDays": null,
+      "updatedAt": "2026-05-22T13:07:24.703Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "5328-2026/5/14-5",
+      "date": "2026/5/14",
+      "symbol": "5328",
+      "name": "華容",
+      "market": "TPEX",
+      "marketName": "上櫃",
+      "yahooSymbol": "5328.TWO",
+      "recommender": "Donthitjisoo",
+      "targetPrice": 35,
+      "recommendedPrice": 35.5,
+      "currentPrice": 35.5,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": -1.4084507042253522,
+      "potentialReturnPct": -1.4084507042253522,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": -1.4084507042253522,
+      "elapsedTradingDays": 0,
+      "targetReached": true,
+      "reachedDays": 0,
+      "sourceTargetReached": false,
+      "sourceReachedDays": null,
+      "updatedAt": "2026-05-22T13:07:24.745Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "3090-2026/5/14-6",
+      "date": "2026/5/14",
+      "symbol": "3090",
+      "name": "日電貿",
+      "market": "TWSE",
+      "marketName": "上市",
+      "yahooSymbol": "3090.TW",
+      "recommender": "Donthitjisoo",
+      "targetPrice": 160,
+      "recommendedPrice": 215,
+      "currentPrice": 215,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": -25.581395348837212,
+      "potentialReturnPct": -25.581395348837212,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": -25.581395348837212,
+      "elapsedTradingDays": 0,
+      "targetReached": true,
+      "reachedDays": 0,
+      "sourceTargetReached": false,
+      "sourceReachedDays": null,
+      "updatedAt": "2026-05-22T13:07:24.695Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "2472-2026/5/12-7",
+      "date": "2026/5/12",
+      "symbol": "2472",
+      "name": "立隆電",
+      "market": "TWSE",
+      "marketName": "上市",
+      "yahooSymbol": "2472.TW",
+      "recommender": "Donthitjisoo",
+      "targetPrice": 300,
+      "recommendedPrice": 260,
+      "currentPrice": 260,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": 15.384615384615385,
+      "potentialReturnPct": 15.384615384615385,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": 15.384615384615385,
+      "elapsedTradingDays": 0,
+      "targetReached": false,
+      "reachedDays": null,
+      "sourceTargetReached": false,
+      "sourceReachedDays": null,
+      "updatedAt": "2026-05-22T13:07:24.690Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "5269-2026/5/12-8",
+      "date": "2026/5/12",
+      "symbol": "5269",
+      "name": "祥碩",
+      "market": "TWSE",
+      "marketName": "上市",
+      "yahooSymbol": "5269.TW",
+      "recommender": "Donthitjisoo",
+      "targetPrice": 1800,
+      "recommendedPrice": 1480,
+      "currentPrice": 1480,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": 21.62162162162162,
+      "potentialReturnPct": 21.62162162162162,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": 21.62162162162162,
+      "elapsedTradingDays": 0,
+      "targetReached": false,
+      "reachedDays": null,
+      "sourceTargetReached": false,
+      "sourceReachedDays": null,
+      "updatedAt": "2026-05-22T13:07:24.686Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "7769-2026/5/12-9",
+      "date": "2026/5/12",
+      "symbol": "7769",
+      "name": "鴻勁",
+      "market": "TWSE",
+      "marketName": "上市",
+      "yahooSymbol": "7769.TW",
+      "recommender": "Donthitjisoo",
+      "targetPrice": 8000,
+      "recommendedPrice": 7730,
+      "currentPrice": 7730,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": 3.4928848641655885,
+      "potentialReturnPct": 3.4928848641655885,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": 3.4928848641655885,
+      "elapsedTradingDays": 0,
+      "targetReached": false,
+      "reachedDays": null,
+      "sourceTargetReached": false,
+      "sourceReachedDays": null,
+      "updatedAt": "2026-05-22T13:07:24.487Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "8299-2026/5/9-10",
+      "date": "2026/5/9",
+      "symbol": "8299",
+      "name": "群聯",
+      "market": "TPEX",
+      "marketName": "上櫃",
+      "yahooSymbol": "8299.TWO",
+      "recommender": "Gaeulisautumn",
+      "targetPrice": 3000,
+      "recommendedPrice": 2430,
+      "currentPrice": 2430,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": 23.456790123456788,
+      "potentialReturnPct": 23.456790123456788,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": 23.456790123456788,
+      "elapsedTradingDays": 0,
+      "targetReached": false,
+      "reachedDays": null,
+      "sourceTargetReached": false,
+      "sourceReachedDays": null,
+      "updatedAt": "2026-05-22T13:07:24.654Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "5289-2026/5/9-11",
+      "date": "2026/5/9",
+      "symbol": "5289",
+      "name": "宜鼎",
+      "market": "TPEX",
+      "marketName": "上櫃",
+      "yahooSymbol": "5289.TWO",
+      "recommender": "Gaeulisautumn",
+      "targetPrice": 2000,
+      "recommendedPrice": 1725,
+      "currentPrice": 1725,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": 15.942028985507244,
+      "potentialReturnPct": 15.942028985507244,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": 15.942028985507244,
+      "elapsedTradingDays": 0,
+      "targetReached": false,
+      "reachedDays": null,
+      "sourceTargetReached": false,
+      "sourceReachedDays": null,
+      "updatedAt": "2026-05-22T13:07:24.639Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "3376-2026/5/9-12",
+      "date": "2026/5/9",
+      "symbol": "3376",
+      "name": "新日興",
+      "market": "TWSE",
+      "marketName": "上市",
+      "yahooSymbol": "3376.TW",
+      "recommender": "Donthitjisoo",
+      "targetPrice": 240,
+      "recommendedPrice": 210,
+      "currentPrice": 210,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": 14.285714285714285,
+      "potentialReturnPct": 14.285714285714285,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": 14.285714285714285,
+      "elapsedTradingDays": 0,
+      "targetReached": false,
+      "reachedDays": null,
+      "sourceTargetReached": false,
+      "sourceReachedDays": null,
+      "updatedAt": "2026-05-22T13:07:24.695Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "2454-2026/5/9-13",
+      "date": "2026/5/9",
+      "symbol": "2454",
+      "name": "聯發科",
+      "market": "TWSE",
+      "marketName": "上市",
+      "yahooSymbol": "2454.TW",
+      "recommender": "Donthitjisoo",
+      "targetPrice": 5000,
+      "recommendedPrice": 3860,
+      "currentPrice": 3860,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": 29.533678756476682,
+      "potentialReturnPct": 29.533678756476682,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": 29.533678756476682,
+      "elapsedTradingDays": 0,
+      "targetReached": true,
+      "reachedDays": 3,
+      "sourceTargetReached": true,
+      "sourceReachedDays": 3,
+      "updatedAt": "2026-05-22T13:07:24.679Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "2395-2026/5/6-14",
+      "date": "2026/5/6",
+      "symbol": "2395",
+      "name": "研華",
+      "market": "TWSE",
+      "marketName": "上市",
+      "yahooSymbol": "2395.TW",
+      "recommender": "Donthitjisoo",
+      "targetPrice": 520,
+      "recommendedPrice": 469,
+      "currentPrice": 469,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": 10.874200426439232,
+      "potentialReturnPct": 10.874200426439232,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": 10.874200426439232,
+      "elapsedTradingDays": 0,
+      "targetReached": true,
+      "reachedDays": 1,
+      "sourceTargetReached": true,
+      "sourceReachedDays": 1,
+      "updatedAt": "2026-05-22T13:07:24.659Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "3443-2026/5/6-15",
+      "date": "2026/5/6",
+      "symbol": "3443",
+      "name": "創意",
+      "market": "TWSE",
+      "marketName": "上市",
+      "yahooSymbol": "3443.TW",
+      "recommender": "Donthitjisoo",
+      "targetPrice": 6666,
+      "recommendedPrice": 5140,
+      "currentPrice": 5140,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": 29.688715953307394,
+      "potentialReturnPct": 29.688715953307394,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": 29.688715953307394,
+      "elapsedTradingDays": 0,
+      "targetReached": true,
+      "reachedDays": 6,
+      "sourceTargetReached": true,
+      "sourceReachedDays": 6,
+      "updatedAt": "2026-05-22T13:07:24.467Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "3443-2026/4/27-16",
+      "date": "2026/4/27",
+      "symbol": "3443",
+      "name": "創意",
+      "market": "TWSE",
+      "marketName": "上市",
+      "yahooSymbol": "3443.TW",
+      "recommender": "Donthitjisoo",
+      "targetPrice": 4600,
+      "recommendedPrice": 5140,
+      "currentPrice": 5140,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": -10.505836575875486,
+      "potentialReturnPct": -10.505836575875486,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": -10.505836575875486,
+      "elapsedTradingDays": 0,
+      "targetReached": true,
+      "reachedDays": 5,
+      "sourceTargetReached": true,
+      "sourceReachedDays": 5,
+      "updatedAt": "2026-05-22T13:07:24.467Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "4967-2026/4/27-17",
+      "date": "2026/4/27",
+      "symbol": "4967",
+      "name": "十銓",
+      "market": "TWSE",
+      "marketName": "上市",
+      "yahooSymbol": "4967.TW",
+      "recommender": "Gaeulisautumn",
+      "targetPrice": 1888,
+      "recommendedPrice": 270.5,
+      "currentPrice": 270.5,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": 597.9667282809612,
+      "potentialReturnPct": 597.9667282809612,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": 597.9667282809612,
+      "elapsedTradingDays": 0,
+      "targetReached": true,
+      "reachedDays": 13,
+      "sourceTargetReached": true,
+      "sourceReachedDays": 13,
+      "updatedAt": "2026-05-22T13:07:24.812Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "2330-2026/4/27-18",
+      "date": "2026/4/27",
+      "symbol": "2330",
+      "name": "台積電",
+      "market": "TWSE",
+      "marketName": "上市",
+      "yahooSymbol": "2330.TW",
+      "recommender": "Donthitjisoo",
+      "targetPrice": 2450,
+      "recommendedPrice": 2255,
+      "currentPrice": 2255,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": 8.647450110864744,
+      "potentialReturnPct": 8.647450110864744,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": 8.647450110864744,
+      "elapsedTradingDays": 0,
+      "targetReached": true,
+      "reachedDays": 13,
+      "sourceTargetReached": true,
+      "sourceReachedDays": 13,
+      "updatedAt": "2026-05-22T13:07:24.701Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "8271-2026/4/27-19",
+      "date": "2026/4/27",
+      "symbol": "8271",
+      "name": "宇瞻",
+      "market": "TWSE",
+      "marketName": "上市",
+      "yahooSymbol": "8271.TW",
+      "recommender": "Gaeulisautumn",
+      "targetPrice": 1000,
+      "recommendedPrice": 224.5,
+      "currentPrice": 224.5,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": 345.43429844097994,
+      "potentialReturnPct": 345.43429844097994,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": 345.43429844097994,
+      "elapsedTradingDays": 0,
+      "targetReached": true,
+      "reachedDays": 13,
+      "sourceTargetReached": true,
+      "sourceReachedDays": 13,
+      "updatedAt": "2026-05-22T13:07:24.704Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "5904-2026/4/27-20",
+      "date": "2026/4/27",
+      "symbol": "5904",
+      "name": "寶雅",
+      "market": "TPEX",
+      "marketName": "上櫃",
+      "yahooSymbol": "5904.TWO",
+      "recommender": "Gaeulisautumn",
+      "targetPrice": 630,
+      "recommendedPrice": 568,
+      "currentPrice": 568,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": 10.915492957746478,
+      "potentialReturnPct": 10.915492957746478,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": 10.915492957746478,
+      "elapsedTradingDays": 0,
+      "targetReached": true,
+      "reachedDays": 13,
+      "sourceTargetReached": true,
+      "sourceReachedDays": 13,
+      "updatedAt": "2026-05-22T13:07:24.710Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "6187-2026/4/27-21",
+      "date": "2026/4/27",
+      "symbol": "6187",
+      "name": "萬潤",
+      "market": "TPEX",
+      "marketName": "上櫃",
+      "yahooSymbol": "6187.TWO",
+      "recommender": "chouyk",
+      "targetPrice": 1500,
+      "recommendedPrice": 1140,
+      "currentPrice": 1140,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": 31.57894736842105,
+      "potentialReturnPct": 31.57894736842105,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": 31.57894736842105,
+      "elapsedTradingDays": 0,
+      "targetReached": true,
+      "reachedDays": 13,
+      "sourceTargetReached": true,
+      "sourceReachedDays": 13,
+      "updatedAt": "2026-05-22T13:07:24.717Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "6789-2026/4/25-22",
+      "date": "2026/4/25",
+      "symbol": "6789",
+      "name": "采鈺",
+      "market": "TWSE",
+      "marketName": "上市",
+      "yahooSymbol": "6789.TW",
+      "recommender": "Gaeulisautumn",
+      "targetPrice": 800,
+      "recommendedPrice": 556,
+      "currentPrice": 556,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": 43.884892086330936,
+      "potentialReturnPct": 43.884892086330936,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": 43.884892086330936,
+      "elapsedTradingDays": 0,
+      "targetReached": true,
+      "reachedDays": 13,
+      "sourceTargetReached": true,
+      "sourceReachedDays": 13,
+      "updatedAt": "2026-05-22T13:07:24.699Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "6449-2026/4/25-23",
+      "date": "2026/4/25",
+      "symbol": "6449",
+      "name": "鈺邦",
+      "market": "TWSE",
+      "marketName": "上市",
+      "yahooSymbol": "6449.TW",
+      "recommender": "Gaeulisautumn",
+      "targetPrice": 185,
+      "recommendedPrice": 305.5,
+      "currentPrice": 305.5,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": -39.44353518821604,
+      "potentialReturnPct": -39.44353518821604,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": -39.44353518821604,
+      "elapsedTradingDays": 0,
+      "targetReached": true,
+      "reachedDays": 9,
+      "sourceTargetReached": true,
+      "sourceReachedDays": 9,
+      "updatedAt": "2026-05-22T13:07:24.714Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "4958-2026/4/24-24",
+      "date": "2026/4/24",
+      "symbol": "4958",
+      "name": "臻鼎-KY",
+      "market": "TWSE",
+      "marketName": "上市",
+      "yahooSymbol": "4958.TW",
+      "recommender": "Donthitjisoo",
+      "targetPrice": 420,
+      "recommendedPrice": 516,
+      "currentPrice": 516,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": -18.6046511627907,
+      "potentialReturnPct": -18.6046511627907,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": -18.6046511627907,
+      "elapsedTradingDays": 0,
+      "targetReached": true,
+      "reachedDays": 4,
+      "sourceTargetReached": true,
+      "sourceReachedDays": 4,
+      "updatedAt": "2026-05-22T13:07:24.718Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "2330-2026/4/23-25",
+      "date": "2026/4/23",
+      "symbol": "2330",
+      "name": "台積電",
+      "market": "TWSE",
+      "marketName": "上市",
+      "yahooSymbol": "2330.TW",
+      "recommender": "Donthitjisoo",
+      "targetPrice": 2330,
+      "recommendedPrice": 2255,
+      "currentPrice": 2255,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": 3.325942350332594,
+      "potentialReturnPct": 3.325942350332594,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": 3.325942350332594,
+      "elapsedTradingDays": 0,
+      "targetReached": true,
+      "reachedDays": 2,
+      "sourceTargetReached": true,
+      "sourceReachedDays": 2,
+      "updatedAt": "2026-05-22T13:07:24.701Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "2308-2026/4/23-26",
+      "date": "2026/4/23",
+      "symbol": "2308",
+      "name": "台達電",
+      "market": "TWSE",
+      "marketName": "上市",
+      "yahooSymbol": "2308.TW",
+      "recommender": "Donthitjisoo",
+      "targetPrice": 2310,
+      "recommendedPrice": 2095,
+      "currentPrice": 2095,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": 10.26252983293556,
+      "potentialReturnPct": 10.26252983293556,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": 10.26252983293556,
+      "elapsedTradingDays": 0,
+      "targetReached": true,
+      "reachedDays": 3,
+      "sourceTargetReached": true,
+      "sourceReachedDays": 3,
+      "updatedAt": "2026-05-22T13:07:24.754Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "5340-2026/4/23-27",
+      "date": "2026/4/23",
+      "symbol": "5340",
+      "name": "建榮",
+      "market": "TPEX",
+      "marketName": "上櫃",
+      "yahooSymbol": "5340.TWO",
+      "recommender": "Donthitjisoo",
+      "targetPrice": 118,
+      "recommendedPrice": 107.5,
+      "currentPrice": 107.5,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": 9.767441860465116,
+      "potentialReturnPct": 9.767441860465116,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": 9.767441860465116,
+      "elapsedTradingDays": 0,
+      "targetReached": true,
+      "reachedDays": 3,
+      "sourceTargetReached": true,
+      "sourceReachedDays": 3,
+      "updatedAt": "2026-05-22T13:07:24.733Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
+      "id": "4979-2026/4/23-28",
+      "date": "2026/4/23",
+      "symbol": "4979",
+      "name": "華星光",
+      "market": "TPEX",
+      "marketName": "上櫃",
+      "yahooSymbol": "4979.TWO",
+      "recommender": "Donthitjisoo",
+      "targetPrice": 700,
+      "recommendedPrice": 630,
+      "currentPrice": 630,
+      "eps": null,
+      "pe": null,
+      "forwardPe": null,
+      "recommendationGapPct": 0,
+      "distanceToTargetPct": 11.11111111111111,
+      "potentialReturnPct": 11.11111111111111,
+      "instantReturnPct": 0,
+      "recommendationUpsidePct": 11.11111111111111,
+      "elapsedTradingDays": 0,
+      "targetReached": true,
+      "reachedDays": 3,
+      "sourceTargetReached": true,
+      "sourceReachedDays": 3,
+      "updatedAt": "2026-05-22T13:07:24.664Z",
+      "watchlistId": "discord",
+      "watchlistName": "Discord"
+    },
+    {
       "id": "2330-2026-05-22-0",
       "date": "2026-05-22",
       "symbol": "2330",
@@ -5789,9 +7602,9 @@
       "reachedDays": 1,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.509Z",
-      "watchlistId": "ai",
-      "watchlistName": "AI"
+      "updatedAt": "2026-05-22T13:07:24.701Z",
+      "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
+      "watchlistName": "群益投顧"
     },
     {
       "id": "3661-2026-05-22-1",
@@ -5818,67 +7631,9 @@
       "reachedDays": 7,
       "sourceTargetReached": true,
       "sourceReachedDays": 7,
-      "updatedAt": "2026-05-22T12:56:44.357Z",
-      "watchlistId": "ai",
-      "watchlistName": "AI"
-    },
-    {
-      "id": "2330-2026-05-22-0",
-      "date": "2026-05-22",
-      "symbol": "2330",
-      "name": "台積電",
-      "market": "TWSE",
-      "marketName": "上市",
-      "yahooSymbol": "2330.TW",
-      "recommender": "Tom",
-      "targetPrice": 1180,
-      "recommendedPrice": 2255,
-      "currentPrice": 2255,
-      "eps": null,
-      "pe": null,
-      "forwardPe": null,
-      "recommendationGapPct": 0,
-      "distanceToTargetPct": -47.671840354767184,
-      "potentialReturnPct": -47.671840354767184,
-      "instantReturnPct": 0,
-      "recommendationUpsidePct": -47.671840354767184,
-      "elapsedTradingDays": 1,
-      "targetReached": true,
-      "reachedDays": 1,
-      "sourceTargetReached": false,
-      "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:56:44.509Z",
-      "watchlistId": "e58d8ae5b08ee9ab94",
-      "watchlistName": "半導體"
-    },
-    {
-      "id": "3661-2026-05-22-1",
-      "date": "2026-05-22",
-      "symbol": "3661",
-      "name": "世芯-KY",
-      "market": "TWSE",
-      "marketName": "上市",
-      "yahooSymbol": "3661.TW",
-      "recommender": "Alice",
-      "targetPrice": 520,
-      "recommendedPrice": 4895,
-      "currentPrice": 4895,
-      "eps": null,
-      "pe": null,
-      "forwardPe": null,
-      "recommendationGapPct": 0,
-      "distanceToTargetPct": -89.37691521961185,
-      "potentialReturnPct": -89.37691521961185,
-      "instantReturnPct": 0,
-      "recommendationUpsidePct": -89.37691521961185,
-      "elapsedTradingDays": 1,
-      "targetReached": true,
-      "reachedDays": 7,
-      "sourceTargetReached": true,
-      "sourceReachedDays": 7,
-      "updatedAt": "2026-05-22T12:56:44.357Z",
-      "watchlistId": "e58d8ae5b08ee9ab94",
-      "watchlistName": "半導體"
+      "updatedAt": "2026-05-22T13:07:24.654Z",
+      "watchlistId": "e7bea4e79b8ae68a95e9a1a7",
+      "watchlistName": "群益投顧"
     }
   ]
 }
