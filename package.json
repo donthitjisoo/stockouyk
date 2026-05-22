@@ -12,7 +12,7 @@
     "preview": "npm run build && vite preview --host 127.0.0.1",
     "typecheck": "tsc --noEmit",
     "update:data": "node scripts/update-data.mjs",
-    "deploy": "npm run build"
+    "deploy": "npm run build && npx wrangler pages deploy dist --project-name=stock-dashboard"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.7.0",
