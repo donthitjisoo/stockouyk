@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T17:05:42.769Z",
+  "generatedAt": "2026-05-22T19:32:39.811Z",
   "cash": 1091844,
   "holdings": [
     {
@@ -35,7 +35,7 @@
         "WantGoo: WantGoo fundamentals 0050 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:19.327Z"
+      "updatedAt": "2026-05-22T19:32:16.940Z"
     },
     {
       "id": "holding2",
@@ -50,15 +50,15 @@
       "yahooSymbol": "2301.TW",
       "sector": "電子",
       "currentPrice": 207,
-      "previousClose": 204,
-      "change": 3,
-      "changePercent": 1.4705882352941175,
+      "previousClose": 204.5,
+      "change": 2.5,
+      "changePercent": 1.2224938875305624,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 174,
       "marketValue": 207,
-      "todayPnL": 3,
+      "todayPnL": 2.5,
       "unrealizedPnL": 33,
       "unrealizedPnLPct": 18.96551724137931,
       "weight": 0.0078300049192857,
@@ -69,7 +69,7 @@
         "WantGoo: WantGoo fundamentals 2301 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:17.866Z"
+      "updatedAt": "2026-05-22T19:32:15.335Z"
     },
     {
       "id": "holding3",
@@ -84,15 +84,15 @@
       "yahooSymbol": "2316.TW",
       "sector": "電子",
       "currentPrice": 153.5,
-      "previousClose": 137.5,
-      "change": 16,
-      "changePercent": 11.636363636363637,
+      "previousClose": 151,
+      "change": 2.5,
+      "changePercent": 1.6556291390728477,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 8029.800000000001,
       "marketValue": 9210,
-      "todayPnL": 960,
+      "todayPnL": 150,
       "unrealizedPnL": 1180.199999999999,
       "unrealizedPnLPct": 14.697750877979509,
       "weight": 0.3483784797421318,
@@ -103,7 +103,7 @@
         "WantGoo: WantGoo fundamentals 2316 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:17.948Z"
+      "updatedAt": "2026-05-22T19:32:15.401Z"
     },
     {
       "id": "holding4",
@@ -118,15 +118,15 @@
       "yahooSymbol": "2317.TW",
       "sector": "電子",
       "currentPrice": 250,
-      "previousClose": 240,
-      "change": 10,
-      "changePercent": 4.166666666666666,
+      "previousClose": 247.5,
+      "change": 2.5,
+      "changePercent": 1.0101010101010102,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 87412,
       "marketValue": 100000,
-      "todayPnL": 4000,
+      "todayPnL": 1000,
       "unrealizedPnL": 12588,
       "unrealizedPnLPct": 14.400768773166156,
       "weight": 3.782611072118695,
@@ -137,7 +137,7 @@
         "WantGoo: WantGoo fundamentals 2317 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:17.928Z"
+      "updatedAt": "2026-05-22T19:32:15.406Z"
     },
     {
       "id": "holding5",
@@ -152,15 +152,15 @@
       "yahooSymbol": "2327.TW",
       "sector": "電子",
       "currentPrice": 629,
-      "previousClose": 520,
-      "change": 109,
-      "changePercent": 20.961538461538463,
+      "previousClose": 572,
+      "change": 57,
+      "changePercent": 9.965034965034965,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 44980.8,
       "marketValue": 100640,
-      "todayPnL": 17440,
+      "todayPnL": 9120,
       "unrealizedPnL": 55659.2,
       "unrealizedPnLPct": 123.7399068046811,
       "weight": 3.8068197829802553,
@@ -171,7 +171,7 @@
         "WantGoo: WantGoo fundamentals 2327 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:17.941Z"
+      "updatedAt": "2026-05-22T19:32:15.414Z"
     },
     {
       "id": "holding6",
@@ -186,15 +186,15 @@
       "yahooSymbol": "2330.TW",
       "sector": "電子",
       "currentPrice": 2255,
-      "previousClose": 2185,
-      "change": 70,
-      "changePercent": 3.203661327231121,
+      "previousClose": 2230,
+      "change": 25,
+      "changePercent": 1.1210762331838564,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 324625,
       "marketValue": 394625,
-      "todayPnL": 12250,
+      "todayPnL": 4375,
       "unrealizedPnL": 70000,
       "unrealizedPnLPct": 21.563342318059302,
       "weight": 14.9271289433484,
@@ -205,7 +205,7 @@
         "WantGoo: WantGoo fundamentals 2330 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:17.963Z"
+      "updatedAt": "2026-05-22T19:32:15.441Z"
     },
     {
       "id": "holding7",
@@ -220,15 +220,15 @@
       "yahooSymbol": "2357.TW",
       "sector": "電子",
       "currentPrice": 682,
-      "previousClose": 640,
-      "change": 42,
-      "changePercent": 6.5625,
+      "previousClose": 656,
+      "change": 26,
+      "changePercent": 3.9634146341463414,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 14225,
       "marketValue": 17050,
-      "todayPnL": 1050,
+      "todayPnL": 650,
       "unrealizedPnL": 2825,
       "unrealizedPnLPct": 19.85940246045694,
       "weight": 0.6449351877962375,
@@ -239,7 +239,7 @@
         "WantGoo: WantGoo fundamentals 2357 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.037Z"
+      "updatedAt": "2026-05-22T19:32:15.527Z"
     },
     {
       "id": "holding8",
@@ -254,15 +254,15 @@
       "yahooSymbol": "2376.TW",
       "sector": "電子",
       "currentPrice": 322.5,
-      "previousClose": 302,
-      "change": 20.5,
-      "changePercent": 6.788079470198675,
+      "previousClose": 316.5,
+      "change": 6,
+      "changePercent": 1.8957345971563981,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 86698.1,
       "marketValue": 114487.5,
-      "todayPnL": 7277.5,
+      "todayPnL": 2130,
       "unrealizedPnL": 27789.399999999994,
       "unrealizedPnLPct": 32.053066906887224,
       "weight": 4.330616851191891,
@@ -273,7 +273,7 @@
         "WantGoo: WantGoo fundamentals 2376 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.081Z"
+      "updatedAt": "2026-05-22T19:32:15.538Z"
     },
     {
       "id": "holding9",
@@ -288,15 +288,15 @@
       "yahooSymbol": "2382.TW",
       "sector": "電子",
       "currentPrice": 316,
-      "previousClose": 290,
-      "change": 26,
-      "changePercent": 8.96551724137931,
+      "previousClose": 308,
+      "change": 8,
+      "changePercent": 2.5974025974025974,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 49309.2,
       "marketValue": 56880,
-      "todayPnL": 4680,
+      "todayPnL": 1440,
       "unrealizedPnL": 7570.800000000003,
       "unrealizedPnLPct": 15.353727093524135,
       "weight": 2.151549177821114,
@@ -307,7 +307,7 @@
         "WantGoo: WantGoo fundamentals 2382 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.064Z"
+      "updatedAt": "2026-05-22T19:32:15.552Z"
     },
     {
       "id": "holding10",
@@ -322,15 +322,15 @@
       "yahooSymbol": "2408.TW",
       "sector": "電子",
       "currentPrice": 310.5,
-      "previousClose": 275,
-      "change": 35.5,
-      "changePercent": 12.909090909090908,
+      "previousClose": 293,
+      "change": 17.5,
+      "changePercent": 5.972696245733788,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 17650,
       "marketValue": 15525,
-      "todayPnL": 1775,
+      "todayPnL": 875,
       "unrealizedPnL": -2125,
       "unrealizedPnLPct": -12.039660056657224,
       "weight": 0.5872503689464275,
@@ -341,7 +341,7 @@
         "WantGoo: WantGoo fundamentals 2408 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.129Z"
+      "updatedAt": "2026-05-22T19:32:15.640Z"
     },
     {
       "id": "holding11",
@@ -356,15 +356,15 @@
       "yahooSymbol": "2449.TW",
       "sector": "電子",
       "currentPrice": 296,
-      "previousClose": 277.5,
-      "change": 18.5,
-      "changePercent": 6.666666666666667,
+      "previousClose": 286,
+      "change": 10,
+      "changePercent": 3.4965034965034967,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 31150,
       "marketValue": 29600,
-      "todayPnL": 1850,
+      "todayPnL": 1000,
       "unrealizedPnL": -1550,
       "unrealizedPnLPct": -4.975922953451043,
       "weight": 1.1196528773471337,
@@ -375,7 +375,7 @@
         "WantGoo: WantGoo fundamentals 2449 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.154Z"
+      "updatedAt": "2026-05-22T19:32:15.686Z"
     },
     {
       "id": "holding12",
@@ -390,15 +390,15 @@
       "yahooSymbol": "2454.TW",
       "sector": "電子",
       "currentPrice": 3860,
-      "previousClose": 3230,
-      "change": 630,
-      "changePercent": 19.5046439628483,
+      "previousClose": 3550,
+      "change": 310,
+      "changePercent": 8.732394366197182,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 7275,
       "marketValue": 19300,
-      "todayPnL": 3150,
+      "todayPnL": 1550,
       "unrealizedPnL": 12025,
       "unrealizedPnLPct": 165.29209621993127,
       "weight": 0.7300439369189082,
@@ -409,7 +409,7 @@
         "WantGoo: WantGoo fundamentals 2454 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.221Z"
+      "updatedAt": "2026-05-22T19:32:15.732Z"
     },
     {
       "id": "holding13",
@@ -424,15 +424,15 @@
       "yahooSymbol": "2472.TW",
       "sector": "電子",
       "currentPrice": 260,
-      "previousClose": 255,
-      "change": 5,
-      "changePercent": 1.9607843137254901,
+      "previousClose": 266,
+      "change": -6,
+      "changePercent": -2.2556390977443606,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 23900,
       "marketValue": 26000,
-      "todayPnL": 500,
+      "todayPnL": -600,
       "unrealizedPnL": 2100,
       "unrealizedPnLPct": 8.786610878661087,
       "weight": 0.9834788787508607,
@@ -443,7 +443,7 @@
         "WantGoo: WantGoo fundamentals 2472 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.188Z"
+      "updatedAt": "2026-05-22T19:32:15.727Z"
     },
     {
       "id": "holding14",
@@ -458,15 +458,15 @@
       "yahooSymbol": "2610.TW",
       "sector": "航運",
       "currentPrice": 18.55,
-      "previousClose": 18.200000762939453,
-      "change": 0.3499992370605476,
-      "changePercent": 1.9230726504871847,
+      "previousClose": 18.700000762939453,
+      "change": -0.15000076293945241,
+      "changePercent": -0.8021430845967185,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 19300,
       "marketValue": 18550,
-      "todayPnL": 349.99923706054756,
+      "todayPnL": -150.00076293945241,
       "unrealizedPnL": -750,
       "unrealizedPnLPct": -3.8860103626943006,
       "weight": 0.701674353878018,
@@ -477,7 +477,7 @@
         "WantGoo: WantGoo fundamentals 2610 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.253Z"
+      "updatedAt": "2026-05-22T19:32:15.811Z"
     },
     {
       "id": "holding15",
@@ -492,15 +492,15 @@
       "yahooSymbol": "2884.TW",
       "sector": "金融",
       "currentPrice": 31.3,
-      "previousClose": 31.700000762939453,
-      "change": -0.4000007629394524,
-      "changePercent": -1.261832029376776,
+      "previousClose": 31.549999237060547,
+      "change": -0.24999923706054616,
+      "changePercent": -0.7923906279112738,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 16175,
       "marketValue": 15650,
-      "todayPnL": -200.00038146972622,
+      "todayPnL": -124.99961853027308,
       "unrealizedPnL": -525,
       "unrealizedPnLPct": -3.2457496136012365,
       "weight": 0.5919786327865758,
@@ -511,7 +511,7 @@
         "WantGoo: WantGoo fundamentals 2884 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.299Z"
+      "updatedAt": "2026-05-22T19:32:15.870Z"
     },
     {
       "id": "holding16",
@@ -526,15 +526,15 @@
       "yahooSymbol": "2912.TW",
       "sector": "其他",
       "currentPrice": 220,
-      "previousClose": 222,
-      "change": -2,
-      "changePercent": -0.9009009009009009,
+      "previousClose": 221,
+      "change": -1,
+      "changePercent": -0.4524886877828055,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 46750,
       "marketValue": 44000,
-      "todayPnL": -400,
+      "todayPnL": -200,
       "unrealizedPnL": -2750,
       "unrealizedPnLPct": -5.88235294117647,
       "weight": 1.664348871732226,
@@ -545,7 +545,7 @@
         "WantGoo: WantGoo fundamentals 2912 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.398Z"
+      "updatedAt": "2026-05-22T19:32:15.888Z"
     },
     {
       "id": "holding17",
@@ -560,15 +560,15 @@
       "yahooSymbol": "3008.TW",
       "sector": "電子",
       "currentPrice": 3540,
-      "previousClose": 3200,
-      "change": 340,
-      "changePercent": 10.625,
+      "previousClose": 3460,
+      "change": 80,
+      "changePercent": 2.312138728323699,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 6480,
       "marketValue": 7080,
-      "todayPnL": 680,
+      "todayPnL": 160,
       "unrealizedPnL": 600,
       "unrealizedPnLPct": 9.25925925925926,
       "weight": 0.2678088639060036,
@@ -579,7 +579,7 @@
         "WantGoo: WantGoo fundamentals 3008 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.392Z"
+      "updatedAt": "2026-05-22T19:32:15.931Z"
     },
     {
       "id": "holding18",
@@ -594,15 +594,15 @@
       "yahooSymbol": "3163.TWO",
       "sector": "其他",
       "currentPrice": 1145,
-      "previousClose": 952,
-      "change": 193,
-      "changePercent": 20.27310924369748,
+      "previousClose": 1045,
+      "change": 100,
+      "changePercent": 9.569377990430622,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 36360,
       "marketValue": 68700,
-      "todayPnL": 11580,
+      "todayPnL": 6000,
       "unrealizedPnL": 32340,
       "unrealizedPnLPct": 88.94389438943895,
       "weight": 2.598653806545544,
@@ -614,7 +614,7 @@
         "WantGoo: WantGoo fundamentals 3163 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.445Z"
+      "updatedAt": "2026-05-22T19:32:15.990Z"
     },
     {
       "id": "holding19",
@@ -629,15 +629,15 @@
       "yahooSymbol": "3227.TWO",
       "sector": "其他",
       "currentPrice": 233,
-      "previousClose": 223.5,
-      "change": 9.5,
-      "changePercent": 4.250559284116331,
+      "previousClose": 229,
+      "change": 4,
+      "changePercent": 1.7467248908296942,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 15820,
       "marketValue": 16310,
-      "todayPnL": 665,
+      "todayPnL": 280,
       "unrealizedPnL": 490,
       "unrealizedPnLPct": 3.0973451327433628,
       "weight": 0.6169438658625592,
@@ -649,7 +649,7 @@
         "WantGoo: WantGoo fundamentals 3227 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.465Z"
+      "updatedAt": "2026-05-22T19:32:16.003Z"
     },
     {
       "id": "holding20",
@@ -664,15 +664,15 @@
       "yahooSymbol": "3231.TW",
       "sector": "其他",
       "currentPrice": 144.5,
-      "previousClose": 132.5,
-      "change": 12,
-      "changePercent": 9.056603773584905,
+      "previousClose": 140,
+      "change": 4.5,
+      "changePercent": 3.214285714285714,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 52898.99999999999,
       "marketValue": 50575,
-      "todayPnL": 4200,
+      "todayPnL": 1575,
       "unrealizedPnL": -2323.9999999999927,
       "unrealizedPnLPct": -4.393277755723157,
       "weight": 1.9130555497240302,
@@ -683,7 +683,7 @@
         "WantGoo: WantGoo fundamentals 3231 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.486Z"
+      "updatedAt": "2026-05-22T19:32:16.035Z"
     },
     {
       "id": "holding21",
@@ -698,15 +698,15 @@
       "yahooSymbol": "3293.TWO",
       "sector": "其他",
       "currentPrice": 748,
-      "previousClose": 728,
-      "change": 20,
-      "changePercent": 2.7472527472527473,
+      "previousClose": 740,
+      "change": 8,
+      "changePercent": 1.0810810810810811,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 18925,
       "marketValue": 18700,
-      "todayPnL": 500,
+      "todayPnL": 200,
       "unrealizedPnL": -225,
       "unrealizedPnLPct": -1.1889035667107,
       "weight": 0.7073482704861961,
@@ -718,7 +718,7 @@
         "WantGoo: WantGoo fundamentals 3293 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.514Z"
+      "updatedAt": "2026-05-22T19:32:16.056Z"
     },
     {
       "id": "holding22",
@@ -733,15 +733,15 @@
       "yahooSymbol": "3376.TW",
       "sector": "其他",
       "currentPrice": 210,
-      "previousClose": 202.5,
-      "change": 7.5,
-      "changePercent": 3.7037037037037033,
+      "previousClose": 209.5,
+      "change": 0.5,
+      "changePercent": 0.23866348448687352,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 6270,
       "marketValue": 6300,
-      "todayPnL": 225,
+      "todayPnL": 15,
       "unrealizedPnL": 30,
       "unrealizedPnLPct": 0.4784688995215311,
       "weight": 0.2383044975434778,
@@ -752,7 +752,7 @@
         "WantGoo: WantGoo fundamentals 3376 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.528Z"
+      "updatedAt": "2026-05-22T19:32:16.054Z"
     },
     {
       "id": "holding23",
@@ -767,15 +767,15 @@
       "yahooSymbol": "3533.TW",
       "sector": "其他",
       "currentPrice": 2555,
-      "previousClose": 2360,
-      "change": 195,
-      "changePercent": 8.26271186440678,
+      "previousClose": 2525,
+      "change": 30,
+      "changePercent": 1.188118811881188,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 11950,
       "marketValue": 12775,
-      "todayPnL": 975,
+      "todayPnL": 150,
       "unrealizedPnL": 825,
       "unrealizedPnLPct": 6.903765690376569,
       "weight": 0.4832285644631633,
@@ -786,7 +786,7 @@
         "WantGoo: WantGoo fundamentals 3533 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.566Z"
+      "updatedAt": "2026-05-22T19:32:16.118Z"
     },
     {
       "id": "holding24",
@@ -801,15 +801,15 @@
       "yahooSymbol": "3583.TW",
       "sector": "其他",
       "currentPrice": 875,
-      "previousClose": 826,
-      "change": 49,
-      "changePercent": 5.932203389830509,
+      "previousClose": 861,
+      "change": 14,
+      "changePercent": 1.6260162601626018,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 10116,
       "marketValue": 10500,
-      "todayPnL": 588,
+      "todayPnL": 168,
       "unrealizedPnL": 384,
       "unrealizedPnLPct": 3.795966785290629,
       "weight": 0.397174162572463,
@@ -820,7 +820,7 @@
         "WantGoo: WantGoo fundamentals 3583 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.587Z"
+      "updatedAt": "2026-05-22T19:32:16.105Z"
     },
     {
       "id": "holding25",
@@ -835,15 +835,15 @@
       "yahooSymbol": "3665.TW",
       "sector": "電子",
       "currentPrice": 2225,
-      "previousClose": 1965,
-      "change": 260,
-      "changePercent": 13.231552162849871,
+      "previousClose": 2155,
+      "change": 70,
+      "changePercent": 3.248259860788863,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 8240,
       "marketValue": 8900,
-      "todayPnL": 1040,
+      "todayPnL": 280,
       "unrealizedPnL": 660,
       "unrealizedPnLPct": 8.009708737864079,
       "weight": 0.33665238541856385,
@@ -854,7 +854,7 @@
         "WantGoo: WantGoo fundamentals 3665 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.582Z"
+      "updatedAt": "2026-05-22T19:32:16.179Z"
     },
     {
       "id": "holding26",
@@ -869,15 +869,15 @@
       "yahooSymbol": "3711.TW",
       "sector": "其他",
       "currentPrice": 561,
-      "previousClose": 476,
-      "change": 85,
-      "changePercent": 17.857142857142858,
+      "previousClose": 510,
+      "change": 51,
+      "changePercent": 10,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 45760,
       "marketValue": 70125,
-      "todayPnL": 10625,
+      "todayPnL": 6375,
       "unrealizedPnL": 24365,
       "unrealizedPnLPct": 53.245192307692314,
       "weight": 2.652556014323235,
@@ -888,7 +888,7 @@
         "WantGoo: WantGoo fundamentals 3711 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.643Z"
+      "updatedAt": "2026-05-22T19:32:16.206Z"
     },
     {
       "id": "holding27",
@@ -903,15 +903,15 @@
       "yahooSymbol": "4979.TWO",
       "sector": "其他",
       "currentPrice": 630,
-      "previousClose": 562,
-      "change": 68,
-      "changePercent": 12.099644128113878,
+      "previousClose": 593,
+      "change": 37,
+      "changePercent": 6.239460370994941,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 35569.8,
       "marketValue": 68040,
-      "todayPnL": 7344,
+      "todayPnL": 3996,
       "unrealizedPnL": 32470.199999999997,
       "unrealizedPnLPct": 91.28586609989372,
       "weight": 2.5736885734695605,
@@ -923,7 +923,7 @@
         "WantGoo: WantGoo fundamentals 4979 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.721Z"
+      "updatedAt": "2026-05-22T19:32:16.311Z"
     },
     {
       "id": "holding28",
@@ -938,15 +938,15 @@
       "yahooSymbol": "5439.TWO",
       "sector": "其他",
       "currentPrice": 387.5,
-      "previousClose": 364.5,
-      "change": 23,
-      "changePercent": 6.310013717421124,
+      "previousClose": 376.5,
+      "change": 11,
+      "changePercent": 2.921646746347941,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 29800,
       "marketValue": 38750,
-      "todayPnL": 2300,
+      "todayPnL": 1100,
       "unrealizedPnL": 8950,
       "unrealizedPnLPct": 30.033557046979865,
       "weight": 1.4657617904459943,
@@ -958,7 +958,7 @@
         "WantGoo: WantGoo fundamentals 5439 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.819Z"
+      "updatedAt": "2026-05-22T19:32:16.409Z"
     },
     {
       "id": "holding29",
@@ -973,15 +973,15 @@
       "yahooSymbol": "6187.TWO",
       "sector": "其他",
       "currentPrice": 1140,
-      "previousClose": 1085,
-      "change": 55,
-      "changePercent": 5.0691244239631335,
+      "previousClose": 1090,
+      "change": 50,
+      "changePercent": 4.587155963302752,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 10800,
       "marketValue": 11400,
-      "todayPnL": 550,
+      "todayPnL": 500,
       "unrealizedPnL": 600,
       "unrealizedPnLPct": 5.555555555555555,
       "weight": 0.43121766222153124,
@@ -993,7 +993,7 @@
         "WantGoo: WantGoo fundamentals 6187 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.908Z"
+      "updatedAt": "2026-05-22T19:32:16.524Z"
     },
     {
       "id": "holding30",
@@ -1008,15 +1008,15 @@
       "yahooSymbol": "6197.TW",
       "sector": "其他",
       "currentPrice": 256,
-      "previousClose": 217,
-      "change": 39,
-      "changePercent": 17.972350230414747,
+      "previousClose": 238,
+      "change": 18,
+      "changePercent": 7.563025210084033,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 22900.7,
       "marketValue": 43520,
-      "todayPnL": 6630,
+      "todayPnL": 3060,
       "unrealizedPnL": 20619.3,
       "unrealizedPnLPct": 90.03785910474352,
       "weight": 1.6461923385860562,
@@ -1027,7 +1027,7 @@
         "WantGoo: WantGoo fundamentals 6197 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.912Z"
+      "updatedAt": "2026-05-22T19:32:16.521Z"
     },
     {
       "id": "holding31",
@@ -1042,15 +1042,15 @@
       "yahooSymbol": "6239.TW",
       "sector": "其他",
       "currentPrice": 283,
-      "previousClose": 234.5,
-      "change": 48.5,
-      "changePercent": 20.68230277185501,
+      "previousClose": 257.5,
+      "change": 25.5,
+      "changePercent": 9.902912621359224,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 18350.399999999998,
       "marketValue": 33960,
-      "todayPnL": 5820,
+      "todayPnL": 3060,
       "unrealizedPnL": 15609.600000000002,
       "unrealizedPnLPct": 85.06408579649492,
       "weight": 1.284574720091509,
@@ -1061,7 +1061,7 @@
         "WantGoo: WantGoo fundamentals 6239 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.968Z"
+      "updatedAt": "2026-05-22T19:32:16.621Z"
     },
     {
       "id": "holding32",
@@ -1076,15 +1076,15 @@
       "yahooSymbol": "6274.TWO",
       "sector": "其他",
       "currentPrice": 1455,
-      "previousClose": 1205,
-      "change": 250,
-      "changePercent": 20.74688796680498,
+      "previousClose": 1325,
+      "change": 130,
+      "changePercent": 9.811320754716983,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 7695,
       "marketValue": 21825,
-      "todayPnL": 3750,
+      "todayPnL": 1950,
       "unrealizedPnL": 14130,
       "unrealizedPnLPct": 183.62573099415204,
       "weight": 0.8255548664899052,
@@ -1096,7 +1096,7 @@
         "WantGoo: WantGoo fundamentals 6274 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.954Z"
+      "updatedAt": "2026-05-22T19:32:16.573Z"
     },
     {
       "id": "holding33",
@@ -1111,15 +1111,15 @@
       "yahooSymbol": "6510.TWO",
       "sector": "其他",
       "currentPrice": 3405,
-      "previousClose": 3385,
-      "change": 20,
-      "changePercent": 0.5908419497784343,
+      "previousClose": 3350,
+      "change": 55,
+      "changePercent": 1.6417910447761193,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 14100,
       "marketValue": 13620,
-      "todayPnL": 80,
+      "todayPnL": 220,
       "unrealizedPnL": -480,
       "unrealizedPnLPct": -3.404255319148936,
       "weight": 0.5151916280225664,
@@ -1131,7 +1131,7 @@
         "WantGoo: WantGoo fundamentals 6510 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:19.041Z"
+      "updatedAt": "2026-05-22T19:32:16.665Z"
     },
     {
       "id": "holding34",
@@ -1146,15 +1146,15 @@
       "yahooSymbol": "6640.TWO",
       "sector": "其他",
       "currentPrice": 1360,
-      "previousClose": 1250,
-      "change": 110,
-      "changePercent": 8.799999999999999,
+      "previousClose": 1375,
+      "change": -15,
+      "changePercent": -1.090909090909091,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 13284,
       "marketValue": 24480,
-      "todayPnL": 1980,
+      "todayPnL": -270,
       "unrealizedPnL": 11196,
       "unrealizedPnLPct": 84.28184281842819,
       "weight": 0.9259831904546566,
@@ -1166,7 +1166,7 @@
         "WantGoo: WantGoo fundamentals 6640 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:19.098Z"
+      "updatedAt": "2026-05-22T19:32:16.662Z"
     },
     {
       "id": "holding35",
@@ -1181,15 +1181,15 @@
       "yahooSymbol": "6830.TW",
       "sector": "其他",
       "currentPrice": 716,
-      "previousClose": 684,
-      "change": 32,
-      "changePercent": 4.678362573099415,
+      "previousClose": 693,
+      "change": 23,
+      "changePercent": 3.318903318903319,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 9630.01,
       "marketValue": 9308,
-      "todayPnL": 416,
+      "todayPnL": 299,
       "unrealizedPnL": -322.0100000000002,
       "unrealizedPnLPct": -3.3438179191921944,
       "weight": 0.35208543859280816,
@@ -1200,7 +1200,7 @@
         "WantGoo: WantGoo fundamentals 6830 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:19.158Z"
+      "updatedAt": "2026-05-22T19:32:16.712Z"
     },
     {
       "id": "holding36",
@@ -1234,7 +1234,7 @@
         "WantGoo: WantGoo fundamentals 7769 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:19.186Z"
+      "updatedAt": "2026-05-22T19:32:16.800Z"
     },
     {
       "id": "holding37",
@@ -1276,7 +1276,7 @@
         "WantGoo: WantGoo fundamentals 7801 HTTP 403"
       ],
       "source": null,
-      "updatedAt": "2026-05-22T17:05:21.061Z"
+      "updatedAt": "2026-05-22T19:32:19.221Z"
     },
     {
       "id": "holding38",
@@ -1291,15 +1291,15 @@
       "yahooSymbol": "8299.TWO",
       "sector": "其他",
       "currentPrice": 2430,
-      "previousClose": 2265,
-      "change": 165,
-      "changePercent": 7.28476821192053,
+      "previousClose": 2335,
+      "change": 95,
+      "changePercent": 4.068522483940043,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 3540,
       "marketValue": 4860,
-      "todayPnL": 330,
+      "todayPnL": 190,
       "unrealizedPnL": 1320,
       "unrealizedPnLPct": 37.28813559322034,
       "weight": 0.1838348981049686,
@@ -1311,12 +1311,12 @@
         "WantGoo: WantGoo fundamentals 8299 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:19.266Z"
+      "updatedAt": "2026-05-22T19:32:16.852Z"
     }
   ],
   "analytics": {
     "totalAssets": 2643676.5,
-    "todayPnL": 116143.49885559082,
+    "todayPnL": 51705.49961853027,
     "unrealizedPnL": 345139.69999999995,
     "unrealizedPnLPct": 28.602118119872767,
     "winRate": 73.68421052631578,
@@ -1336,15 +1336,15 @@
       "yahooSymbol": "2330.TW",
       "sector": "電子",
       "currentPrice": 2255,
-      "previousClose": 2185,
-      "change": 70,
-      "changePercent": 3.203661327231121,
+      "previousClose": 2230,
+      "change": 25,
+      "changePercent": 1.1210762331838564,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 324625,
       "marketValue": 394625,
-      "todayPnL": 12250,
+      "todayPnL": 4375,
       "unrealizedPnL": 70000,
       "unrealizedPnLPct": 21.563342318059302,
       "weight": 14.9271289433484,
@@ -1355,7 +1355,7 @@
         "WantGoo: WantGoo fundamentals 2330 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:17.963Z"
+      "updatedAt": "2026-05-22T19:32:15.441Z"
     },
     "largestWinner": {
       "id": "holding6",
@@ -1370,15 +1370,15 @@
       "yahooSymbol": "2330.TW",
       "sector": "電子",
       "currentPrice": 2255,
-      "previousClose": 2185,
-      "change": 70,
-      "changePercent": 3.203661327231121,
+      "previousClose": 2230,
+      "change": 25,
+      "changePercent": 1.1210762331838564,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 324625,
       "marketValue": 394625,
-      "todayPnL": 12250,
+      "todayPnL": 4375,
       "unrealizedPnL": 70000,
       "unrealizedPnLPct": 21.563342318059302,
       "weight": 14.9271289433484,
@@ -1389,7 +1389,7 @@
         "WantGoo: WantGoo fundamentals 2330 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:17.963Z"
+      "updatedAt": "2026-05-22T19:32:15.441Z"
     },
     "largestLoser": {
       "id": "holding16",
@@ -1404,15 +1404,15 @@
       "yahooSymbol": "2912.TW",
       "sector": "其他",
       "currentPrice": 220,
-      "previousClose": 222,
-      "change": -2,
-      "changePercent": -0.9009009009009009,
+      "previousClose": 221,
+      "change": -1,
+      "changePercent": -0.4524886877828055,
       "eps": null,
       "pe": null,
       "forwardPe": null,
       "cost": 46750,
       "marketValue": 44000,
-      "todayPnL": -400,
+      "todayPnL": -200,
       "unrealizedPnL": -2750,
       "unrealizedPnLPct": -5.88235294117647,
       "weight": 1.664348871732226,
@@ -1423,7 +1423,7 @@
         "WantGoo: WantGoo fundamentals 2912 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-05-22T17:05:18.398Z"
+      "updatedAt": "2026-05-22T19:32:15.888Z"
     },
     "sectorAllocation": [
       {
@@ -1471,15 +1471,15 @@
         "yahooSymbol": "2330.TW",
         "sector": "電子",
         "currentPrice": 2255,
-        "previousClose": 2185,
-        "change": 70,
-        "changePercent": 3.203661327231121,
+        "previousClose": 2230,
+        "change": 25,
+        "changePercent": 1.1210762331838564,
         "eps": null,
         "pe": null,
         "forwardPe": null,
         "cost": 324625,
         "marketValue": 394625,
-        "todayPnL": 12250,
+        "todayPnL": 4375,
         "unrealizedPnL": 70000,
         "unrealizedPnLPct": 21.563342318059302,
         "weight": 14.9271289433484,
@@ -1490,7 +1490,7 @@
           "WantGoo: WantGoo fundamentals 2330 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T17:05:17.963Z"
+        "updatedAt": "2026-05-22T19:32:15.441Z"
       },
       {
         "id": "holding5",
@@ -1505,15 +1505,15 @@
         "yahooSymbol": "2327.TW",
         "sector": "電子",
         "currentPrice": 629,
-        "previousClose": 520,
-        "change": 109,
-        "changePercent": 20.961538461538463,
+        "previousClose": 572,
+        "change": 57,
+        "changePercent": 9.965034965034965,
         "eps": null,
         "pe": null,
         "forwardPe": null,
         "cost": 44980.8,
         "marketValue": 100640,
-        "todayPnL": 17440,
+        "todayPnL": 9120,
         "unrealizedPnL": 55659.2,
         "unrealizedPnLPct": 123.7399068046811,
         "weight": 3.8068197829802553,
@@ -1524,7 +1524,7 @@
           "WantGoo: WantGoo fundamentals 2327 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T17:05:17.941Z"
+        "updatedAt": "2026-05-22T19:32:15.414Z"
       },
       {
         "id": "holding27",
@@ -1539,15 +1539,15 @@
         "yahooSymbol": "4979.TWO",
         "sector": "其他",
         "currentPrice": 630,
-        "previousClose": 562,
-        "change": 68,
-        "changePercent": 12.099644128113878,
+        "previousClose": 593,
+        "change": 37,
+        "changePercent": 6.239460370994941,
         "eps": null,
         "pe": null,
         "forwardPe": null,
         "cost": 35569.8,
         "marketValue": 68040,
-        "todayPnL": 7344,
+        "todayPnL": 3996,
         "unrealizedPnL": 32470.199999999997,
         "unrealizedPnLPct": 91.28586609989372,
         "weight": 2.5736885734695605,
@@ -1559,7 +1559,7 @@
           "WantGoo: WantGoo fundamentals 4979 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T17:05:18.721Z"
+        "updatedAt": "2026-05-22T19:32:16.311Z"
       },
       {
         "id": "holding18",
@@ -1574,15 +1574,15 @@
         "yahooSymbol": "3163.TWO",
         "sector": "其他",
         "currentPrice": 1145,
-        "previousClose": 952,
-        "change": 193,
-        "changePercent": 20.27310924369748,
+        "previousClose": 1045,
+        "change": 100,
+        "changePercent": 9.569377990430622,
         "eps": null,
         "pe": null,
         "forwardPe": null,
         "cost": 36360,
         "marketValue": 68700,
-        "todayPnL": 11580,
+        "todayPnL": 6000,
         "unrealizedPnL": 32340,
         "unrealizedPnLPct": 88.94389438943895,
         "weight": 2.598653806545544,
@@ -1594,7 +1594,7 @@
           "WantGoo: WantGoo fundamentals 3163 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T17:05:18.445Z"
+        "updatedAt": "2026-05-22T19:32:15.990Z"
       },
       {
         "id": "holding8",
@@ -1609,15 +1609,15 @@
         "yahooSymbol": "2376.TW",
         "sector": "電子",
         "currentPrice": 322.5,
-        "previousClose": 302,
-        "change": 20.5,
-        "changePercent": 6.788079470198675,
+        "previousClose": 316.5,
+        "change": 6,
+        "changePercent": 1.8957345971563981,
         "eps": null,
         "pe": null,
         "forwardPe": null,
         "cost": 86698.1,
         "marketValue": 114487.5,
-        "todayPnL": 7277.5,
+        "todayPnL": 2130,
         "unrealizedPnL": 27789.399999999994,
         "unrealizedPnLPct": 32.053066906887224,
         "weight": 4.330616851191891,
@@ -1628,7 +1628,7 @@
           "WantGoo: WantGoo fundamentals 2376 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T17:05:18.081Z"
+        "updatedAt": "2026-05-22T19:32:15.538Z"
       },
       {
         "id": "holding26",
@@ -1643,15 +1643,15 @@
         "yahooSymbol": "3711.TW",
         "sector": "其他",
         "currentPrice": 561,
-        "previousClose": 476,
-        "change": 85,
-        "changePercent": 17.857142857142858,
+        "previousClose": 510,
+        "change": 51,
+        "changePercent": 10,
         "eps": null,
         "pe": null,
         "forwardPe": null,
         "cost": 45760,
         "marketValue": 70125,
-        "todayPnL": 10625,
+        "todayPnL": 6375,
         "unrealizedPnL": 24365,
         "unrealizedPnLPct": 53.245192307692314,
         "weight": 2.652556014323235,
@@ -1662,7 +1662,7 @@
           "WantGoo: WantGoo fundamentals 3711 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T17:05:18.643Z"
+        "updatedAt": "2026-05-22T19:32:16.206Z"
       },
       {
         "id": "holding30",
@@ -1677,15 +1677,15 @@
         "yahooSymbol": "6197.TW",
         "sector": "其他",
         "currentPrice": 256,
-        "previousClose": 217,
-        "change": 39,
-        "changePercent": 17.972350230414747,
+        "previousClose": 238,
+        "change": 18,
+        "changePercent": 7.563025210084033,
         "eps": null,
         "pe": null,
         "forwardPe": null,
         "cost": 22900.7,
         "marketValue": 43520,
-        "todayPnL": 6630,
+        "todayPnL": 3060,
         "unrealizedPnL": 20619.3,
         "unrealizedPnLPct": 90.03785910474352,
         "weight": 1.6461923385860562,
@@ -1696,7 +1696,7 @@
           "WantGoo: WantGoo fundamentals 6197 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T17:05:18.912Z"
+        "updatedAt": "2026-05-22T19:32:16.521Z"
       },
       {
         "id": "holding31",
@@ -1711,15 +1711,15 @@
         "yahooSymbol": "6239.TW",
         "sector": "其他",
         "currentPrice": 283,
-        "previousClose": 234.5,
-        "change": 48.5,
-        "changePercent": 20.68230277185501,
+        "previousClose": 257.5,
+        "change": 25.5,
+        "changePercent": 9.902912621359224,
         "eps": null,
         "pe": null,
         "forwardPe": null,
         "cost": 18350.399999999998,
         "marketValue": 33960,
-        "todayPnL": 5820,
+        "todayPnL": 3060,
         "unrealizedPnL": 15609.600000000002,
         "unrealizedPnLPct": 85.06408579649492,
         "weight": 1.284574720091509,
@@ -1730,7 +1730,7 @@
           "WantGoo: WantGoo fundamentals 6239 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T17:05:18.968Z"
+        "updatedAt": "2026-05-22T19:32:16.621Z"
       },
       {
         "id": "holding32",
@@ -1745,15 +1745,15 @@
         "yahooSymbol": "6274.TWO",
         "sector": "其他",
         "currentPrice": 1455,
-        "previousClose": 1205,
-        "change": 250,
-        "changePercent": 20.74688796680498,
+        "previousClose": 1325,
+        "change": 130,
+        "changePercent": 9.811320754716983,
         "eps": null,
         "pe": null,
         "forwardPe": null,
         "cost": 7695,
         "marketValue": 21825,
-        "todayPnL": 3750,
+        "todayPnL": 1950,
         "unrealizedPnL": 14130,
         "unrealizedPnLPct": 183.62573099415204,
         "weight": 0.8255548664899052,
@@ -1765,7 +1765,7 @@
           "WantGoo: WantGoo fundamentals 6274 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T17:05:18.954Z"
+        "updatedAt": "2026-05-22T19:32:16.573Z"
       },
       {
         "id": "holding4",
@@ -1780,15 +1780,15 @@
         "yahooSymbol": "2317.TW",
         "sector": "電子",
         "currentPrice": 250,
-        "previousClose": 240,
-        "change": 10,
-        "changePercent": 4.166666666666666,
+        "previousClose": 247.5,
+        "change": 2.5,
+        "changePercent": 1.0101010101010102,
         "eps": null,
         "pe": null,
         "forwardPe": null,
         "cost": 87412,
         "marketValue": 100000,
-        "todayPnL": 4000,
+        "todayPnL": 1000,
         "unrealizedPnL": 12588,
         "unrealizedPnLPct": 14.400768773166156,
         "weight": 3.782611072118695,
@@ -1799,7 +1799,7 @@
           "WantGoo: WantGoo fundamentals 2317 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T17:05:17.928Z"
+        "updatedAt": "2026-05-22T19:32:15.406Z"
       },
       {
         "id": "holding12",
@@ -1814,15 +1814,15 @@
         "yahooSymbol": "2454.TW",
         "sector": "電子",
         "currentPrice": 3860,
-        "previousClose": 3230,
-        "change": 630,
-        "changePercent": 19.5046439628483,
+        "previousClose": 3550,
+        "change": 310,
+        "changePercent": 8.732394366197182,
         "eps": null,
         "pe": null,
         "forwardPe": null,
         "cost": 7275,
         "marketValue": 19300,
-        "todayPnL": 3150,
+        "todayPnL": 1550,
         "unrealizedPnL": 12025,
         "unrealizedPnLPct": 165.29209621993127,
         "weight": 0.7300439369189082,
@@ -1833,7 +1833,7 @@
           "WantGoo: WantGoo fundamentals 2454 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T17:05:18.221Z"
+        "updatedAt": "2026-05-22T19:32:15.732Z"
       },
       {
         "id": "holding34",
@@ -1848,15 +1848,15 @@
         "yahooSymbol": "6640.TWO",
         "sector": "其他",
         "currentPrice": 1360,
-        "previousClose": 1250,
-        "change": 110,
-        "changePercent": 8.799999999999999,
+        "previousClose": 1375,
+        "change": -15,
+        "changePercent": -1.090909090909091,
         "eps": null,
         "pe": null,
         "forwardPe": null,
         "cost": 13284,
         "marketValue": 24480,
-        "todayPnL": 1980,
+        "todayPnL": -270,
         "unrealizedPnL": 11196,
         "unrealizedPnLPct": 84.28184281842819,
         "weight": 0.9259831904546566,
@@ -1868,7 +1868,7 @@
           "WantGoo: WantGoo fundamentals 6640 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-05-22T17:05:19.098Z"
+        "updatedAt": "2026-05-22T19:32:16.662Z"
       }
     ]
   }
