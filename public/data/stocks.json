@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-22T12:28:24.851Z",
+  "generatedAt": "2026-05-22T12:56:44.740Z",
   "watchlists": [
     {
       "id": "default",
@@ -807,7 +807,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.393Z"
+          "updatedAt": "2026-05-22T12:56:44.355Z"
         },
         {
           "id": "3443-2026/5/22-1",
@@ -834,7 +834,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.395Z"
+          "updatedAt": "2026-05-22T12:56:44.445Z"
         },
         {
           "id": "4541-2026/5/21-2",
@@ -861,7 +861,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.289Z"
+          "updatedAt": "2026-05-22T12:56:44.358Z"
         },
         {
           "id": "3088-2026/5/21-3",
@@ -888,7 +888,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.394Z"
+          "updatedAt": "2026-05-22T12:56:44.363Z"
         },
         {
           "id": "2645-2026/5/21-4",
@@ -915,7 +915,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.393Z"
+          "updatedAt": "2026-05-22T12:56:44.359Z"
         },
         {
           "id": "3702-2026/5/20-5",
@@ -942,7 +942,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.395Z"
+          "updatedAt": "2026-05-22T12:56:44.362Z"
         },
         {
           "id": "1476-2026/5/20-6",
@@ -969,7 +969,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.392Z"
+          "updatedAt": "2026-05-22T12:56:44.359Z"
         },
         {
           "id": "2949-2026/5/20-7",
@@ -996,7 +996,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.396Z"
+          "updatedAt": "2026-05-22T12:56:44.361Z"
         },
         {
           "id": "8111-2026/5/20-8",
@@ -1023,7 +1023,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.397Z"
+          "updatedAt": "2026-05-22T12:56:44.370Z"
         },
         {
           "id": "2891-2026/5/20-9",
@@ -1050,7 +1050,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.416Z"
+          "updatedAt": "2026-05-22T12:56:44.364Z"
         },
         {
           "id": "6902-2026/5/19-10",
@@ -1077,7 +1077,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.363Z"
+          "updatedAt": "2026-05-22T12:56:44.362Z"
         },
         {
           "id": "2359-2026/5/19-11",
@@ -1104,7 +1104,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.415Z"
+          "updatedAt": "2026-05-22T12:56:44.368Z"
         },
         {
           "id": "5388-2026/5/19-12",
@@ -1131,7 +1131,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.414Z"
+          "updatedAt": "2026-05-22T12:56:44.364Z"
         },
         {
           "id": "1503-2026/5/18-13",
@@ -1158,7 +1158,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.416Z"
+          "updatedAt": "2026-05-22T12:56:44.364Z"
         },
         {
           "id": "6414-2026/5/18-14",
@@ -1185,7 +1185,7 @@
           "reachedDays": 4,
           "sourceTargetReached": true,
           "sourceReachedDays": 4,
-          "updatedAt": "2026-05-22T12:28:24.331Z"
+          "updatedAt": "2026-05-22T12:56:44.368Z"
         },
         {
           "id": "2890-2026/5/18-15",
@@ -1212,7 +1212,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.416Z"
+          "updatedAt": "2026-05-22T12:56:44.369Z"
         },
         {
           "id": "6177-2026/5/18-16",
@@ -1239,7 +1239,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.323Z"
+          "updatedAt": "2026-05-22T12:56:44.367Z"
         },
         {
           "id": "8462-2026/5/15-17",
@@ -1266,7 +1266,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.393Z"
+          "updatedAt": "2026-05-22T12:56:44.370Z"
         },
         {
           "id": "2034-2026/5/15-18",
@@ -1293,7 +1293,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.426Z"
+          "updatedAt": "2026-05-22T12:56:44.370Z"
         },
         {
           "id": "1326-2026/5/15-19",
@@ -1320,7 +1320,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.370Z"
+          "updatedAt": "2026-05-22T12:56:44.407Z"
         },
         {
           "id": "2480-2026/5/15-20",
@@ -1347,7 +1347,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.363Z"
+          "updatedAt": "2026-05-22T12:56:44.371Z"
         },
         {
           "id": "6664-2026/5/15-21",
@@ -1374,7 +1374,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.366Z"
+          "updatedAt": "2026-05-22T12:56:44.372Z"
         },
         {
           "id": "2327-2026/5/15-22",
@@ -1401,7 +1401,7 @@
           "reachedDays": 0,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.400Z"
+          "updatedAt": "2026-05-22T12:56:44.408Z"
         },
         {
           "id": "2317-2026/5/15-23",
@@ -1428,7 +1428,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.373Z"
+          "updatedAt": "2026-05-22T12:56:44.388Z"
         },
         {
           "id": "2515-2026/5/15-24",
@@ -1455,7 +1455,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.396Z"
+          "updatedAt": "2026-05-22T12:56:44.389Z"
         },
         {
           "id": "2891-2026/5/15-25",
@@ -1482,7 +1482,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.416Z"
+          "updatedAt": "2026-05-22T12:56:44.364Z"
         },
         {
           "id": "5534-2026/5/15-26",
@@ -1509,7 +1509,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.401Z"
+          "updatedAt": "2026-05-22T12:56:44.388Z"
         },
         {
           "id": "7769-2026/5/14-27",
@@ -1536,7 +1536,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.401Z"
+          "updatedAt": "2026-05-22T12:56:44.390Z"
         },
         {
           "id": "6223-2026/5/14-28",
@@ -1563,7 +1563,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.365Z"
+          "updatedAt": "2026-05-22T12:56:44.395Z"
         },
         {
           "id": "2762-2026/5/14-29",
@@ -1590,7 +1590,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.372Z"
+          "updatedAt": "2026-05-22T12:56:44.397Z"
         },
         {
           "id": "4571-2026/5/14-30",
@@ -1617,7 +1617,7 @@
           "reachedDays": 1,
           "sourceTargetReached": true,
           "sourceReachedDays": 1,
-          "updatedAt": "2026-05-22T12:28:24.365Z"
+          "updatedAt": "2026-05-22T12:56:44.392Z"
         },
         {
           "id": "6531-2026/5/13-31",
@@ -1644,7 +1644,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.241Z"
+          "updatedAt": "2026-05-22T12:56:44.393Z"
         },
         {
           "id": "4966-2026/5/13-32",
@@ -1671,7 +1671,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.368Z"
+          "updatedAt": "2026-05-22T12:56:44.395Z"
         },
         {
           "id": "2615-2026/5/13-33",
@@ -1698,7 +1698,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.424Z"
+          "updatedAt": "2026-05-22T12:56:44.394Z"
         },
         {
           "id": "7750-2026/5/13-34",
@@ -1725,7 +1725,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.425Z"
+          "updatedAt": "2026-05-22T12:56:44.396Z"
         },
         {
           "id": "6166-2026/5/13-35",
@@ -1752,7 +1752,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.243Z"
+          "updatedAt": "2026-05-22T12:56:44.396Z"
         },
         {
           "id": "3702-2026/5/13-36",
@@ -1779,7 +1779,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.395Z"
+          "updatedAt": "2026-05-22T12:56:44.362Z"
         },
         {
           "id": "2404-2026/5/13-37",
@@ -1806,7 +1806,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.371Z"
+          "updatedAt": "2026-05-22T12:56:44.413Z"
         },
         {
           "id": "5536-2026/5/13-38",
@@ -1833,7 +1833,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.448Z"
+          "updatedAt": "2026-05-22T12:56:44.397Z"
         },
         {
           "id": "1605-2026/5/12-39",
@@ -1860,7 +1860,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.369Z"
+          "updatedAt": "2026-05-22T12:56:44.428Z"
         },
         {
           "id": "8069-2026/5/12-40",
@@ -1887,7 +1887,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.374Z"
+          "updatedAt": "2026-05-22T12:56:44.435Z"
         },
         {
           "id": "2049-2026/5/12-41",
@@ -1914,7 +1914,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.250Z"
+          "updatedAt": "2026-05-22T12:56:44.409Z"
         },
         {
           "id": "6415-2026/5/12-42",
@@ -1941,7 +1941,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.373Z"
+          "updatedAt": "2026-05-22T12:56:44.425Z"
         },
         {
           "id": "2385-2026/5/12-43",
@@ -1968,7 +1968,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.447Z"
+          "updatedAt": "2026-05-22T12:56:44.433Z"
         },
         {
           "id": "4566-2026/5/12-44",
@@ -1995,7 +1995,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.428Z"
+          "updatedAt": "2026-05-22T12:56:44.427Z"
         },
         {
           "id": "7734-2026/5/12-45",
@@ -2022,7 +2022,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.372Z"
+          "updatedAt": "2026-05-22T12:56:44.423Z"
         },
         {
           "id": "3680-2026/5/12-46",
@@ -2049,7 +2049,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.375Z"
+          "updatedAt": "2026-05-22T12:56:44.467Z"
         },
         {
           "id": "4961-2026/5/12-47",
@@ -2076,7 +2076,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.375Z"
+          "updatedAt": "2026-05-22T12:56:44.448Z"
         },
         {
           "id": "2408-2026/5/12-48",
@@ -2103,7 +2103,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.377Z"
+          "updatedAt": "2026-05-22T12:56:44.439Z"
         },
         {
           "id": "1802-2026/5/12-49",
@@ -2130,7 +2130,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.376Z"
+          "updatedAt": "2026-05-22T12:56:44.443Z"
         },
         {
           "id": "4551-2026/5/11-50",
@@ -2157,7 +2157,7 @@
           "reachedDays": 1,
           "sourceTargetReached": true,
           "sourceReachedDays": 1,
-          "updatedAt": "2026-05-22T12:28:24.376Z"
+          "updatedAt": "2026-05-22T12:56:44.410Z"
         },
         {
           "id": "6829-2026/5/11-51",
@@ -2184,7 +2184,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.430Z"
+          "updatedAt": "2026-05-22T12:56:44.418Z"
         },
         {
           "id": "2344-2026/5/11-52",
@@ -2211,7 +2211,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.368Z"
+          "updatedAt": "2026-05-22T12:56:44.478Z"
         },
         {
           "id": "3596-2026/5/11-53",
@@ -2238,7 +2238,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.377Z"
+          "updatedAt": "2026-05-22T12:56:44.435Z"
         },
         {
           "id": "2049-2026/5/11-54",
@@ -2265,7 +2265,7 @@
           "reachedDays": 1,
           "sourceTargetReached": true,
           "sourceReachedDays": 1,
-          "updatedAt": "2026-05-22T12:28:24.250Z"
+          "updatedAt": "2026-05-22T12:56:44.409Z"
         },
         {
           "id": "2451-2026/5/11-55",
@@ -2292,7 +2292,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.430Z"
+          "updatedAt": "2026-05-22T12:56:44.455Z"
         },
         {
           "id": "8210-2026/5/11-56",
@@ -2319,7 +2319,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.378Z"
+          "updatedAt": "2026-05-22T12:56:44.458Z"
         },
         {
           "id": "1519-2026/5/11-57",
@@ -2346,7 +2346,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.378Z"
+          "updatedAt": "2026-05-22T12:56:44.449Z"
         },
         {
           "id": "5289-2026/5/11-58",
@@ -2373,7 +2373,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.254Z"
+          "updatedAt": "2026-05-22T12:56:44.458Z"
         },
         {
           "id": "2395-2026/5/8-59",
@@ -2400,7 +2400,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.382Z"
+          "updatedAt": "2026-05-22T12:56:44.457Z"
         },
         {
           "id": "6285-2026/5/8-60",
@@ -2427,7 +2427,7 @@
           "reachedDays": 2,
           "sourceTargetReached": true,
           "sourceReachedDays": 2,
-          "updatedAt": "2026-05-22T12:28:24.380Z"
+          "updatedAt": "2026-05-22T12:56:44.460Z"
         },
         {
           "id": "3034-2026/5/8-61",
@@ -2454,7 +2454,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.384Z"
+          "updatedAt": "2026-05-22T12:56:44.459Z"
         },
         {
           "id": "6526-2026/5/8-62",
@@ -2481,7 +2481,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.379Z"
+          "updatedAt": "2026-05-22T12:56:44.438Z"
         },
         {
           "id": "2383-2026/5/8-63",
@@ -2508,7 +2508,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.432Z"
+          "updatedAt": "2026-05-22T12:56:44.464Z"
         },
         {
           "id": "2303-2026/5/8-64",
@@ -2535,7 +2535,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.255Z"
+          "updatedAt": "2026-05-22T12:56:44.479Z"
         },
         {
           "id": "2606-2026/5/7-65",
@@ -2562,7 +2562,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.384Z"
+          "updatedAt": "2026-05-22T12:56:44.466Z"
         },
         {
           "id": "3260-2026/5/7-66",
@@ -2589,7 +2589,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.386Z"
+          "updatedAt": "2026-05-22T12:56:44.462Z"
         },
         {
           "id": "5388-2026/5/7-67",
@@ -2616,7 +2616,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.414Z"
+          "updatedAt": "2026-05-22T12:56:44.364Z"
         },
         {
           "id": "8299-2026/5/7-68",
@@ -2643,7 +2643,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.378Z"
+          "updatedAt": "2026-05-22T12:56:44.483Z"
         },
         {
           "id": "3661-2026/5/7-69",
@@ -2670,7 +2670,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.385Z"
+          "updatedAt": "2026-05-22T12:56:44.357Z"
         },
         {
           "id": "2884-2026/5/7-70",
@@ -2697,7 +2697,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.384Z"
+          "updatedAt": "2026-05-22T12:56:44.357Z"
         },
         {
           "id": "3162-2026/5/6-71",
@@ -2724,7 +2724,7 @@
           "reachedDays": 1,
           "sourceTargetReached": true,
           "sourceReachedDays": 1,
-          "updatedAt": "2026-05-22T12:28:24.431Z"
+          "updatedAt": "2026-05-22T12:56:44.401Z"
         },
         {
           "id": "4540-2026/5/6-72",
@@ -2751,7 +2751,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.386Z"
+          "updatedAt": "2026-05-22T12:56:44.401Z"
         },
         {
           "id": "4991-2026/5/6-73",
@@ -2778,7 +2778,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.390Z"
+          "updatedAt": "2026-05-22T12:56:44.402Z"
         },
         {
           "id": "3044-2026/5/6-74",
@@ -2805,7 +2805,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.387Z"
+          "updatedAt": "2026-05-22T12:56:44.402Z"
         },
         {
           "id": "5347-2026/5/6-75",
@@ -2832,7 +2832,7 @@
           "reachedDays": 1,
           "sourceTargetReached": true,
           "sourceReachedDays": 1,
-          "updatedAt": "2026-05-22T12:28:24.386Z"
+          "updatedAt": "2026-05-22T12:56:44.411Z"
         },
         {
           "id": "3264-2026/5/5-76",
@@ -2859,7 +2859,7 @@
           "reachedDays": 1,
           "sourceTargetReached": true,
           "sourceReachedDays": 1,
-          "updatedAt": "2026-05-22T12:28:24.390Z"
+          "updatedAt": "2026-05-22T12:56:44.403Z"
         },
         {
           "id": "2449-2026/5/5-77",
@@ -2886,7 +2886,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.359Z"
+          "updatedAt": "2026-05-22T12:56:44.404Z"
         },
         {
           "id": "2360-2026/5/5-78",
@@ -2913,7 +2913,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.391Z"
+          "updatedAt": "2026-05-22T12:56:44.434Z"
         },
         {
           "id": "2454-2026/5/5-79",
@@ -2940,7 +2940,7 @@
           "reachedDays": 4,
           "sourceTargetReached": true,
           "sourceReachedDays": 4,
-          "updatedAt": "2026-05-22T12:28:24.392Z"
+          "updatedAt": "2026-05-22T12:56:44.412Z"
         },
         {
           "id": "4979-2026/5/5-80",
@@ -2967,7 +2967,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.442Z"
+          "updatedAt": "2026-05-22T12:56:44.403Z"
         },
         {
           "id": "2345-2026/5/5-81",
@@ -2994,7 +2994,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.414Z"
+          "updatedAt": "2026-05-22T12:56:44.452Z"
         },
         {
           "id": "3105-2026/5/4-82",
@@ -3021,7 +3021,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.392Z"
+          "updatedAt": "2026-05-22T12:56:44.486Z"
         },
         {
           "id": "2480-2026/5/4-83",
@@ -3048,7 +3048,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.363Z"
+          "updatedAt": "2026-05-22T12:56:44.371Z"
         },
         {
           "id": "8996-2026/5/4-84",
@@ -3075,7 +3075,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.389Z"
+          "updatedAt": "2026-05-22T12:56:44.516Z"
         },
         {
           "id": "2439-2026/5/4-85",
@@ -3102,7 +3102,7 @@
           "reachedDays": null,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.485Z"
+          "updatedAt": "2026-05-22T12:56:44.494Z"
         }
       ]
     },
@@ -3156,7 +3156,7 @@
           "reachedDays": 1,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.389Z"
+          "updatedAt": "2026-05-22T12:56:44.509Z"
         },
         {
           "id": "3661-2026-05-22-1",
@@ -3183,7 +3183,7 @@
           "reachedDays": 7,
           "sourceTargetReached": true,
           "sourceReachedDays": 7,
-          "updatedAt": "2026-05-22T12:28:24.385Z"
+          "updatedAt": "2026-05-22T12:56:44.357Z"
         }
       ]
     },
@@ -3237,7 +3237,7 @@
           "reachedDays": 1,
           "sourceTargetReached": false,
           "sourceReachedDays": null,
-          "updatedAt": "2026-05-22T12:28:24.389Z"
+          "updatedAt": "2026-05-22T12:56:44.509Z"
         },
         {
           "id": "3661-2026-05-22-1",
@@ -3264,7 +3264,7 @@
           "reachedDays": 7,
           "sourceTargetReached": true,
           "sourceReachedDays": 7,
-          "updatedAt": "2026-05-22T12:28:24.385Z"
+          "updatedAt": "2026-05-22T12:56:44.357Z"
         }
       ]
     }
@@ -3295,7 +3295,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.393Z",
+      "updatedAt": "2026-05-22T12:56:44.355Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3324,7 +3324,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.395Z",
+      "updatedAt": "2026-05-22T12:56:44.445Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3353,7 +3353,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.289Z",
+      "updatedAt": "2026-05-22T12:56:44.358Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3382,7 +3382,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.394Z",
+      "updatedAt": "2026-05-22T12:56:44.363Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3411,7 +3411,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.393Z",
+      "updatedAt": "2026-05-22T12:56:44.359Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3440,7 +3440,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.395Z",
+      "updatedAt": "2026-05-22T12:56:44.362Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3469,7 +3469,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.392Z",
+      "updatedAt": "2026-05-22T12:56:44.359Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3498,7 +3498,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.396Z",
+      "updatedAt": "2026-05-22T12:56:44.361Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3527,7 +3527,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.397Z",
+      "updatedAt": "2026-05-22T12:56:44.370Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3556,7 +3556,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.416Z",
+      "updatedAt": "2026-05-22T12:56:44.364Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3585,7 +3585,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.363Z",
+      "updatedAt": "2026-05-22T12:56:44.362Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3614,7 +3614,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.415Z",
+      "updatedAt": "2026-05-22T12:56:44.368Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3643,7 +3643,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.414Z",
+      "updatedAt": "2026-05-22T12:56:44.364Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3672,7 +3672,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.416Z",
+      "updatedAt": "2026-05-22T12:56:44.364Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3701,7 +3701,7 @@
       "reachedDays": 4,
       "sourceTargetReached": true,
       "sourceReachedDays": 4,
-      "updatedAt": "2026-05-22T12:28:24.331Z",
+      "updatedAt": "2026-05-22T12:56:44.368Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3730,7 +3730,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.416Z",
+      "updatedAt": "2026-05-22T12:56:44.369Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3759,7 +3759,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.323Z",
+      "updatedAt": "2026-05-22T12:56:44.367Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3788,7 +3788,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.393Z",
+      "updatedAt": "2026-05-22T12:56:44.370Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3817,7 +3817,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.426Z",
+      "updatedAt": "2026-05-22T12:56:44.370Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3846,7 +3846,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.370Z",
+      "updatedAt": "2026-05-22T12:56:44.407Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3875,7 +3875,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.363Z",
+      "updatedAt": "2026-05-22T12:56:44.371Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3904,7 +3904,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.366Z",
+      "updatedAt": "2026-05-22T12:56:44.372Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3933,7 +3933,7 @@
       "reachedDays": 0,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.400Z",
+      "updatedAt": "2026-05-22T12:56:44.408Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3962,7 +3962,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.373Z",
+      "updatedAt": "2026-05-22T12:56:44.388Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -3991,7 +3991,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.396Z",
+      "updatedAt": "2026-05-22T12:56:44.389Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4020,7 +4020,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.416Z",
+      "updatedAt": "2026-05-22T12:56:44.364Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4049,7 +4049,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.401Z",
+      "updatedAt": "2026-05-22T12:56:44.388Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4078,7 +4078,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.401Z",
+      "updatedAt": "2026-05-22T12:56:44.390Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4107,7 +4107,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.365Z",
+      "updatedAt": "2026-05-22T12:56:44.395Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4136,7 +4136,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.372Z",
+      "updatedAt": "2026-05-22T12:56:44.397Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4165,7 +4165,7 @@
       "reachedDays": 1,
       "sourceTargetReached": true,
       "sourceReachedDays": 1,
-      "updatedAt": "2026-05-22T12:28:24.365Z",
+      "updatedAt": "2026-05-22T12:56:44.392Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4194,7 +4194,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.241Z",
+      "updatedAt": "2026-05-22T12:56:44.393Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4223,7 +4223,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.368Z",
+      "updatedAt": "2026-05-22T12:56:44.395Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4252,7 +4252,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.424Z",
+      "updatedAt": "2026-05-22T12:56:44.394Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4281,7 +4281,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.425Z",
+      "updatedAt": "2026-05-22T12:56:44.396Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4310,7 +4310,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.243Z",
+      "updatedAt": "2026-05-22T12:56:44.396Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4339,7 +4339,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.395Z",
+      "updatedAt": "2026-05-22T12:56:44.362Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4368,7 +4368,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.371Z",
+      "updatedAt": "2026-05-22T12:56:44.413Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4397,7 +4397,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.448Z",
+      "updatedAt": "2026-05-22T12:56:44.397Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4426,7 +4426,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.369Z",
+      "updatedAt": "2026-05-22T12:56:44.428Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4455,7 +4455,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.374Z",
+      "updatedAt": "2026-05-22T12:56:44.435Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4484,7 +4484,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.250Z",
+      "updatedAt": "2026-05-22T12:56:44.409Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4513,7 +4513,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.373Z",
+      "updatedAt": "2026-05-22T12:56:44.425Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4542,7 +4542,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.447Z",
+      "updatedAt": "2026-05-22T12:56:44.433Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4571,7 +4571,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.428Z",
+      "updatedAt": "2026-05-22T12:56:44.427Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4600,7 +4600,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.372Z",
+      "updatedAt": "2026-05-22T12:56:44.423Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4629,7 +4629,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.375Z",
+      "updatedAt": "2026-05-22T12:56:44.467Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4658,7 +4658,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.375Z",
+      "updatedAt": "2026-05-22T12:56:44.448Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4687,7 +4687,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.377Z",
+      "updatedAt": "2026-05-22T12:56:44.439Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4716,7 +4716,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.376Z",
+      "updatedAt": "2026-05-22T12:56:44.443Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4745,7 +4745,7 @@
       "reachedDays": 1,
       "sourceTargetReached": true,
       "sourceReachedDays": 1,
-      "updatedAt": "2026-05-22T12:28:24.376Z",
+      "updatedAt": "2026-05-22T12:56:44.410Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4774,7 +4774,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.430Z",
+      "updatedAt": "2026-05-22T12:56:44.418Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4803,7 +4803,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.368Z",
+      "updatedAt": "2026-05-22T12:56:44.478Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4832,7 +4832,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.377Z",
+      "updatedAt": "2026-05-22T12:56:44.435Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4861,7 +4861,7 @@
       "reachedDays": 1,
       "sourceTargetReached": true,
       "sourceReachedDays": 1,
-      "updatedAt": "2026-05-22T12:28:24.250Z",
+      "updatedAt": "2026-05-22T12:56:44.409Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4890,7 +4890,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.430Z",
+      "updatedAt": "2026-05-22T12:56:44.455Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4919,7 +4919,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.378Z",
+      "updatedAt": "2026-05-22T12:56:44.458Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4948,7 +4948,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.378Z",
+      "updatedAt": "2026-05-22T12:56:44.449Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -4977,7 +4977,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.254Z",
+      "updatedAt": "2026-05-22T12:56:44.458Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5006,7 +5006,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.382Z",
+      "updatedAt": "2026-05-22T12:56:44.457Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5035,7 +5035,7 @@
       "reachedDays": 2,
       "sourceTargetReached": true,
       "sourceReachedDays": 2,
-      "updatedAt": "2026-05-22T12:28:24.380Z",
+      "updatedAt": "2026-05-22T12:56:44.460Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5064,7 +5064,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.384Z",
+      "updatedAt": "2026-05-22T12:56:44.459Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5093,7 +5093,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.379Z",
+      "updatedAt": "2026-05-22T12:56:44.438Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5122,7 +5122,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.432Z",
+      "updatedAt": "2026-05-22T12:56:44.464Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5151,7 +5151,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.255Z",
+      "updatedAt": "2026-05-22T12:56:44.479Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5180,7 +5180,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.384Z",
+      "updatedAt": "2026-05-22T12:56:44.466Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5209,7 +5209,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.386Z",
+      "updatedAt": "2026-05-22T12:56:44.462Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5238,7 +5238,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.414Z",
+      "updatedAt": "2026-05-22T12:56:44.364Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5267,7 +5267,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.378Z",
+      "updatedAt": "2026-05-22T12:56:44.483Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5296,7 +5296,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.385Z",
+      "updatedAt": "2026-05-22T12:56:44.357Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5325,7 +5325,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.384Z",
+      "updatedAt": "2026-05-22T12:56:44.357Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5354,7 +5354,7 @@
       "reachedDays": 1,
       "sourceTargetReached": true,
       "sourceReachedDays": 1,
-      "updatedAt": "2026-05-22T12:28:24.431Z",
+      "updatedAt": "2026-05-22T12:56:44.401Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5383,7 +5383,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.386Z",
+      "updatedAt": "2026-05-22T12:56:44.401Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5412,7 +5412,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.390Z",
+      "updatedAt": "2026-05-22T12:56:44.402Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5441,7 +5441,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.387Z",
+      "updatedAt": "2026-05-22T12:56:44.402Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5470,7 +5470,7 @@
       "reachedDays": 1,
       "sourceTargetReached": true,
       "sourceReachedDays": 1,
-      "updatedAt": "2026-05-22T12:28:24.386Z",
+      "updatedAt": "2026-05-22T12:56:44.411Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5499,7 +5499,7 @@
       "reachedDays": 1,
       "sourceTargetReached": true,
       "sourceReachedDays": 1,
-      "updatedAt": "2026-05-22T12:28:24.390Z",
+      "updatedAt": "2026-05-22T12:56:44.403Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5528,7 +5528,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.359Z",
+      "updatedAt": "2026-05-22T12:56:44.404Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5557,7 +5557,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.391Z",
+      "updatedAt": "2026-05-22T12:56:44.434Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5586,7 +5586,7 @@
       "reachedDays": 4,
       "sourceTargetReached": true,
       "sourceReachedDays": 4,
-      "updatedAt": "2026-05-22T12:28:24.392Z",
+      "updatedAt": "2026-05-22T12:56:44.412Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5615,7 +5615,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.442Z",
+      "updatedAt": "2026-05-22T12:56:44.403Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5644,7 +5644,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.414Z",
+      "updatedAt": "2026-05-22T12:56:44.452Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5673,7 +5673,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.392Z",
+      "updatedAt": "2026-05-22T12:56:44.486Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5702,7 +5702,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.363Z",
+      "updatedAt": "2026-05-22T12:56:44.371Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5731,7 +5731,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.389Z",
+      "updatedAt": "2026-05-22T12:56:44.516Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5760,7 +5760,7 @@
       "reachedDays": null,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.485Z",
+      "updatedAt": "2026-05-22T12:56:44.494Z",
       "watchlistId": "default",
       "watchlistName": "總表"
     },
@@ -5789,7 +5789,7 @@
       "reachedDays": 1,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.389Z",
+      "updatedAt": "2026-05-22T12:56:44.509Z",
       "watchlistId": "ai",
       "watchlistName": "AI"
     },
@@ -5818,7 +5818,7 @@
       "reachedDays": 7,
       "sourceTargetReached": true,
       "sourceReachedDays": 7,
-      "updatedAt": "2026-05-22T12:28:24.385Z",
+      "updatedAt": "2026-05-22T12:56:44.357Z",
       "watchlistId": "ai",
       "watchlistName": "AI"
     },
@@ -5847,7 +5847,7 @@
       "reachedDays": 1,
       "sourceTargetReached": false,
       "sourceReachedDays": null,
-      "updatedAt": "2026-05-22T12:28:24.389Z",
+      "updatedAt": "2026-05-22T12:56:44.509Z",
       "watchlistId": "e58d8ae5b08ee9ab94",
       "watchlistName": "半導體"
     },
@@ -5876,7 +5876,7 @@
       "reachedDays": 7,
       "sourceTargetReached": true,
       "sourceReachedDays": 7,
-      "updatedAt": "2026-05-22T12:28:24.385Z",
+      "updatedAt": "2026-05-22T12:56:44.357Z",
       "watchlistId": "e58d8ae5b08ee9ab94",
       "watchlistName": "半導體"
     }
