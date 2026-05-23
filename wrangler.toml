@@ -1,7 +1,2 @@
 name = "stock-dashboard"
-compatibility_date = "2026-05-22"
 pages_build_output_dir = "dist"
-
-[assets]
-directory = "./dist"
-not_found_handling = "single-page-application"
