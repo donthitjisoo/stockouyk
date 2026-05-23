@@ -200,17 +200,21 @@ output directory 必須是：
 dist
 ```
 
-Deploy command 請留空。你第一次貼的錯誤是 Cloudflare 在 build 成功後又執行：
+Deploy command 一定要留空。你貼的錯誤都是 Cloudflare 在 build 成功後又執行了 Wrangler：
 
 ```bash
 npx wrangler deploy
 ```
 
-這是 Workers 的部署指令，不是 Pages 的指令。如果 Cloudflare 後台一定要填 deploy command，請改成：
+或：
 
 ```bash
 npx wrangler pages deploy dist --project-name=stock-dashboard
 ```
+
+Pages Git integration 不需要這一步。只要 Build command 是 `npm run build`，Output directory 是 `dist`，Cloudflare Pages 會自動部署 build output。
+
+如果你硬要用 `wrangler pages deploy`，就必須自己提供有 Cloudflare Pages Edit 權限的 API token；但這不是本專案的建議部署方式。
 
 `wrangler.toml` 不要加入 `[assets]`。`wrangler pages deploy` 會驗證 Pages config，而 Pages 專案不支援 `[assets]`。
 
