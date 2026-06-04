@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-03T12:03:46.817Z",
+  "generatedAt": "2026-06-04T10:43:28.322Z",
   "overall": {
     "count": 201,
     "targetReachedCount": 56,
     "targetRate": 27.860696517412936,
-    "avgReachedDays": 8.285714285714286,
-    "avgPotentialReturn": 15.093086976531547,
-    "avgInstantReturn": 8.789362554206026,
-    "winRate": 71.14427860696517,
+    "avgReachedDays": 8.678571428571429,
+    "avgPotentialReturn": 17.04205601837516,
+    "avgInstantReturn": 7.273025489693616,
+    "winRate": 65.67164179104478,
     "unreachedCount": 145
   },
   "byWatchlist": {
@@ -15,30 +15,30 @@
       "count": 86,
       "targetReachedCount": 18,
       "targetRate": 20.930232558139537,
-      "avgReachedDays": 7.944444444444445,
-      "avgPotentialReturn": 11.393286185980484,
-      "avgInstantReturn": 7.6736937915243795,
-      "winRate": 70.93023255813954,
+      "avgReachedDays": 8.444444444444445,
+      "avgPotentialReturn": 13.346019747758008,
+      "avgInstantReturn": 6.1655850281055,
+      "winRate": 63.95348837209303,
       "unreachedCount": 68
     },
     "discord": {
       "count": 29,
       "targetReachedCount": 20,
       "targetRate": 68.96551724137932,
-      "avgReachedDays": 8.9,
-      "avgPotentialReturn": 37.03673304462753,
-      "avgInstantReturn": 15.406432457007508,
-      "winRate": 72.41379310344827,
+      "avgReachedDays": 9.1,
+      "avgPotentialReturn": 38.96337458893198,
+      "avgInstantReturn": 13.841293054974834,
+      "winRate": 75.86206896551724,
       "unreachedCount": 9
     },
     "e7bea4e79b8ae68a95e9a1a7": {
       "count": 86,
       "targetReachedCount": 18,
       "targetRate": 20.930232558139537,
-      "avgReachedDays": 7.944444444444445,
-      "avgPotentialReturn": 11.393286185980484,
-      "avgInstantReturn": 7.6736937915243795,
-      "winRate": 70.93023255813954,
+      "avgReachedDays": 8.444444444444445,
+      "avgPotentialReturn": 13.346019747758008,
+      "avgInstantReturn": 6.1655850281055,
+      "winRate": 63.95348837209303,
       "unreachedCount": 68
     }
   }
