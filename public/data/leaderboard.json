@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-16T12:19:45.109Z",
+  "generatedAt": "2026-06-17T11:56:44.227Z",
   "recommenders": [
     {
       "recommender": "chouyk",
       "count": 1,
       "targetReachedCount": 1,
       "hitRate": 100,
-      "avgInstantReturn": 5.555555555555555,
-      "avgPotentialReturn": 31.57894736842105,
+      "avgInstantReturn": 6.944444444444445,
+      "avgPotentialReturn": 29.87012987012987,
       "avgReachedDays": 13
     },
     {
@@ -15,35 +15,35 @@
       "count": 7,
       "targetReachedCount": 5,
       "hitRate": 71.42857142857143,
-      "avgInstantReturn": 1.704249135676325,
-      "avgPotentialReturn": 144.21997850746564,
+      "avgInstantReturn": 1.4173900075032566,
+      "avgPotentialReturn": 144.0274198593988,
       "avgReachedDays": 12.2
     },
     {
       "recommender": "Donthitjisoo",
       "count": 21,
-      "targetReachedCount": 13,
-      "hitRate": 61.904761904761905,
-      "avgInstantReturn": 22.971870426767225,
-      "avgPotentialReturn": 8.092686054718962,
-      "avgReachedDays": 9
+      "targetReachedCount": 14,
+      "hitRate": 66.66666666666666,
+      "avgInstantReturn": 25.59396180552853,
+      "avgPotentialReturn": 6.756846699803919,
+      "avgReachedDays": 10.285714285714286
     },
     {
       "recommender": "capital securities",
       "count": 166,
-      "targetReachedCount": 42,
-      "hitRate": 25.301204819277107,
-      "avgInstantReturn": 4.693777236234392,
-      "avgPotentialReturn": 15.820189733050185,
-      "avgReachedDays": 14
+      "targetReachedCount": 46,
+      "hitRate": 27.710843373493976,
+      "avgInstantReturn": 5.605960783707259,
+      "avgPotentialReturn": 15.21696496520474,
+      "avgReachedDays": 15.434782608695652
     },
     {
       "recommender": "donthitjisoo",
       "count": 6,
       "targetReachedCount": 0,
       "hitRate": 0,
-      "avgInstantReturn": -4.213069615069241,
-      "avgPotentialReturn": 34.18761707581584,
+      "avgInstantReturn": -3.302258113271133,
+      "avgPotentialReturn": 31.55843309860458,
       "avgReachedDays": 0
     }
   ]
