@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-06-30T10:35:26.534Z",
+  "generatedAt": "2026-07-01T10:47:54.455Z",
   "recommenders": [
     {
       "recommender": "chouyk",
       "count": 1,
       "targetReachedCount": 1,
       "hitRate": 100,
-      "avgInstantReturn": -7.592592592592593,
-      "avgPotentialReturn": 50.300601202404806,
+      "avgInstantReturn": -1.3888888888888888,
+      "avgPotentialReturn": 40.845070422535215,
       "avgReachedDays": 13
     },
     {
@@ -15,8 +15,8 @@
       "count": 7,
       "targetReachedCount": 5,
       "hitRate": 71.42857142857143,
-      "avgInstantReturn": 1.5553872647858367,
-      "avgPotentialReturn": 154.89913004462758,
+      "avgInstantReturn": -0.34581984565693197,
+      "avgPotentialReturn": 166.18679435090561,
       "avgReachedDays": 12.2
     },
     {
@@ -24,26 +24,26 @@
       "count": 21,
       "targetReachedCount": 14,
       "hitRate": 66.66666666666666,
-      "avgInstantReturn": 26.984759522396423,
-      "avgPotentialReturn": 10.101691957137056,
-      "avgReachedDays": 12.571428571428571
+      "avgInstantReturn": 28.071204075278967,
+      "avgPotentialReturn": 9.376458889339593,
+      "avgReachedDays": 12.857142857142858
     },
     {
       "recommender": "capital securities",
       "count": 166,
-      "targetReachedCount": 46,
-      "hitRate": 27.710843373493976,
-      "avgInstantReturn": 5.930997161071865,
-      "avgPotentialReturn": 16.238075123642297,
-      "avgReachedDays": 20.391304347826086
+      "targetReachedCount": 44,
+      "hitRate": 26.506024096385545,
+      "avgInstantReturn": 6.024514013336826,
+      "avgPotentialReturn": 16.412206179267304,
+      "avgReachedDays": 20.363636363636363
     },
     {
       "recommender": "donthitjisoo",
       "count": 6,
       "targetReachedCount": 0,
       "hitRate": 0,
-      "avgInstantReturn": -4.619970170026388,
-      "avgPotentialReturn": 36.11025944573786,
+      "avgInstantReturn": -2.132205716395364,
+      "avgPotentialReturn": 31.658602456800963,
       "avgReachedDays": 0
     }
   ]
