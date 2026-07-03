@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-02T10:14:04.260Z",
+  "generatedAt": "2026-07-03T10:10:03.865Z",
   "recommenders": [
     {
       "recommender": "chouyk",
       "count": 1,
       "targetReachedCount": 1,
       "hitRate": 100,
-      "avgInstantReturn": -6.944444444444445,
-      "avgPotentialReturn": 49.25373134328358,
+      "avgInstantReturn": -4.62962962962963,
+      "avgPotentialReturn": 45.63106796116505,
       "avgReachedDays": 13
     },
     {
@@ -15,8 +15,8 @@
       "count": 7,
       "targetReachedCount": 5,
       "hitRate": 71.42857142857143,
-      "avgInstantReturn": 1.066026927776203,
-      "avgPotentialReturn": 157.65386143436382,
+      "avgInstantReturn": 2.2265056994104597,
+      "avgPotentialReturn": 155.56171706398985,
       "avgReachedDays": 12.2
     },
     {
@@ -24,27 +24,27 @@
       "count": 21,
       "targetReachedCount": 14,
       "hitRate": 66.66666666666666,
-      "avgInstantReturn": 29.141871515782082,
-      "avgPotentialReturn": 8.707650740504889,
-      "avgReachedDays": 13.142857142857142
-    },
-    {
-      "recommender": "donthitjisoo",
-      "count": 6,
-      "targetReachedCount": 2,
-      "hitRate": 33.33333333333333,
-      "avgInstantReturn": 1.6019539385410957,
-      "avgPotentialReturn": 27.084777084777084,
-      "avgReachedDays": 37
+      "avgInstantReturn": 29.16014105738855,
+      "avgPotentialReturn": 8.646590355079958,
+      "avgReachedDays": 13.428571428571429
     },
     {
       "recommender": "capital securities",
       "count": 166,
       "targetReachedCount": 50,
       "hitRate": 30.120481927710845,
-      "avgInstantReturn": 7.217281717753007,
-      "avgPotentialReturn": 14.685019986752765,
-      "avgReachedDays": 22.68
+      "avgInstantReturn": 8.598562634467646,
+      "avgPotentialReturn": 13.356718951787778,
+      "avgReachedDays": 23.24
+    },
+    {
+      "recommender": "donthitjisoo",
+      "count": 6,
+      "targetReachedCount": 0,
+      "hitRate": 0,
+      "avgInstantReturn": -1.1156304554896614,
+      "avgPotentialReturn": 30.34143494958542,
+      "avgReachedDays": 0
     }
   ]
 }
