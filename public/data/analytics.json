@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-03T10:10:03.865Z",
+  "generatedAt": "2026-07-06T11:42:56.959Z",
   "overall": {
     "count": 201,
     "targetReachedCount": 70,
     "targetRate": 34.82587064676617,
-    "avgReachedDays": 20.34285714285714,
-    "avgPotentialReturn": 18.484604181890834,
-    "avgInstantReturn": 10.169087000298981,
-    "winRate": 58.70646766169154,
+    "avgReachedDays": 20.885714285714286,
+    "avgPotentialReturn": 19.223592767202646,
+    "avgInstantReturn": 9.850395091614635,
+    "winRate": 56.71641791044776,
     "unreachedCount": 131
   },
   "byWatchlist": {
@@ -15,30 +15,30 @@
       "count": 86,
       "targetReachedCount": 25,
       "targetRate": 29.069767441860467,
-      "avgReachedDays": 23.24,
-      "avgPotentialReturn": 13.949209044734207,
-      "avgInstantReturn": 8.25969543365518,
-      "winRate": 59.30232558139535,
+      "avgReachedDays": 23.92,
+      "avgPotentialReturn": 14.591004519219803,
+      "avgInstantReturn": 8.09168589157519,
+      "winRate": 58.139534883720934,
       "unreachedCount": 61
     },
     "discord": {
       "count": 29,
       "targetReachedCount": 20,
       "targetRate": 68.96551724137932,
-      "avgReachedDays": 13.1,
-      "avgPotentialReturn": 45.38418913330251,
-      "avgInstantReturn": 21.493754223151832,
-      "winRate": 55.172413793103445,
+      "avgReachedDays": 13.3,
+      "avgPotentialReturn": 46.699633410411224,
+      "avgInstantReturn": 20.281360002193423,
+      "winRate": 48.275862068965516,
       "unreachedCount": 9
     },
     "e7bea4e79b8ae68a95e9a1a7": {
       "count": 86,
       "targetReachedCount": 25,
       "targetRate": 29.069767441860467,
-      "avgReachedDays": 23.24,
-      "avgPotentialReturn": 13.949209044734207,
-      "avgInstantReturn": 8.25969543365518,
-      "winRate": 59.30232558139535,
+      "avgReachedDays": 23.92,
+      "avgPotentialReturn": 14.591004519219803,
+      "avgInstantReturn": 8.09168589157519,
+      "winRate": 58.139534883720934,
       "unreachedCount": 61
     }
   }
