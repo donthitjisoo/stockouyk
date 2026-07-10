@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T10:30:15.884Z",
+  "generatedAt": "2026-07-10T10:28:01.566Z",
   "recommenders": [
     {
       "recommender": "chouyk",
@@ -33,8 +33,8 @@
       "count": 166,
       "targetReachedCount": 48,
       "hitRate": 28.915662650602407,
-      "avgInstantReturn": 4.4537679696323,
-      "avgPotentialReturn": 17.866983445300328,
+      "avgInstantReturn": 4.306777505167559,
+      "avgPotentialReturn": 18.402140701403123,
       "avgReachedDays": 25.166666666666668
     },
     {

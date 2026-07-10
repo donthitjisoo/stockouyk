@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T10:30:15.884Z",
+  "generatedAt": "2026-07-10T10:28:01.566Z",
   "cash": 1091844,
   "holdings": [
     {
@@ -29,14 +29,13 @@
       "weight": 0.777587117042479,
       "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: Unexpected token '<', \"<html>\n<he\"... is not valid JSON",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 0050 HTTP 401",
         "TradingView: TradingView 0050 HTTP 404",
         "WantGoo: WantGoo fundamentals 0050 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:50.874Z"
+      "updatedAt": "2026-07-10T10:27:42.087Z"
     },
     {
       "id": "holding2",
@@ -45,9 +44,9 @@
       "avgCost": 174,
       "broker": "Mega",
       "account": "Default",
-      "name": "2301",
-      "market": "UNKNOWN",
-      "marketName": "未知",
+      "name": "光寶科",
+      "market": "TWSE",
+      "marketName": "上市",
       "yahooSymbol": "2301.TW",
       "sector": "電子",
       "currentPrice": 213.5,
@@ -63,15 +62,14 @@
       "unrealizedPnL": 39.5,
       "unrealizedPnLPct": 22.701149425287355,
       "weight": 0.007845692319875674,
-      "dataStatus": "resolver_failed",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: not TWSE",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2301 HTTP 401",
         "WantGoo: WantGoo fundamentals 2301 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:49.395Z"
+      "updatedAt": "2026-07-10T10:27:40.673Z"
     },
     {
       "id": "holding3",
@@ -80,9 +78,9 @@
       "avgCost": 133.83,
       "broker": "Mega",
       "account": "Default",
-      "name": "2316",
-      "market": "UNKNOWN",
-      "marketName": "未知",
+      "name": "楠梓電",
+      "market": "TWSE",
+      "marketName": "上市",
       "yahooSymbol": "2316.TW",
       "sector": "電子",
       "currentPrice": 208,
@@ -98,15 +96,14 @@
       "unrealizedPnL": 4450.199999999999,
       "unrealizedPnLPct": 55.42105656429796,
       "weight": 0.4586147079721237,
-      "dataStatus": "resolver_failed",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: not TWSE",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2316 HTTP 401",
         "WantGoo: WantGoo fundamentals 2316 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:49.455Z"
+      "updatedAt": "2026-07-10T10:27:40.768Z"
     },
     {
       "id": "holding4",
@@ -119,7 +116,7 @@
       "market": "TWSE",
       "marketName": "上市",
       "yahooSymbol": "2317.TW",
-      "sector": "電子代工",
+      "sector": "電子",
       "currentPrice": 237.5,
       "previousClose": 237.5,
       "change": 0,
@@ -135,13 +132,12 @@
       "weight": 3.491057472544211,
       "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: Unexpected token '<', \"<html>\n<he\"... is not valid JSON",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2317 HTTP 401",
         "WantGoo: WantGoo fundamentals 2317 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:49.481Z"
+      "updatedAt": "2026-07-10T10:27:40.749Z"
     },
     {
       "id": "holding5",
@@ -150,11 +146,11 @@
       "avgCost": 281.13,
       "broker": "Mega",
       "account": "Default",
-      "name": "國巨",
+      "name": "國巨*",
       "market": "TWSE",
       "marketName": "上市",
       "yahooSymbol": "2327.TW",
-      "sector": "被動元件",
+      "sector": "電子",
       "currentPrice": 900,
       "previousClose": 891,
       "change": 9,
@@ -170,13 +166,12 @@
       "weight": 5.291708168909119,
       "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: Unexpected token '<', \"<html>\n<he\"... is not valid JSON",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2327 HTTP 401",
         "WantGoo: WantGoo fundamentals 2327 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:49.471Z"
+      "updatedAt": "2026-07-10T10:27:40.753Z"
     },
     {
       "id": "holding6",
@@ -189,7 +184,7 @@
       "market": "TWSE",
       "marketName": "上市",
       "yahooSymbol": "2330.TW",
-      "sector": "半導體",
+      "sector": "電子",
       "currentPrice": 2415,
       "previousClose": 2465,
       "change": -50,
@@ -205,13 +200,12 @@
       "weight": 15.53061225614734,
       "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: Unexpected token '<', \"<html>\n<he\"... is not valid JSON",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2330 HTTP 401",
         "WantGoo: WantGoo fundamentals 2330 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:49.512Z"
+      "updatedAt": "2026-07-10T10:27:40.783Z"
     },
     {
       "id": "holding7",
@@ -220,9 +214,9 @@
       "avgCost": 569,
       "broker": "Mega",
       "account": "Default",
-      "name": "2357",
-      "market": "UNKNOWN",
-      "marketName": "未知",
+      "name": "華碩",
+      "market": "TWSE",
+      "marketName": "上市",
       "yahooSymbol": "2357.TW",
       "sector": "電子",
       "currentPrice": 684,
@@ -238,15 +232,14 @@
       "unrealizedPnL": 2875,
       "unrealizedPnLPct": 20.210896309314588,
       "weight": 0.628390345057958,
-      "dataStatus": "resolver_failed",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: not TWSE",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2357 HTTP 401",
         "WantGoo: WantGoo fundamentals 2357 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:49.536Z"
+      "updatedAt": "2026-07-10T10:27:40.821Z"
     },
     {
       "id": "holding8",
@@ -255,9 +248,9 @@
       "avgCost": 244.22,
       "broker": "Mega",
       "account": "Default",
-      "name": "2376",
-      "market": "UNKNOWN",
-      "marketName": "未知",
+      "name": "技嘉",
+      "market": "TWSE",
+      "marketName": "上市",
       "yahooSymbol": "2376.TW",
       "sector": "電子",
       "currentPrice": 336.5,
@@ -273,15 +266,14 @@
       "unrealizedPnL": 32759.399999999994,
       "unrealizedPnLPct": 37.78560314470558,
       "weight": 4.38982103185737,
-      "dataStatus": "resolver_failed",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: not TWSE",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2376 HTTP 401",
         "WantGoo: WantGoo fundamentals 2376 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:49.594Z"
+      "updatedAt": "2026-07-10T10:27:40.905Z"
     },
     {
       "id": "holding9",
@@ -290,9 +282,9 @@
       "avgCost": 273.94,
       "broker": "Mega",
       "account": "Default",
-      "name": "2382",
-      "market": "UNKNOWN",
-      "marketName": "未知",
+      "name": "廣達",
+      "market": "TWSE",
+      "marketName": "上市",
       "yahooSymbol": "2382.TW",
       "sector": "電子",
       "currentPrice": 373.5,
@@ -308,15 +300,14 @@
       "unrealizedPnL": 17920.800000000003,
       "unrealizedPnLPct": 36.3437249032635,
       "weight": 2.4705662513594455,
-      "dataStatus": "resolver_failed",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: not TWSE",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2382 HTTP 401",
         "WantGoo: WantGoo fundamentals 2382 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:49.604Z"
+      "updatedAt": "2026-07-10T10:27:40.877Z"
     },
     {
       "id": "holding10",
@@ -325,9 +316,9 @@
       "avgCost": 353,
       "broker": "Mega",
       "account": "Default",
-      "name": "2408",
-      "market": "UNKNOWN",
-      "marketName": "未知",
+      "name": "南亞科",
+      "market": "TWSE",
+      "marketName": "上市",
       "yahooSymbol": "2408.TW",
       "sector": "電子",
       "currentPrice": 435.5,
@@ -343,15 +334,14 @@
       "unrealizedPnL": 4125,
       "unrealizedPnLPct": 23.371104815864022,
       "weight": 0.8001871206805283,
-      "dataStatus": "resolver_failed",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: not TWSE",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2408 HTTP 401",
         "WantGoo: WantGoo fundamentals 2408 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:49.657Z"
+      "updatedAt": "2026-07-10T10:27:40.941Z"
     },
     {
       "id": "holding11",
@@ -360,9 +350,9 @@
       "avgCost": 311.5,
       "broker": "Mega",
       "account": "Default",
-      "name": "2449",
-      "market": "UNKNOWN",
-      "marketName": "未知",
+      "name": "京元電子",
+      "market": "TWSE",
+      "marketName": "上市",
       "yahooSymbol": "2449.TW",
       "sector": "電子",
       "currentPrice": 308.5,
@@ -378,15 +368,14 @@
       "unrealizedPnL": -300,
       "unrealizedPnLPct": -0.9630818619582664,
       "weight": 1.1336749792419885,
-      "dataStatus": "resolver_failed",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: not TWSE",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2449 HTTP 401",
         "WantGoo: WantGoo fundamentals 2449 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:49.658Z"
+      "updatedAt": "2026-07-10T10:27:40.971Z"
     },
     {
       "id": "holding12",
@@ -399,7 +388,7 @@
       "market": "TWSE",
       "marketName": "上市",
       "yahooSymbol": "2454.TW",
-      "sector": "IC設計",
+      "sector": "電子",
       "currentPrice": 3925,
       "previousClose": 3995,
       "change": -70,
@@ -415,13 +404,12 @@
       "weight": 0.7211789778808436,
       "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: Unexpected token '<', \"<html>\n<he\"... is not valid JSON",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2454 HTTP 401",
         "WantGoo: WantGoo fundamentals 2454 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:49.720Z"
+      "updatedAt": "2026-07-10T10:27:41.010Z"
     },
     {
       "id": "holding13",
@@ -430,9 +418,9 @@
       "avgCost": 239,
       "broker": "Mega",
       "account": "Default",
-      "name": "2472",
-      "market": "UNKNOWN",
-      "marketName": "未知",
+      "name": "立隆電",
+      "market": "TWSE",
+      "marketName": "上市",
       "yahooSymbol": "2472.TW",
       "sector": "電子",
       "currentPrice": 376,
@@ -448,15 +436,14 @@
       "unrealizedPnL": 13700,
       "unrealizedPnLPct": 57.32217573221757,
       "weight": 1.3817237996596035,
-      "dataStatus": "resolver_failed",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: not TWSE",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2472 HTTP 401",
         "WantGoo: WantGoo fundamentals 2472 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:49.708Z"
+      "updatedAt": "2026-07-10T10:27:41.011Z"
     },
     {
       "id": "holding14",
@@ -465,9 +452,9 @@
       "avgCost": 19.3,
       "broker": "Mega",
       "account": "Default",
-      "name": "2610",
-      "market": "UNKNOWN",
-      "marketName": "未知",
+      "name": "華航",
+      "market": "TWSE",
+      "marketName": "上市",
       "yahooSymbol": "2610.TW",
       "sector": "航運",
       "currentPrice": 21.4,
@@ -483,15 +470,14 @@
       "unrealizedPnL": 2100,
       "unrealizedPnLPct": 10.880829015544041,
       "weight": 0.7864066306573275,
-      "dataStatus": "resolver_failed",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: not TWSE",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2610 HTTP 401",
         "WantGoo: WantGoo fundamentals 2610 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:49.770Z"
+      "updatedAt": "2026-07-10T10:27:41.090Z"
     },
     {
       "id": "holding15",
@@ -500,9 +486,9 @@
       "avgCost": 32.35,
       "broker": "Mega",
       "account": "Default",
-      "name": "2884",
-      "market": "UNKNOWN",
-      "marketName": "未知",
+      "name": "玉山金",
+      "market": "TWSE",
+      "marketName": "上市",
       "yahooSymbol": "2884.TW",
       "sector": "金融",
       "currentPrice": 34.75,
@@ -518,15 +504,14 @@
       "unrealizedPnL": 1200,
       "unrealizedPnLPct": 7.418856259659969,
       "weight": 0.6384960377416385,
-      "dataStatus": "resolver_failed",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: not TWSE",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2884 HTTP 401",
         "WantGoo: WantGoo fundamentals 2884 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:49.837Z"
+      "updatedAt": "2026-07-10T10:27:41.107Z"
     },
     {
       "id": "holding16",
@@ -535,9 +520,9 @@
       "avgCost": 233.75,
       "broker": "Mega",
       "account": "Default",
-      "name": "2912",
-      "market": "UNKNOWN",
-      "marketName": "未知",
+      "name": "統一超",
+      "market": "TWSE",
+      "marketName": "上市",
       "yahooSymbol": "2912.TW",
       "sector": "其他",
       "currentPrice": 241,
@@ -553,15 +538,14 @@
       "unrealizedPnL": 1450,
       "unrealizedPnLPct": 3.1016042780748663,
       "weight": 1.7712523176487471,
-      "dataStatus": "resolver_failed",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: not TWSE",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2912 HTTP 401",
         "WantGoo: WantGoo fundamentals 2912 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:49.850Z"
+      "updatedAt": "2026-07-10T10:27:41.155Z"
     },
     {
       "id": "holding17",
@@ -570,9 +554,9 @@
       "avgCost": 3240,
       "broker": "Mega",
       "account": "Default",
-      "name": "3008",
-      "market": "UNKNOWN",
-      "marketName": "未知",
+      "name": "大立光",
+      "market": "TWSE",
+      "marketName": "上市",
       "yahooSymbol": "3008.TW",
       "sector": "電子",
       "currentPrice": 3950,
@@ -588,15 +572,14 @@
       "unrealizedPnL": 1420,
       "unrealizedPnLPct": 21.91358024691358,
       "weight": 0.2903089898220976,
-      "dataStatus": "resolver_failed",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: not TWSE",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3008 HTTP 401",
         "WantGoo: WantGoo fundamentals 3008 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:49.879Z"
+      "updatedAt": "2026-07-10T10:27:41.181Z"
     },
     {
       "id": "holding18",
@@ -631,7 +614,7 @@
         "WantGoo: WantGoo fundamentals 3163 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:49.967Z"
+      "updatedAt": "2026-07-10T10:27:41.274Z"
     },
     {
       "id": "holding19",
@@ -666,7 +649,7 @@
         "WantGoo: WantGoo fundamentals 3227 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:49.979Z"
+      "updatedAt": "2026-07-10T10:27:41.288Z"
     },
     {
       "id": "holding20",
@@ -675,9 +658,9 @@
       "avgCost": 151.14,
       "broker": "Mega",
       "account": "Default",
-      "name": "3231",
-      "market": "UNKNOWN",
-      "marketName": "未知",
+      "name": "緯創",
+      "market": "TWSE",
+      "marketName": "上市",
       "yahooSymbol": "3231.TW",
       "sector": "其他",
       "currentPrice": 144.5,
@@ -693,15 +676,14 @@
       "unrealizedPnL": -2323.9999999999927,
       "unrealizedPnLPct": -4.393277755723157,
       "weight": 1.8585287544623523,
-      "dataStatus": "resolver_failed",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: not TWSE",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3231 HTTP 401",
         "WantGoo: WantGoo fundamentals 3231 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:49.990Z"
+      "updatedAt": "2026-07-10T10:27:41.304Z"
     },
     {
       "id": "holding21",
@@ -736,7 +718,7 @@
         "WantGoo: WantGoo fundamentals 3293 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:50.022Z"
+      "updatedAt": "2026-07-10T10:27:41.330Z"
     },
     {
       "id": "holding22",
@@ -745,9 +727,9 @@
       "avgCost": 209,
       "broker": "Mega",
       "account": "Default",
-      "name": "3376",
-      "market": "UNKNOWN",
-      "marketName": "未知",
+      "name": "新日興",
+      "market": "TWSE",
+      "marketName": "上市",
       "yahooSymbol": "3376.TW",
       "sector": "其他",
       "currentPrice": 194,
@@ -763,15 +745,14 @@
       "unrealizedPnL": -450,
       "unrealizedPnLPct": -7.177033492822966,
       "weight": 0.2138732051600769,
-      "dataStatus": "resolver_failed",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: not TWSE",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3376 HTTP 401",
         "WantGoo: WantGoo fundamentals 3376 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:50.040Z"
+      "updatedAt": "2026-07-10T10:27:41.345Z"
     },
     {
       "id": "holding23",
@@ -780,9 +761,9 @@
       "avgCost": 2390,
       "broker": "Mega",
       "account": "Default",
-      "name": "3533",
-      "market": "UNKNOWN",
-      "marketName": "未知",
+      "name": "嘉澤",
+      "market": "TWSE",
+      "marketName": "上市",
       "yahooSymbol": "3533.TW",
       "sector": "其他",
       "currentPrice": 1955,
@@ -798,15 +779,14 @@
       "unrealizedPnL": -2175,
       "unrealizedPnLPct": -18.200836820083683,
       "weight": 0.3592114399381017,
-      "dataStatus": "resolver_failed",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: not TWSE",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3533 HTTP 401",
         "WantGoo: WantGoo fundamentals 3533 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:50.045Z"
+      "updatedAt": "2026-07-10T10:27:41.375Z"
     },
     {
       "id": "holding24",
@@ -815,9 +795,9 @@
       "avgCost": 843,
       "broker": "Mega",
       "account": "Default",
-      "name": "3583",
-      "market": "UNKNOWN",
-      "marketName": "未知",
+      "name": "辛耘",
+      "market": "TWSE",
+      "marketName": "上市",
       "yahooSymbol": "3583.TW",
       "sector": "其他",
       "currentPrice": 817,
@@ -833,15 +813,14 @@
       "unrealizedPnL": -312,
       "unrealizedPnLPct": -3.084223013048636,
       "weight": 0.36027713116656257,
-      "dataStatus": "resolver_failed",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: not TWSE",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3583 HTTP 401",
         "WantGoo: WantGoo fundamentals 3583 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:50.050Z"
+      "updatedAt": "2026-07-10T10:27:41.385Z"
     },
     {
       "id": "holding25",
@@ -850,9 +829,9 @@
       "avgCost": 2060,
       "broker": "Mega",
       "account": "Default",
-      "name": "3665",
-      "market": "UNKNOWN",
-      "marketName": "未知",
+      "name": "貿聯-KY",
+      "market": "TWSE",
+      "marketName": "上市",
       "yahooSymbol": "3665.TW",
       "sector": "電子",
       "currentPrice": 1865,
@@ -868,15 +847,14 @@
       "unrealizedPnL": -780,
       "unrealizedPnLPct": -9.466019417475728,
       "weight": 0.27413988152820856,
-      "dataStatus": "resolver_failed",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: not TWSE",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3665 HTTP 401",
         "WantGoo: WantGoo fundamentals 3665 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:50.089Z"
+      "updatedAt": "2026-07-10T10:27:41.431Z"
     },
     {
       "id": "holding26",
@@ -885,9 +863,9 @@
       "avgCost": 366.08,
       "broker": "Mega",
       "account": "Default",
-      "name": "3711",
-      "market": "UNKNOWN",
-      "marketName": "未知",
+      "name": "日月光投控",
+      "market": "TWSE",
+      "marketName": "上市",
       "yahooSymbol": "3711.TW",
       "sector": "其他",
       "currentPrice": 677,
@@ -903,15 +881,14 @@
       "unrealizedPnL": 38865,
       "unrealizedPnLPct": 84.93225524475524,
       "weight": 3.109797248568988,
-      "dataStatus": "resolver_failed",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: not TWSE",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 3711 HTTP 401",
         "WantGoo: WantGoo fundamentals 3711 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:50.136Z"
+      "updatedAt": "2026-07-10T10:27:41.457Z"
     },
     {
       "id": "holding27",
@@ -946,7 +923,7 @@
         "WantGoo: WantGoo fundamentals 4979 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:50.255Z"
+      "updatedAt": "2026-07-10T10:27:41.551Z"
     },
     {
       "id": "holding28",
@@ -981,7 +958,7 @@
         "WantGoo: WantGoo fundamentals 5439 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:50.363Z"
+      "updatedAt": "2026-07-10T10:27:41.662Z"
     },
     {
       "id": "holding29",
@@ -1016,7 +993,7 @@
         "WantGoo: WantGoo fundamentals 6187 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:50.427Z"
+      "updatedAt": "2026-07-10T10:27:41.728Z"
     },
     {
       "id": "holding30",
@@ -1025,9 +1002,9 @@
       "avgCost": 134.71,
       "broker": "Mega",
       "account": "Default",
-      "name": "6197",
-      "market": "UNKNOWN",
-      "marketName": "未知",
+      "name": "佳必琪",
+      "market": "TWSE",
+      "marketName": "上市",
       "yahooSymbol": "6197.TW",
       "sector": "其他",
       "currentPrice": 358.5,
@@ -1043,15 +1020,14 @@
       "unrealizedPnL": 38044.3,
       "unrealizedPnLPct": 166.12723628535372,
       "weight": 2.2396052385705993,
-      "dataStatus": "resolver_failed",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: not TWSE",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6197 HTTP 401",
         "WantGoo: WantGoo fundamentals 6197 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:50.503Z"
+      "updatedAt": "2026-07-10T10:27:41.737Z"
     },
     {
       "id": "holding31",
@@ -1060,9 +1036,9 @@
       "avgCost": 152.92,
       "broker": "Mega",
       "account": "Default",
-      "name": "6239",
-      "market": "UNKNOWN",
-      "marketName": "未知",
+      "name": "力成",
+      "market": "TWSE",
+      "marketName": "上市",
       "yahooSymbol": "6239.TW",
       "sector": "其他",
       "currentPrice": 320,
@@ -1078,15 +1054,14 @@
       "unrealizedPnL": 20049.600000000002,
       "unrealizedPnLPct": 109.25974365681404,
       "weight": 1.4111221783757653,
-      "dataStatus": "resolver_failed",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: not TWSE",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6239 HTTP 401",
         "WantGoo: WantGoo fundamentals 6239 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:50.494Z"
+      "updatedAt": "2026-07-10T10:27:41.779Z"
     },
     {
       "id": "holding32",
@@ -1121,7 +1096,7 @@
         "WantGoo: WantGoo fundamentals 6274 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:50.530Z"
+      "updatedAt": "2026-07-10T10:27:41.788Z"
     },
     {
       "id": "holding33",
@@ -1156,7 +1131,7 @@
         "WantGoo: WantGoo fundamentals 6510 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:50.603Z"
+      "updatedAt": "2026-07-10T10:27:41.851Z"
     },
     {
       "id": "holding34",
@@ -1191,7 +1166,7 @@
         "WantGoo: WantGoo fundamentals 6640 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:50.644Z"
+      "updatedAt": "2026-07-10T10:27:41.894Z"
     },
     {
       "id": "holding35",
@@ -1200,9 +1175,9 @@
       "avgCost": 740.77,
       "broker": "Mega",
       "account": "Default",
-      "name": "6830",
-      "market": "UNKNOWN",
-      "marketName": "未知",
+      "name": "汎銓",
+      "market": "TWSE",
+      "marketName": "上市",
       "yahooSymbol": "6830.TW",
       "sector": "其他",
       "currentPrice": 416.5,
@@ -1218,15 +1193,14 @@
       "unrealizedPnL": -4215.51,
       "unrealizedPnLPct": -43.774720898524514,
       "weight": 0.1989719019483224,
-      "dataStatus": "resolver_failed",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: not TWSE",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6830 HTTP 401",
         "WantGoo: WantGoo fundamentals 6830 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:50.712Z"
+      "updatedAt": "2026-07-10T10:27:41.937Z"
     },
     {
       "id": "holding36",
@@ -1235,9 +1209,9 @@
       "avgCost": 7660,
       "broker": "Mega",
       "account": "Default",
-      "name": "7769",
-      "market": "UNKNOWN",
-      "marketName": "未知",
+      "name": "鴻勁",
+      "market": "TWSE",
+      "marketName": "上市",
       "yahooSymbol": "7769.TW",
       "sector": "其他",
       "currentPrice": 6660,
@@ -1253,15 +1227,14 @@
       "unrealizedPnL": -4000,
       "unrealizedPnLPct": -13.054830287206268,
       "weight": 0.9789660112481872,
-      "dataStatus": "resolver_failed",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: not TWSE",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 7769 HTTP 401",
         "WantGoo: WantGoo fundamentals 7769 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:50.721Z"
+      "updatedAt": "2026-07-10T10:27:41.974Z"
     },
     {
       "id": "holding37",
@@ -1303,7 +1276,7 @@
         "WantGoo: WantGoo fundamentals 7801 HTTP 403"
       ],
       "source": null,
-      "updatedAt": "2026-07-09T10:29:52.242Z"
+      "updatedAt": "2026-07-10T10:27:43.445Z"
     },
     {
       "id": "holding38",
@@ -1338,7 +1311,7 @@
         "WantGoo: WantGoo fundamentals 8299 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:50.847Z"
+      "updatedAt": "2026-07-10T10:27:42.050Z"
     }
   ],
   "analytics": {
@@ -1361,7 +1334,7 @@
       "market": "TWSE",
       "marketName": "上市",
       "yahooSymbol": "2330.TW",
-      "sector": "半導體",
+      "sector": "電子",
       "currentPrice": 2415,
       "previousClose": 2465,
       "change": -50,
@@ -1377,13 +1350,12 @@
       "weight": 15.53061225614734,
       "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: Unexpected token '<', \"<html>\n<he\"... is not valid JSON",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2330 HTTP 401",
         "WantGoo: WantGoo fundamentals 2330 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:49.512Z"
+      "updatedAt": "2026-07-10T10:27:40.783Z"
     },
     "largestWinner": {
       "id": "holding5",
@@ -1392,11 +1364,11 @@
       "avgCost": 281.13,
       "broker": "Mega",
       "account": "Default",
-      "name": "國巨",
+      "name": "國巨*",
       "market": "TWSE",
       "marketName": "上市",
       "yahooSymbol": "2327.TW",
-      "sector": "被動元件",
+      "sector": "電子",
       "currentPrice": 900,
       "previousClose": 891,
       "change": 9,
@@ -1412,13 +1384,12 @@
       "weight": 5.291708168909119,
       "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: Unexpected token '<', \"<html>\n<he\"... is not valid JSON",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 2327 HTTP 401",
         "WantGoo: WantGoo fundamentals 2327 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:49.471Z"
+      "updatedAt": "2026-07-10T10:27:40.753Z"
     },
     "largestLoser": {
       "id": "holding35",
@@ -1427,9 +1398,9 @@
       "avgCost": 740.77,
       "broker": "Mega",
       "account": "Default",
-      "name": "6830",
-      "market": "UNKNOWN",
-      "marketName": "未知",
+      "name": "汎銓",
+      "market": "TWSE",
+      "marketName": "上市",
       "yahooSymbol": "6830.TW",
       "sector": "其他",
       "currentPrice": 416.5,
@@ -1445,15 +1416,14 @@
       "unrealizedPnL": -4215.51,
       "unrealizedPnLPct": -43.774720898524514,
       "weight": 0.1989719019483224,
-      "dataStatus": "resolver_failed",
+      "dataStatus": "fundamentals_missing",
       "failedProviders": [
-        "TWSE OpenAPI: not TWSE",
         "TPEX API: not TPEX",
         "Yahoo Finance: Yahoo fundamentals 6830 HTTP 401",
         "WantGoo: WantGoo fundamentals 6830 HTTP 403"
       ],
       "source": "Yahoo Finance chart",
-      "updatedAt": "2026-07-09T10:29:50.712Z"
+      "updatedAt": "2026-07-10T10:27:41.937Z"
     },
     "sectorAllocation": [
       {
@@ -1462,29 +1432,14 @@
         "weight": 40.123054263711175
       },
       {
+        "name": "電子",
+        "value": 1003316,
+        "weight": 36.869829674980714
+      },
+      {
         "name": "其他",
         "value": 566143.5,
         "weight": 20.80462627586667
-      },
-      {
-        "name": "半導體",
-        "value": 422625,
-        "weight": 15.53061225614734
-      },
-      {
-        "name": "電子",
-        "value": 322066,
-        "weight": 11.835272799499199
-      },
-      {
-        "name": "被動元件",
-        "value": 144000,
-        "weight": 5.291708168909119
-      },
-      {
-        "name": "電子代工",
-        "value": 95000,
-        "weight": 3.491057472544211
       },
       {
         "name": "航運",
@@ -1495,11 +1450,6 @@
         "name": "ETF",
         "value": 21160,
         "weight": 0.777587117042479
-      },
-      {
-        "name": "IC設計",
-        "value": 19625,
-        "weight": 0.7211789778808436
       },
       {
         "name": "金融",
@@ -1515,11 +1465,11 @@
         "avgCost": 281.13,
         "broker": "Mega",
         "account": "Default",
-        "name": "國巨",
+        "name": "國巨*",
         "market": "TWSE",
         "marketName": "上市",
         "yahooSymbol": "2327.TW",
-        "sector": "被動元件",
+        "sector": "電子",
         "currentPrice": 900,
         "previousClose": 891,
         "change": 9,
@@ -1535,13 +1485,12 @@
         "weight": 5.291708168909119,
         "dataStatus": "fundamentals_missing",
         "failedProviders": [
-          "TWSE OpenAPI: Unexpected token '<', \"<html>\n<he\"... is not valid JSON",
           "TPEX API: not TPEX",
           "Yahoo Finance: Yahoo fundamentals 2327 HTTP 401",
           "WantGoo: WantGoo fundamentals 2327 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-07-09T10:29:49.471Z"
+        "updatedAt": "2026-07-10T10:27:40.753Z"
       },
       {
         "id": "holding6",
@@ -1554,7 +1503,7 @@
         "market": "TWSE",
         "marketName": "上市",
         "yahooSymbol": "2330.TW",
-        "sector": "半導體",
+        "sector": "電子",
         "currentPrice": 2415,
         "previousClose": 2465,
         "change": -50,
@@ -1570,13 +1519,12 @@
         "weight": 15.53061225614734,
         "dataStatus": "fundamentals_missing",
         "failedProviders": [
-          "TWSE OpenAPI: Unexpected token '<', \"<html>\n<he\"... is not valid JSON",
           "TPEX API: not TPEX",
           "Yahoo Finance: Yahoo fundamentals 2330 HTTP 401",
           "WantGoo: WantGoo fundamentals 2330 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-07-09T10:29:49.512Z"
+        "updatedAt": "2026-07-10T10:27:40.783Z"
       },
       {
         "id": "holding26",
@@ -1585,9 +1533,9 @@
         "avgCost": 366.08,
         "broker": "Mega",
         "account": "Default",
-        "name": "3711",
-        "market": "UNKNOWN",
-        "marketName": "未知",
+        "name": "日月光投控",
+        "market": "TWSE",
+        "marketName": "上市",
         "yahooSymbol": "3711.TW",
         "sector": "其他",
         "currentPrice": 677,
@@ -1603,15 +1551,14 @@
         "unrealizedPnL": 38865,
         "unrealizedPnLPct": 84.93225524475524,
         "weight": 3.109797248568988,
-        "dataStatus": "resolver_failed",
+        "dataStatus": "fundamentals_missing",
         "failedProviders": [
-          "TWSE OpenAPI: not TWSE",
           "TPEX API: not TPEX",
           "Yahoo Finance: Yahoo fundamentals 3711 HTTP 401",
           "WantGoo: WantGoo fundamentals 3711 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-07-09T10:29:50.136Z"
+        "updatedAt": "2026-07-10T10:27:41.457Z"
       },
       {
         "id": "holding30",
@@ -1620,9 +1567,9 @@
         "avgCost": 134.71,
         "broker": "Mega",
         "account": "Default",
-        "name": "6197",
-        "market": "UNKNOWN",
-        "marketName": "未知",
+        "name": "佳必琪",
+        "market": "TWSE",
+        "marketName": "上市",
         "yahooSymbol": "6197.TW",
         "sector": "其他",
         "currentPrice": 358.5,
@@ -1638,15 +1585,14 @@
         "unrealizedPnL": 38044.3,
         "unrealizedPnLPct": 166.12723628535372,
         "weight": 2.2396052385705993,
-        "dataStatus": "resolver_failed",
+        "dataStatus": "fundamentals_missing",
         "failedProviders": [
-          "TWSE OpenAPI: not TWSE",
           "TPEX API: not TPEX",
           "Yahoo Finance: Yahoo fundamentals 6197 HTTP 401",
           "WantGoo: WantGoo fundamentals 6197 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-07-09T10:29:50.503Z"
+        "updatedAt": "2026-07-10T10:27:41.737Z"
       },
       {
         "id": "holding8",
@@ -1655,9 +1601,9 @@
         "avgCost": 244.22,
         "broker": "Mega",
         "account": "Default",
-        "name": "2376",
-        "market": "UNKNOWN",
-        "marketName": "未知",
+        "name": "技嘉",
+        "market": "TWSE",
+        "marketName": "上市",
         "yahooSymbol": "2376.TW",
         "sector": "電子",
         "currentPrice": 336.5,
@@ -1673,15 +1619,14 @@
         "unrealizedPnL": 32759.399999999994,
         "unrealizedPnLPct": 37.78560314470558,
         "weight": 4.38982103185737,
-        "dataStatus": "resolver_failed",
+        "dataStatus": "fundamentals_missing",
         "failedProviders": [
-          "TWSE OpenAPI: not TWSE",
           "TPEX API: not TPEX",
           "Yahoo Finance: Yahoo fundamentals 2376 HTTP 401",
           "WantGoo: WantGoo fundamentals 2376 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-07-09T10:29:49.594Z"
+        "updatedAt": "2026-07-10T10:27:40.905Z"
       },
       {
         "id": "holding31",
@@ -1690,9 +1635,9 @@
         "avgCost": 152.92,
         "broker": "Mega",
         "account": "Default",
-        "name": "6239",
-        "market": "UNKNOWN",
-        "marketName": "未知",
+        "name": "力成",
+        "market": "TWSE",
+        "marketName": "上市",
         "yahooSymbol": "6239.TW",
         "sector": "其他",
         "currentPrice": 320,
@@ -1708,15 +1653,14 @@
         "unrealizedPnL": 20049.600000000002,
         "unrealizedPnLPct": 109.25974365681404,
         "weight": 1.4111221783757653,
-        "dataStatus": "resolver_failed",
+        "dataStatus": "fundamentals_missing",
         "failedProviders": [
-          "TWSE OpenAPI: not TWSE",
           "TPEX API: not TPEX",
           "Yahoo Finance: Yahoo fundamentals 6239 HTTP 401",
           "WantGoo: WantGoo fundamentals 6239 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-07-09T10:29:50.494Z"
+        "updatedAt": "2026-07-10T10:27:41.779Z"
       },
       {
         "id": "holding9",
@@ -1725,9 +1669,9 @@
         "avgCost": 273.94,
         "broker": "Mega",
         "account": "Default",
-        "name": "2382",
-        "market": "UNKNOWN",
-        "marketName": "未知",
+        "name": "廣達",
+        "market": "TWSE",
+        "marketName": "上市",
         "yahooSymbol": "2382.TW",
         "sector": "電子",
         "currentPrice": 373.5,
@@ -1743,15 +1687,14 @@
         "unrealizedPnL": 17920.800000000003,
         "unrealizedPnLPct": 36.3437249032635,
         "weight": 2.4705662513594455,
-        "dataStatus": "resolver_failed",
+        "dataStatus": "fundamentals_missing",
         "failedProviders": [
-          "TWSE OpenAPI: not TWSE",
           "TPEX API: not TPEX",
           "Yahoo Finance: Yahoo fundamentals 2382 HTTP 401",
           "WantGoo: WantGoo fundamentals 2382 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-07-09T10:29:49.604Z"
+        "updatedAt": "2026-07-10T10:27:40.877Z"
       },
       {
         "id": "holding32",
@@ -1786,7 +1729,7 @@
           "WantGoo: WantGoo fundamentals 6274 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-07-09T10:29:50.530Z"
+        "updatedAt": "2026-07-10T10:27:41.788Z"
       },
       {
         "id": "holding13",
@@ -1795,9 +1738,9 @@
         "avgCost": 239,
         "broker": "Mega",
         "account": "Default",
-        "name": "2472",
-        "market": "UNKNOWN",
-        "marketName": "未知",
+        "name": "立隆電",
+        "market": "TWSE",
+        "marketName": "上市",
         "yahooSymbol": "2472.TW",
         "sector": "電子",
         "currentPrice": 376,
@@ -1813,15 +1756,14 @@
         "unrealizedPnL": 13700,
         "unrealizedPnLPct": 57.32217573221757,
         "weight": 1.3817237996596035,
-        "dataStatus": "resolver_failed",
+        "dataStatus": "fundamentals_missing",
         "failedProviders": [
-          "TWSE OpenAPI: not TWSE",
           "TPEX API: not TPEX",
           "Yahoo Finance: Yahoo fundamentals 2472 HTTP 401",
           "WantGoo: WantGoo fundamentals 2472 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-07-09T10:29:49.708Z"
+        "updatedAt": "2026-07-10T10:27:41.011Z"
       },
       {
         "id": "holding12",
@@ -1834,7 +1776,7 @@
         "market": "TWSE",
         "marketName": "上市",
         "yahooSymbol": "2454.TW",
-        "sector": "IC設計",
+        "sector": "電子",
         "currentPrice": 3925,
         "previousClose": 3995,
         "change": -70,
@@ -1850,13 +1792,12 @@
         "weight": 0.7211789778808436,
         "dataStatus": "fundamentals_missing",
         "failedProviders": [
-          "TWSE OpenAPI: Unexpected token '<', \"<html>\n<he\"... is not valid JSON",
           "TPEX API: not TPEX",
           "Yahoo Finance: Yahoo fundamentals 2454 HTTP 401",
           "WantGoo: WantGoo fundamentals 2454 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-07-09T10:29:49.720Z"
+        "updatedAt": "2026-07-10T10:27:41.010Z"
       },
       {
         "id": "holding27",
@@ -1891,7 +1832,7 @@
           "WantGoo: WantGoo fundamentals 4979 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-07-09T10:29:50.255Z"
+        "updatedAt": "2026-07-10T10:27:41.551Z"
       },
       {
         "id": "holding18",
@@ -1926,7 +1867,7 @@
           "WantGoo: WantGoo fundamentals 3163 HTTP 403"
         ],
         "source": "Yahoo Finance chart",
-        "updatedAt": "2026-07-09T10:29:49.967Z"
+        "updatedAt": "2026-07-10T10:27:41.274Z"
       }
     ]
   }

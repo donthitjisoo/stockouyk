@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-07-09T10:30:15.884Z",
+  "generatedAt": "2026-07-10T10:28:01.566Z",
   "overall": {
     "count": 201,
     "targetReachedCount": 67,
     "targetRate": 33.33333333333333,
     "avgReachedDays": 21.597014925373134,
-    "avgPotentialReturn": 24.092119701967224,
-    "avgInstantReturn": 5.389524530508584,
+    "avgPotentialReturn": 24.53409037118645,
+    "avgInstantReturn": 5.26812942055263,
     "winRate": 49.25373134328358,
     "unreachedCount": 134
   },
@@ -16,8 +16,8 @@
       "targetReachedCount": 24,
       "targetRate": 27.906976744186046,
       "avgReachedDays": 25.166666666666668,
-      "avgPotentialReturn": 18.850198399822094,
-      "avgInstantReturn": 3.872611403598616,
+      "avgPotentialReturn": 19.366687379549212,
+      "avgInstantReturn": 3.730748513475668,
       "winRate": 50,
       "unreachedCount": 62
     },
@@ -36,8 +36,8 @@
       "targetReachedCount": 24,
       "targetRate": 27.906976744186046,
       "avgReachedDays": 25.166666666666668,
-      "avgPotentialReturn": 18.850198399822094,
-      "avgInstantReturn": 3.872611403598616,
+      "avgPotentialReturn": 19.366687379549212,
+      "avgInstantReturn": 3.730748513475668,
       "winRate": 50,
       "unreachedCount": 62
     }
