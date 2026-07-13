@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-10T10:28:01.566Z",
+  "generatedAt": "2026-07-13T10:34:30.007Z",
   "recommenders": [
     {
       "recommender": "chouyk",
       "count": 1,
       "targetReachedCount": 1,
       "hitRate": 100,
-      "avgInstantReturn": -2.7777777777777777,
-      "avgPotentialReturn": 42.857142857142854,
+      "avgInstantReturn": -4.166666666666666,
+      "avgPotentialReturn": 44.927536231884055,
       "avgReachedDays": 13
     },
     {
@@ -15,8 +15,8 @@
       "count": 7,
       "targetReachedCount": 5,
       "hitRate": 71.42857142857143,
-      "avgInstantReturn": -0.41238525477565496,
-      "avgPotentialReturn": 174.86247577434506,
+      "avgInstantReturn": -2.1427074231859393,
+      "avgPotentialReturn": 177.34726058096172,
       "avgReachedDays": 12.2
     },
     {
@@ -24,26 +24,26 @@
       "count": 21,
       "targetReachedCount": 13,
       "hitRate": 61.904761904761905,
-      "avgInstantReturn": 20.136654465450995,
-      "avgPotentialReturn": 15.875593430878641,
-      "avgReachedDays": 12.692307692307692
+      "avgInstantReturn": 18.179603073834542,
+      "avgPotentialReturn": 16.56553478808743,
+      "avgReachedDays": 13.153846153846153
     },
     {
       "recommender": "capital securities",
       "count": 166,
-      "targetReachedCount": 48,
-      "hitRate": 28.915662650602407,
-      "avgInstantReturn": 4.306777505167559,
-      "avgPotentialReturn": 18.402140701403123,
-      "avgReachedDays": 25.166666666666668
+      "targetReachedCount": 44,
+      "hitRate": 26.506024096385545,
+      "avgInstantReturn": 3.471771837050359,
+      "avgPotentialReturn": 19.157791982533197,
+      "avgReachedDays": 24.772727272727273
     },
     {
       "recommender": "donthitjisoo",
       "count": 6,
       "targetReachedCount": 0,
       "hitRate": 0,
-      "avgInstantReturn": -12.20605358999997,
-      "avgPotentialReturn": 46.05247880825778,
+      "avgInstantReturn": -11.185471058863742,
+      "avgPotentialReturn": 44.963932376584985,
       "avgReachedDays": 0
     }
   ]
