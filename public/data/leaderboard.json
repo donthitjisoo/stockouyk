@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-20T10:19:39.618Z",
+  "generatedAt": "2026-07-21T09:33:52.166Z",
   "recommenders": [
     {
       "recommender": "chouyk",
       "count": 1,
       "targetReachedCount": 1,
       "hitRate": 100,
-      "avgInstantReturn": -13.425925925925927,
-      "avgPotentialReturn": 60.42780748663101,
+      "avgInstantReturn": -7.592592592592593,
+      "avgPotentialReturn": 50.300601202404806,
       "avgReachedDays": 13
     },
     {
@@ -15,8 +15,8 @@
       "count": 7,
       "targetReachedCount": 5,
       "hitRate": 71.42857142857143,
-      "avgInstantReturn": -7.2759614556011325,
-      "avgPotentialReturn": 205.92618488465226,
+      "avgInstantReturn": -5.183968158474053,
+      "avgPotentialReturn": 194.45587852478295,
       "avgReachedDays": 12.2
     },
     {
@@ -24,26 +24,26 @@
       "count": 21,
       "targetReachedCount": 12,
       "hitRate": 57.14285714285714,
-      "avgInstantReturn": 1.3901212963627443,
-      "avgPotentialReturn": 33.80287591967618,
-      "avgReachedDays": 11.416666666666666
+      "avgInstantReturn": 6.787262065672746,
+      "avgPotentialReturn": 27.187569736452307,
+      "avgReachedDays": 11.583333333333334
     },
     {
       "recommender": "capital securities",
       "count": 166,
-      "targetReachedCount": 38,
-      "hitRate": 22.89156626506024,
-      "avgInstantReturn": -5.82254922406872,
-      "avgPotentialReturn": 32.500733462717456,
-      "avgReachedDays": 24.736842105263158
+      "targetReachedCount": 44,
+      "hitRate": 26.506024096385545,
+      "avgInstantReturn": -1.747734004868128,
+      "avgPotentialReturn": 26.78333560504159,
+      "avgReachedDays": 28.954545454545453
     },
     {
       "recommender": "donthitjisoo",
       "count": 6,
       "targetReachedCount": 0,
       "hitRate": 0,
-      "avgInstantReturn": -22.125913820385097,
-      "avgPotentialReturn": 60.999412110523224,
+      "avgInstantReturn": -14.993763315268472,
+      "avgPotentialReturn": 47.26698076911719,
       "avgReachedDays": 0
     }
   ]

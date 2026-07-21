@@ -1,45 +1,45 @@
 {
-  "generatedAt": "2026-07-20T10:19:39.618Z",
+  "generatedAt": "2026-07-21T09:33:52.166Z",
   "overall": {
     "count": 201,
-    "targetReachedCount": 56,
-    "targetRate": 27.860696517412936,
-    "avgReachedDays": 20.553571428571427,
-    "avgPotentialReturn": 39.66611802719719,
-    "avgInstantReturn": -5.644098323429029,
-    "winRate": 36.318407960199,
-    "unreachedCount": 145
+    "targetReachedCount": 62,
+    "targetRate": 30.845771144278604,
+    "avgReachedDays": 23.983870967741936,
+    "avgPotentialReturn": 33.393364728323334,
+    "avgInstantReturn": -1.400170602102007,
+    "winRate": 42.28855721393035,
+    "unreachedCount": 139
   },
   "byWatchlist": {
     "default": {
       "count": 86,
-      "targetReachedCount": 19,
-      "targetRate": 22.093023255813954,
-      "avgReachedDays": 24.736842105263158,
-      "avgPotentialReturn": 33.49487341554789,
-      "avgInstantReturn": -6.3912712448704525,
-      "winRate": 37.2093023255814,
-      "unreachedCount": 67
+      "targetReachedCount": 22,
+      "targetRate": 25.581395348837212,
+      "avgReachedDays": 28.954545454545453,
+      "avgPotentialReturn": 27.497881366579108,
+      "avgInstantReturn": -2.209804794765814,
+      "winRate": 43.02325581395349,
+      "unreachedCount": 64
     },
     "discord": {
       "count": 29,
       "targetReachedCount": 18,
       "targetRate": 62.06896551724138,
-      "avgReachedDays": 11.722222222222221,
-      "avgPotentialReturn": 76.26798262042747,
-      "avgInstantReturn": -1.2125899617764218,
-      "winRate": 31.03448275862069,
+      "avgReachedDays": 11.833333333333334,
+      "avgPotentialReturn": 68.35967983935805,
+      "avgInstantReturn": 3.401797713007472,
+      "winRate": 37.93103448275862,
       "unreachedCount": 11
     },
     "e7bea4e79b8ae68a95e9a1a7": {
       "count": 86,
-      "targetReachedCount": 19,
-      "targetRate": 22.093023255813954,
-      "avgReachedDays": 24.736842105263158,
-      "avgPotentialReturn": 33.49487341554789,
-      "avgInstantReturn": -6.3912712448704525,
-      "winRate": 37.2093023255814,
-      "unreachedCount": 67
+      "targetReachedCount": 22,
+      "targetRate": 25.581395348837212,
+      "avgReachedDays": 28.954545454545453,
+      "avgPotentialReturn": 27.497881366579108,
+      "avgInstantReturn": -2.209804794765814,
+      "winRate": 43.02325581395349,
+      "unreachedCount": 64
     }
   }
 }
