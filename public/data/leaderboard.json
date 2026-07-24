@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-23T09:30:45.619Z",
+  "generatedAt": "2026-07-24T09:28:18.018Z",
   "recommenders": [
     {
       "recommender": "chouyk",
       "count": 1,
       "targetReachedCount": 1,
       "hitRate": 100,
-      "avgInstantReturn": -5.092592592592593,
-      "avgPotentialReturn": 46.34146341463415,
+      "avgInstantReturn": -12.777777777777777,
+      "avgPotentialReturn": 59.23566878980891,
       "avgReachedDays": 13
     },
     {
@@ -15,8 +15,8 @@
       "count": 7,
       "targetReachedCount": 5,
       "hitRate": 71.42857142857143,
-      "avgInstantReturn": -3.3436610982153345,
-      "avgPotentialReturn": 183.43891354165046,
+      "avgInstantReturn": -3.2195650673084795,
+      "avgPotentialReturn": 184.08884847338405,
       "avgReachedDays": 12.2
     },
     {
@@ -24,26 +24,26 @@
       "count": 21,
       "targetReachedCount": 12,
       "hitRate": 57.14285714285714,
-      "avgInstantReturn": 10.581480090484403,
-      "avgPotentialReturn": 22.55090553502226,
-      "avgReachedDays": 11.916666666666666
+      "avgInstantReturn": 5.6424172517213105,
+      "avgPotentialReturn": 27.867091286835944,
+      "avgReachedDays": 12.083333333333334
     },
     {
       "recommender": "capital securities",
       "count": 166,
-      "targetReachedCount": 48,
-      "hitRate": 28.915662650602407,
-      "avgInstantReturn": 1.1205674193478465,
-      "avgPotentialReturn": 22.62715316722443,
-      "avgReachedDays": 31.458333333333332
+      "targetReachedCount": 44,
+      "hitRate": 26.506024096385545,
+      "avgInstantReturn": -0.8666760397933486,
+      "avgPotentialReturn": 25.30173001648415,
+      "avgReachedDays": 30.136363636363637
     },
     {
       "recommender": "donthitjisoo",
       "count": 6,
       "targetReachedCount": 0,
       "hitRate": 0,
-      "avgInstantReturn": -12.646378282303951,
-      "avgPotentialReturn": 43.1971788311321,
+      "avgInstantReturn": -12.847379599427251,
+      "avgPotentialReturn": 43.44959208751471,
       "avgReachedDays": 0
     }
   ]
