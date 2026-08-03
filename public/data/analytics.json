@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-07-31T09:50:57.002Z",
+  "generatedAt": "2026-08-03T10:50:25.261Z",
   "overall": {
     "count": 201,
     "targetReachedCount": 55,
     "targetRate": 27.363184079601986,
-    "avgReachedDays": 24.054545454545455,
-    "avgPotentialReturn": 40.68026439991175,
-    "avgInstantReturn": -6.981040274864534,
-    "winRate": 36.81592039800995,
+    "avgReachedDays": 24.4,
+    "avgPotentialReturn": 35.725730086780935,
+    "avgInstantReturn": -4.235439241637858,
+    "winRate": 40.298507462686565,
     "unreachedCount": 146
   },
   "byWatchlist": {
@@ -15,30 +15,30 @@
       "count": 86,
       "targetReachedCount": 19,
       "targetRate": 22.093023255813954,
-      "avgReachedDays": 30.263157894736842,
-      "avgPotentialReturn": 35.17461983874912,
-      "avgInstantReturn": -7.766828056590963,
-      "winRate": 38.372093023255815,
+      "avgReachedDays": 30.736842105263158,
+      "avgPotentialReturn": 30.48032429543553,
+      "avgInstantReturn": -5.107298896962357,
+      "winRate": 40.69767441860465,
       "unreachedCount": 67
     },
     "discord": {
       "count": 29,
       "targetReachedCount": 17,
       "targetRate": 58.620689655172406,
-      "avgReachedDays": 10.176470588235293,
-      "avgPotentialReturn": 73.33443214197975,
-      "avgInstantReturn": -2.320505845314693,
-      "winRate": 27.586206896551722,
+      "avgReachedDays": 10.235294117647058,
+      "avgPotentialReturn": 66.83641271131238,
+      "avgInstantReturn": 0.9355904382177911,
+      "winRate": 37.93103448275862,
       "unreachedCount": 12
     },
     "e7bea4e79b8ae68a95e9a1a7": {
       "count": 86,
       "targetReachedCount": 19,
       "targetRate": 22.093023255813954,
-      "avgReachedDays": 30.263157894736842,
-      "avgPotentialReturn": 35.17461983874912,
-      "avgInstantReturn": -7.766828056590963,
-      "winRate": 38.372093023255815,
+      "avgReachedDays": 30.736842105263158,
+      "avgPotentialReturn": 30.48032429543553,
+      "avgInstantReturn": -5.107298896962357,
+      "winRate": 40.69767441860465,
       "unreachedCount": 67
     }
   }
