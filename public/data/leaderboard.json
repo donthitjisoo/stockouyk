@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-04T09:45:30.180Z",
+  "generatedAt": "2026-08-05T09:43:46.166Z",
   "recommenders": [
     {
       "recommender": "chouyk",
       "count": 1,
       "targetReachedCount": 1,
       "hitRate": 100,
-      "avgInstantReturn": 0.9259259259259258,
-      "avgPotentialReturn": 37.61467889908257,
+      "avgInstantReturn": -0.9259259259259258,
+      "avgPotentialReturn": 40.18691588785047,
       "avgReachedDays": 13
     },
     {
@@ -15,8 +15,8 @@
       "count": 7,
       "targetReachedCount": 5,
       "hitRate": 71.42857142857143,
-      "avgInstantReturn": -4.089263115603889,
-      "avgPotentialReturn": 164.5436762502837,
+      "avgInstantReturn": -3.286460027498676,
+      "avgPotentialReturn": 158.25369968464048,
       "avgReachedDays": 12.2
     },
     {
@@ -24,26 +24,26 @@
       "count": 21,
       "targetReachedCount": 11,
       "hitRate": 52.38095238095239,
-      "avgInstantReturn": 5.177243859010072,
-      "avgPotentialReturn": 28.619285926553964,
-      "avgReachedDays": 9.181818181818182
+      "avgInstantReturn": 9.460292053072761,
+      "avgPotentialReturn": 23.16835337881016,
+      "avgReachedDays": 9.272727272727273
     },
     {
       "recommender": "capital securities",
       "count": 166,
-      "targetReachedCount": 44,
-      "hitRate": 26.506024096385545,
-      "avgInstantReturn": -2.803224324321905,
-      "avgPotentialReturn": 26.65006064204745,
-      "avgReachedDays": 34.77272727272727
+      "targetReachedCount": 48,
+      "hitRate": 28.915662650602407,
+      "avgInstantReturn": 0.4499442884313301,
+      "avgPotentialReturn": 22.531712328271972,
+      "avgReachedDays": 37.541666666666664
     },
     {
       "recommender": "donthitjisoo",
       "count": 6,
       "targetReachedCount": 0,
       "hitRate": 0,
-      "avgInstantReturn": -15.625233045756438,
-      "avgPotentialReturn": 48.35860432613395,
+      "avgInstantReturn": -15.280998022081485,
+      "avgPotentialReturn": 47.34545087608918,
       "avgReachedDays": 0
     }
   ]
