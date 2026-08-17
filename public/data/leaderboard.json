@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-14T08:24:00.810Z",
+  "generatedAt": "2026-08-17T07:58:12.138Z",
   "recommenders": [
     {
       "recommender": "chouyk",
       "count": 1,
       "targetReachedCount": 1,
       "hitRate": 100,
-      "avgInstantReturn": 18.055555555555554,
-      "avgPotentialReturn": 17.647058823529413,
+      "avgInstantReturn": 28.240740740740737,
+      "avgPotentialReturn": 8.303249097472925,
       "avgReachedDays": 13
     },
     {
@@ -15,8 +15,8 @@
       "count": 7,
       "targetReachedCount": 5,
       "hitRate": 71.42857142857143,
-      "avgInstantReturn": 6.3136039964873225,
-      "avgPotentialReturn": 250.43463291563734,
+      "avgInstantReturn": 4.741821901505359,
+      "avgPotentialReturn": 259.0518545829505,
       "avgReachedDays": 12.2
     },
     {
@@ -24,26 +24,26 @@
       "count": 21,
       "targetReachedCount": 12,
       "hitRate": 57.14285714285714,
-      "avgInstantReturn": 14.36025574801537,
-      "avgPotentialReturn": 18.393760868137672,
-      "avgReachedDays": 14.583333333333334
+      "avgInstantReturn": 15.24116140835233,
+      "avgPotentialReturn": 17.068964263774763,
+      "avgReachedDays": 14.75
     },
     {
       "recommender": "capital securities",
       "count": 166,
-      "targetReachedCount": 46,
-      "hitRate": 27.710843373493976,
-      "avgInstantReturn": 2.730822457684727,
-      "avgPotentialReturn": 19.4234505408837,
-      "avgReachedDays": 40.82608695652174
+      "targetReachedCount": 44,
+      "hitRate": 26.506024096385545,
+      "avgInstantReturn": 2.741372075982593,
+      "avgPotentialReturn": 19.691443333707063,
+      "avgReachedDays": 40.31818181818182
     },
     {
       "recommender": "donthitjisoo",
       "count": 6,
       "targetReachedCount": 0,
       "hitRate": 0,
-      "avgInstantReturn": -14.877977001054257,
-      "avgPotentialReturn": 47.849694354548724,
+      "avgInstantReturn": -16.48399382986077,
+      "avgPotentialReturn": 49.87547516931679,
       "avgReachedDays": 0
     }
   ]
