@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-20T07:50:45.139Z",
+  "generatedAt": "2026-08-21T07:52:11.423Z",
   "overall": {
     "count": 201,
     "targetReachedCount": 62,
     "targetRate": 30.845771144278604,
-    "avgReachedDays": 34.016129032258064,
-    "avgPotentialReturn": 31.628741204495142,
-    "avgInstantReturn": 1.1666787246255246,
-    "winRate": 42.78606965174129,
+    "avgReachedDays": 34.46774193548387,
+    "avgPotentialReturn": 31.278597903041554,
+    "avgInstantReturn": 1.3273779661211145,
+    "winRate": 42.28855721393035,
     "unreachedCount": 139
   },
   "byWatchlist": {
@@ -15,9 +15,9 @@
       "count": 86,
       "targetReachedCount": 22,
       "targetRate": 25.581395348837212,
-      "avgReachedDays": 42.09090909090909,
-      "avgPotentialReturn": 23.931502972888918,
-      "avgInstantReturn": -0.5550148566242971,
+      "avgReachedDays": 42.68181818181818,
+      "avgPotentialReturn": 23.51295469587143,
+      "avgInstantReturn": -0.26549062329240497,
       "winRate": 40.69767441860465,
       "unreachedCount": 64
     },
@@ -25,19 +25,19 @@
       "count": 29,
       "targetReachedCount": 18,
       "targetRate": 62.06896551724138,
-      "avgReachedDays": 14.277777777777779,
-      "avgPotentialReturn": 77.28132657815968,
-      "avgInstantReturn": 11.378102723762403,
-      "winRate": 55.172413793103445,
+      "avgReachedDays": 14.38888888888889,
+      "avgPotentialReturn": 77.3368955455679,
+      "avgInstantReturn": 10.77473649643578,
+      "winRate": 51.724137931034484,
       "unreachedCount": 11
     },
     "e7bea4e79b8ae68a95e9a1a7": {
       "count": 86,
       "targetReachedCount": 22,
       "targetRate": 25.581395348837212,
-      "avgReachedDays": 42.09090909090909,
-      "avgPotentialReturn": 23.931502972888918,
-      "avgInstantReturn": -0.5550148566242971,
+      "avgReachedDays": 42.68181818181818,
+      "avgPotentialReturn": 23.51295469587143,
+      "avgInstantReturn": -0.26549062329240497,
       "winRate": 40.69767441860465,
       "unreachedCount": 64
     }
