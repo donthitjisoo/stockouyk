@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-24T08:02:07.985Z",
+  "generatedAt": "2026-08-25T07:52:54.124Z",
   "recommenders": [
     {
       "recommender": "chouyk",
       "count": 1,
       "targetReachedCount": 1,
       "hitRate": 100,
-      "avgInstantReturn": 11.574074074074074,
-      "avgPotentialReturn": 24.481327800829874,
+      "avgInstantReturn": 17.59259259259259,
+      "avgPotentialReturn": 18.11023622047244,
       "avgReachedDays": 13
     },
     {
@@ -15,8 +15,8 @@
       "count": 7,
       "targetReachedCount": 5,
       "hitRate": 71.42857142857143,
-      "avgInstantReturn": 6.108725340170039,
-      "avgPotentialReturn": 254.6236420064556,
+      "avgInstantReturn": 4.8920715198292815,
+      "avgPotentialReturn": 259.7031931973267,
       "avgReachedDays": 12.2
     },
     {
@@ -24,26 +24,26 @@
       "count": 21,
       "targetReachedCount": 12,
       "hitRate": 57.14285714285714,
-      "avgInstantReturn": 10.90576838353061,
-      "avgPotentialReturn": 21.41586048887228,
-      "avgReachedDays": 15.583333333333334
+      "avgInstantReturn": 13.167866488418738,
+      "avgPotentialReturn": 19.2119005928292,
+      "avgReachedDays": 15.75
     },
     {
       "recommender": "capital securities",
       "count": 166,
-      "targetReachedCount": 44,
-      "hitRate": 26.506024096385545,
-      "avgInstantReturn": -0.5676193933782643,
-      "avgPotentialReturn": 24.053305505134528,
-      "avgReachedDays": 43.5
+      "targetReachedCount": 46,
+      "hitRate": 27.710843373493976,
+      "avgInstantReturn": 0.044101353573095727,
+      "avgPotentialReturn": 23.193348162384698,
+      "avgReachedDays": 45.73913043478261
     },
     {
       "recommender": "donthitjisoo",
       "count": 6,
       "targetReachedCount": 0,
       "hitRate": 0,
-      "avgInstantReturn": -19.545242302798847,
-      "avgPotentialReturn": 56.77523268741328,
+      "avgInstantReturn": -18.65746494064823,
+      "avgPotentialReturn": 54.55906124503692,
       "avgReachedDays": 0
     }
   ]
