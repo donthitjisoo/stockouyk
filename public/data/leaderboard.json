@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-08-27T18:14:43.140Z",
+  "generatedAt": "2026-08-28T19:23:40.219Z",
   "recommenders": [
     {
       "recommender": "chouyk",
       "count": 1,
       "targetReachedCount": 1,
       "hitRate": 100,
-      "avgInstantReturn": 32.407407407407405,
-      "avgPotentialReturn": 4.895104895104895,
+      "avgInstantReturn": 26.38888888888889,
+      "avgPotentialReturn": 9.89010989010989,
       "avgReachedDays": 13
     },
     {
@@ -15,35 +15,35 @@
       "count": 7,
       "targetReachedCount": 5,
       "hitRate": 71.42857142857143,
-      "avgInstantReturn": 5.50638066756221,
-      "avgPotentialReturn": 255.52339306427197,
+      "avgInstantReturn": 5.302192629777549,
+      "avgPotentialReturn": 256.66558367685485,
       "avgReachedDays": 12.2
     },
     {
       "recommender": "Donthitjisoo",
       "count": 21,
-      "targetReachedCount": 12,
-      "hitRate": 57.14285714285714,
-      "avgInstantReturn": 17.893141754132447,
-      "avgPotentialReturn": 13.767763813798917,
-      "avgReachedDays": 16.083333333333332
+      "targetReachedCount": 13,
+      "hitRate": 61.904761904761905,
+      "avgInstantReturn": 19.675584113137287,
+      "avgPotentialReturn": 11.699652995785408,
+      "avgReachedDays": 20.76923076923077
     },
     {
       "recommender": "capital securities",
       "count": 166,
       "targetReachedCount": 46,
       "hitRate": 27.710843373493976,
-      "avgInstantReturn": 1.6286372121164985,
-      "avgPotentialReturn": 20.814045299990788,
-      "avgReachedDays": 46.26086956521739
+      "avgInstantReturn": 1.572628591436294,
+      "avgPotentialReturn": 20.785786633947122,
+      "avgReachedDays": 47.130434782608695
     },
     {
       "recommender": "donthitjisoo",
       "count": 6,
       "targetReachedCount": 0,
       "hitRate": 0,
-      "avgInstantReturn": -15.89007448419016,
-      "avgPotentialReturn": 50.169058990925244,
+      "avgInstantReturn": -15.19158056787454,
+      "avgPotentialReturn": 47.9565408626216,
       "avgReachedDays": 0
     }
   ]
