@@ -1,13 +1,13 @@
 {
-  "generatedAt": "2026-09-03T12:04:08.844Z",
+  "generatedAt": "2026-09-04T12:05:56.313Z",
   "recommenders": [
     {
       "recommender": "chouyk",
       "count": 1,
       "targetReachedCount": 1,
       "hitRate": 100,
-      "avgInstantReturn": 20.37037037037037,
-      "avgPotentialReturn": 15.384615384615385,
+      "avgInstantReturn": 20.833333333333336,
+      "avgPotentialReturn": 14.942528735632186,
       "avgReachedDays": 13
     },
     {
@@ -15,8 +15,8 @@
       "count": 7,
       "targetReachedCount": 5,
       "hitRate": 71.42857142857143,
-      "avgInstantReturn": 2.335410434127513,
-      "avgPotentialReturn": 271.7188932460039,
+      "avgInstantReturn": 3.010159218871247,
+      "avgPotentialReturn": 266.2072825529364,
       "avgReachedDays": 12.2
     },
     {
@@ -24,26 +24,26 @@
       "count": 21,
       "targetReachedCount": 13,
       "hitRate": 61.904761904761905,
-      "avgInstantReturn": 16.378756689512347,
-      "avgPotentialReturn": 15.40814382388411,
-      "avgReachedDays": 21.692307692307693
+      "avgInstantReturn": 19.843626319316872,
+      "avgPotentialReturn": 12.084013100523258,
+      "avgReachedDays": 21.923076923076923
     },
     {
       "recommender": "capital securities",
       "count": 166,
-      "targetReachedCount": 48,
-      "hitRate": 28.915662650602407,
-      "avgInstantReturn": 0.08248760175404919,
-      "avgPotentialReturn": 23.306870283030296,
-      "avgReachedDays": 51.083333333333336
+      "targetReachedCount": 50,
+      "hitRate": 30.120481927710845,
+      "avgInstantReturn": 2.0925925336595115,
+      "avgPotentialReturn": 20.76431669525696,
+      "avgReachedDays": 52.68
     },
     {
       "recommender": "donthitjisoo",
       "count": 6,
       "targetReachedCount": 0,
       "hitRate": 0,
-      "avgInstantReturn": -20.20192630312092,
-      "avgPotentialReturn": 57.921671541076726,
+      "avgInstantReturn": -17.137958433831145,
+      "avgPotentialReturn": 51.45369677535074,
       "avgReachedDays": 0
     }
   ]
